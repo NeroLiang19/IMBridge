@@ -1,1 +1,94 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Db25maWd1cmF0aW9uOwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkNvbmZpZ3VyYXRpb247CgpwdWJsaWMgc3RhdGljIGNsYXNzIEJyaWRnZUNvbmZpZ3VyYXRpb24KewogICAgcHVibGljIHN0YXRpYyBCcmlkZ2VPcHRpb25zIExvYWQoSUNvbmZpZ3VyYXRpb24gY29uZmlnKQogICAgewogICAgICAgIHZhciByb290ID0gY29uZmlnLkdldFNlY3Rpb24oIkJyaWRnZSIpOwogICAgICAgIHZhciBhZ2VudHMgPSBSZWFkQWdlbnRzKHJvb3QuR2V0U2VjdGlvbigiQWdlbnRzIikpOwogICAgICAgIGlmIChhZ2VudHMuQ291bnQgPT0gMCkgYWdlbnRzID0gUmVhZExlZ2FjeUFnZW50KHJvb3QpOwogICAgICAgIHZhciBjaGFubmVscyA9IFJlYWRDaGFubmVscyhyb290LkdldFNlY3Rpb24oIkNoYW5uZWxzIiksIGFnZW50cywgcm9vdCk7CiAgICAgICAgcmV0dXJuIG5ldyBCcmlkZ2VPcHRpb25zCiAgICAgICAgewogICAgICAgICAgICBEcnlSdW4gPSAhYm9vbC5UcnlQYXJzZShyb290WyJEcnlSdW4iXSwgb3V0IHZhciBkcnlSdW4pIHx8IGRyeVJ1biwKICAgICAgICAgICAgTWF4Q29uY3VycmVudFRhc2tzID0gaW50LlRyeVBhcnNlKHJvb3RbIk1heENvbmN1cnJlbnRUYXNrcyJdLCBvdXQgdmFyIG1heCkgPyBNYXRoLk1heCgxLCBtYXgpIDogMywKICAgICAgICAgICAgQWdlbnRzID0gYWdlbnRzLAogICAgICAgICAgICBDaGFubmVscyA9IGNoYW5uZWxzLAogICAgICAgICAgICBWaXNpb25zID0gUmVhZFZpc2lvbnMocm9vdC5HZXRTZWN0aW9uKCJWaXNpb25zIikpLAogICAgICAgIH07CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPiBSZWFkQWdlbnRzKElDb25maWd1cmF0aW9uU2VjdGlvbiBzZWN0aW9uKQogICAgewogICAgICAgIHZhciByZXN1bHQgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSk7CiAgICAgICAgZm9yZWFjaCAodmFyIGNoaWxkIGluIHNlY3Rpb24uR2V0Q2hpbGRyZW4oKSkKICAgICAgICAgICAgcmVzdWx0W2NoaWxkLktleV0gPSBuZXcgQWdlbnRDb25maWcgeyBUeXBlID0gY2hpbGRbIlR5cGUiXSA/PyAid29ya2J1ZGR5IiwgT3B0aW9ucyA9IEZsYXR0ZW4oY2hpbGQpIH07CiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBEaWN0aW9uYXJ5PHN0cmluZywgQWdlbnRDb25maWc+IFJlYWRMZWdhY3lBZ2VudChJQ29uZmlndXJhdGlvblNlY3Rpb24gcm9vdCkKICAgIHsKICAgICAgICB2YXIgd2IgPSByb290LkdldFNlY3Rpb24oIldvcmtCdWRkeSIpOwogICAgICAgIHJldHVybiBuZXcoU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpCiAgICAgICAgewogICAgICAgICAgICBbIndvcmtidWRkeSJdID0gbmV3IEFnZW50Q29uZmlnIHsgVHlwZSA9IHdiWyJUeXBlIl0gPz8gIndvcmtidWRkeSIsIE9wdGlvbnMgPSBGbGF0dGVuKHdiLCByb290LCAiT3duZXJOYW1lIikgfSwKICAgICAgICB9OwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIERpY3Rpb25hcnk8c3RyaW5nLCBDaGFubmVsQ29uZmlnPiBSZWFkQ2hhbm5lbHMoSUNvbmZpZ3VyYXRpb25TZWN0aW9uIHNlY3Rpb24sIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBBZ2VudENvbmZpZz4gYWdlbnRzLCBJQ29uZmlndXJhdGlvblNlY3Rpb24gcm9vdCkKICAgIHsKICAgICAgICB2YXIgcmVzdWx0ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBDaGFubmVsQ29uZmlnPihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSk7CiAgICAgICAgZm9yZWFjaCAodmFyIGNoaWxkIGluIHNlY3Rpb24uR2V0Q2hpbGRyZW4oKSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciB0eXBlID0gY2hpbGRbIlR5cGUiXSA/PyAiZGluZ3RhbGsiOwogICAgICAgICAgICB2YXIgb3B0aW9ucyA9IEZsYXR0ZW4oY2hpbGQpOwogICAgICAgICAgICBpZiAodHlwZS5FcXVhbHMoImRpbmd0YWxrIiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsSWdub3JlQ2FzZSkpCiAgICAgICAgICAgICAgICBBcHBseUxlZ2FjeURpbmd0YWxrRGVmYXVsdHMocm9vdCwgb3B0aW9ucyk7CiAgICAgICAgICAgIHJlc3VsdFtjaGlsZC5LZXldID0gbmV3IENoYW5uZWxDb25maWcKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgVHlwZSA9IHR5cGUsCiAgICAgICAgICAgICAgICBBZ2VudCA9IGNoaWxkWyJBZ2VudCJdID8/IGFnZW50cy5LZXlzLkZpcnN0T3JEZWZhdWx0KCkgPz8gIndvcmtidWRkeSIsCiAgICAgICAgICAgICAgICBWaXNpb24gPSBjaGlsZFsiVmlzaW9uIl0sCiAgICAgICAgICAgICAgICBPcHRpb25zID0gb3B0aW9ucywKICAgICAgICAgICAgfTsKICAgICAgICB9CiAgICAgICAgaWYgKHJlc3VsdC5Db3VudCA9PSAwKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIG9wdGlvbnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpOwogICAgICAgICAgICBBcHBseUxlZ2FjeURpbmd0YWxrRGVmYXVsdHMocm9vdCwgb3B0aW9ucyk7CiAgICAgICAgICAgIHJlc3VsdFsiZGluZ3RhbGsiXSA9IG5ldyBDaGFubmVsQ29uZmlnIHsgVHlwZSA9ICJkaW5ndGFsayIsIEFnZW50ID0gYWdlbnRzLktleXMuRmlyc3RPckRlZmF1bHQoKSA/PyAid29ya2J1ZGR5IiwgT3B0aW9ucyA9IG9wdGlvbnMgfTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBEaWN0aW9uYXJ5PHN0cmluZywgVmlzaW9uQ29uZmlnPiBSZWFkVmlzaW9ucyhJQ29uZmlndXJhdGlvblNlY3Rpb24gc2VjdGlvbikKICAgIHsKICAgICAgICB2YXIgcmVzdWx0ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBWaXNpb25Db25maWc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICBmb3JlYWNoICh2YXIgY2hpbGQgaW4gc2VjdGlvbi5HZXRDaGlsZHJlbigpKQogICAgICAgICAgICByZXN1bHRbY2hpbGQuS2V5XSA9IG5ldyBWaXNpb25Db25maWcgeyBUeXBlID0gY2hpbGRbIlR5cGUiXSA/PyAid29ya2J1ZGR5IiwgT3B0aW9ucyA9IEZsYXR0ZW4oY2hpbGQpIH07CiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIEFwcGx5TGVnYWN5RGluZ3RhbGtEZWZhdWx0cyhJQ29uZmlndXJhdGlvblNlY3Rpb24gcm9vdCwgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4gb3B0aW9ucykKICAgIHsKICAgICAgICBmb3JlYWNoICh2YXIga2V5IGluIG5ld1tdIHsgIkR3c1BhdGgiLCAiRHJ5UnVuIiB9KQogICAgICAgICAgICBpZiAocm9vdFtrZXldIGlzIHsgfSB2YWx1ZSkgb3B0aW9ucy5UcnlBZGQoa2V5LCB2YWx1ZSk7CgogICAgICAgIGlmICghb3B0aW9ucy5LZXlzLkFueShrZXkgPT4ga2V5LkVxdWFscygiRXZlbnRLZXlzIiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsSWdub3JlQ2FzZSkgfHwga2V5LlN0YXJ0c1dpdGgoIkV2ZW50S2V5czoiLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWxJZ25vcmVDYXNlKSkpCiAgICAgICAgICAgIGZvcmVhY2ggKHZhciBpdGVtIGluIEZsYXR0ZW4ocm9vdC5HZXRTZWN0aW9uKCJFdmVudEtleXMiKSkpCiAgICAgICAgICAgICAgICBvcHRpb25zWyQiRXZlbnRLZXlzOntpdGVtLktleX0iXSA9IGl0ZW0uVmFsdWU7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4gRmxhdHRlbihJQ29uZmlndXJhdGlvblNlY3Rpb24gc2VjdGlvbiwgSUNvbmZpZ3VyYXRpb25TZWN0aW9uPyBleHRyYSA9IG51bGwsIHN0cmluZz8gZXh0cmFLZXkgPSBudWxsKQogICAgewogICAgICAgIHZhciBwcmVmaXggPSBzZWN0aW9uLlBhdGggKyAiOiI7CiAgICAgICAgdmFyIHZhbHVlcyA9IHNlY3Rpb24uQXNFbnVtZXJhYmxlKCkKICAgICAgICAgICAgLldoZXJlKGl0ZW0gPT4gaXRlbS5WYWx1ZSBpcyBub3QgbnVsbCAmJiBpdGVtLktleSAhPSBzZWN0aW9uLlBhdGgpCiAgICAgICAgICAgIC5Ub0RpY3Rpb25hcnkoaXRlbSA9PiBpdGVtLktleS5TdGFydHNXaXRoKHByZWZpeCwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsSWdub3JlQ2FzZSkgPyBpdGVtLktleVtwcmVmaXguTGVuZ3RoLi5dIDogaXRlbS5LZXksIGl0ZW0gPT4gaXRlbS5WYWx1ZSEsIFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICBpZiAoZXh0cmEgaXMgbm90IG51bGwgJiYgZXh0cmFLZXkgaXMgbm90IG51bGwgJiYgZXh0cmFbZXh0cmFLZXldIGlzIHsgfSB2YWx1ZSkgdmFsdWVzW2V4dHJhS2V5XSA9IHZhbHVlOwogICAgICAgIHJldHVybiB2YWx1ZXM7CiAgICB9Cn0K
+using IMBridge.Abstractions;
+using Microsoft.Extensions.Configuration;
+
+namespace IMBridge.Infrastructure.Configuration;
+
+public static class BridgeConfiguration
+{
+    public static BridgeOptions Load(IConfiguration config)
+    {
+        var root = config.GetSection("Bridge");
+        var agents = ReadAgents(root.GetSection("Agents"));
+        if (agents.Count == 0) agents = ReadLegacyAgent(root);
+        var channels = ReadChannels(root.GetSection("Channels"), agents, root);
+        return new BridgeOptions
+        {
+            DryRun = !bool.TryParse(root["DryRun"], out var dryRun) || dryRun,
+            MaxConcurrentTasks = int.TryParse(root["MaxConcurrentTasks"], out var max) ? Math.Max(1, max) : 3,
+            Agents = agents,
+            Channels = channels,
+            Visions = ReadVisions(root.GetSection("Visions")),
+        };
+    }
+
+    private static Dictionary<string, AgentConfig> ReadAgents(IConfigurationSection section)
+    {
+        var result = new Dictionary<string, AgentConfig>(StringComparer.OrdinalIgnoreCase);
+        foreach (var child in section.GetChildren())
+            result[child.Key] = new AgentConfig { Type = child["Type"] ?? "workbuddy", Options = Flatten(child) };
+        return result;
+    }
+
+    private static Dictionary<string, AgentConfig> ReadLegacyAgent(IConfigurationSection root)
+    {
+        var wb = root.GetSection("WorkBuddy");
+        return new(StringComparer.OrdinalIgnoreCase)
+        {
+            ["workbuddy"] = new AgentConfig { Type = wb["Type"] ?? "workbuddy", Options = Flatten(wb, root, "OwnerName") },
+        };
+    }
+
+    private static Dictionary<string, ChannelConfig> ReadChannels(IConfigurationSection section, IReadOnlyDictionary<string, AgentConfig> agents, IConfigurationSection root)
+    {
+        var result = new Dictionary<string, ChannelConfig>(StringComparer.OrdinalIgnoreCase);
+        foreach (var child in section.GetChildren())
+        {
+            var type = child["Type"] ?? "dingtalk";
+            var options = Flatten(child);
+            if (type.Equals("dingtalk", StringComparison.OrdinalIgnoreCase))
+                ApplyLegacyDingtalkDefaults(root, options);
+            result[child.Key] = new ChannelConfig
+            {
+                Type = type,
+                Agent = child["Agent"] ?? agents.Keys.FirstOrDefault() ?? "workbuddy",
+                Vision = child["Vision"],
+                Options = options,
+            };
+        }
+        if (result.Count == 0)
+        {
+            var options = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            ApplyLegacyDingtalkDefaults(root, options);
+            result["dingtalk"] = new ChannelConfig { Type = "dingtalk", Agent = agents.Keys.FirstOrDefault() ?? "workbuddy", Options = options };
+        }
+        return result;
+    }
+
+    private static Dictionary<string, VisionConfig> ReadVisions(IConfigurationSection section)
+    {
+        var result = new Dictionary<string, VisionConfig>(StringComparer.OrdinalIgnoreCase);
+        foreach (var child in section.GetChildren())
+            result[child.Key] = new VisionConfig { Type = child["Type"] ?? "workbuddy", Options = Flatten(child) };
+        return result;
+    }
+
+    private static void ApplyLegacyDingtalkDefaults(IConfigurationSection root, Dictionary<string, string> options)
+    {
+        foreach (var key in new[] { "DwsPath", "DryRun" })
+            if (root[key] is { } value) options.TryAdd(key, value);
+
+        if (!options.Keys.Any(key => key.Equals("EventKeys", StringComparison.OrdinalIgnoreCase) || key.StartsWith("EventKeys:", StringComparison.OrdinalIgnoreCase)))
+            foreach (var item in Flatten(root.GetSection("EventKeys")))
+                options[$"EventKeys:{item.Key}"] = item.Value;
+    }
+
+    private static Dictionary<string, string> Flatten(IConfigurationSection section, IConfigurationSection? extra = null, string? extraKey = null)
+    {
+        var prefix = section.Path + ":";
+        var values = section.AsEnumerable()
+            .Where(item => item.Value is not null && item.Key != section.Path)
+            .ToDictionary(item => item.Key.StartsWith(prefix, StringComparison.OrdinalIgnoreCase) ? item.Key[prefix.Length..] : item.Key, item => item.Value!, StringComparer.OrdinalIgnoreCase);
+        if (extra is not null && extraKey is not null && extra[extraKey] is { } value) values[extraKey] = value;
+        return values;
+    }
+}

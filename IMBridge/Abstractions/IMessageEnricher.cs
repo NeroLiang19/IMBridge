@@ -1,1 +1,13 @@
-dXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT4KLy8vIOa2iOaBr+WvjOWMluWZqOOAguWNleS4gOiBjOi0o++8muaKiuS4gOadoeWOn+Wni+a2iOaBr+WKoOW3peaIkOabtOmAguWQiCBBZ2VudCDlpITnkIbnmoTlvaLmgIEKLy8vIO+8iOS+i+WmgumSiemSieeahOWbvueJh+a2iOaBr++8muS4i+i9veWqkuS9kyArIOinhuinieivhuWIq++8jOWwhuWbvueJh+i9rOaIkOaWh+acrO+8ieOAggovLy8g6L+U5Zue5YC85b+F6aG75L+d55WZIENoYW5uZWxJZOOAgUV2ZW50SWTjgIFNZXNzYWdlSWQg5ZKMIFJlcGx5VGFyZ2V077yM5LiN5b6X5pS55Y+Y5raI5oGv5omA5bGe6YCa6YGT5oiW5Zue5aSN55uu5qCH44CCCi8vLyA8L3N1bW1hcnk+CnB1YmxpYyBpbnRlcmZhY2UgSU1lc3NhZ2VFbnJpY2hlcgp7CiAgICBUYXNrPEluY29taW5nTWVzc2FnZT4gRW5yaWNoQXN5bmMoSW5jb21pbmdNZXNzYWdlIG1lc3NhZ2UsIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKTsKfQo=
+using IMBridge.Domain;
+
+namespace IMBridge.Abstractions;
+
+/// <summary>
+/// 消息富化器。单一职责：把一条原始消息加工成更适合 Agent 处理的形态
+/// （例如钉钉的图片消息：下载媒体 + 视觉识别，将图片转成文本）。
+/// 返回值必须保留 ChannelId、EventId、MessageId 和 ReplyTarget，不得改变消息所属通道或回复目标。
+/// </summary>
+public interface IMessageEnricher
+{
+    Task<IncomingMessage> EnrichAsync(IncomingMessage message, CancellationToken cancellationToken);
+}

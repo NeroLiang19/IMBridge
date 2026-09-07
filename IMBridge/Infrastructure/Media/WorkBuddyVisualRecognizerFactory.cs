@@ -1,1 +1,23 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Qcm9jZXNzOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Xb3JrQnVkZHk7CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuTWVkaWE7CgpwdWJsaWMgc2VhbGVkIGNsYXNzIFdvcmtCdWRkeVZpc3VhbFJlY29nbml6ZXJGYWN0b3J5KElQcm9jZXNzUnVubmVyIHJ1bm5lciwgSUxvZ2dlckZhY3RvcnkgbG9ncykgOiBJVmlzdWFsUmVjb2duaXplckZhY3RvcnkKewogICAgcHVibGljIElWaXN1YWxSZWNvZ25pemVyIENyZWF0ZShzdHJpbmcgdmlzaW9uSWQsIFZpc2lvbkNvbmZpZyBjb25maWcpCiAgICB7CiAgICAgICAgc3RyaW5nIEdldChzdHJpbmcga2V5LCBzdHJpbmcgZmFsbGJhY2spID0+IGNvbmZpZy5PcHRpb25zLlRyeUdldFZhbHVlKGtleSwgb3V0IHZhciB2KSA/IHYgOiBmYWxsYmFjazsKICAgICAgICByZXR1cm4gbmV3IEdlbWluaVZpc3VhbFJlY29nbml6ZXIobmV3IFdvcmtCdWRkeU9wdGlvbnMKICAgICAgICB7CiAgICAgICAgICAgIE5vZGVQYXRoID0gR2V0KCJOb2RlUGF0aCIsIEAiQzpcUHJvZ3JhbSBGaWxlc1xub2RlanNcbm9kZS5leGUiKSwKICAgICAgICAgICAgRW50cnkgPSBHZXQoIkVudHJ5IiwgUGF0aC5Db21iaW5lKEVudmlyb25tZW50LkdldEZvbGRlclBhdGgoRW52aXJvbm1lbnQuU3BlY2lhbEZvbGRlci5BcHBsaWNhdGlvbkRhdGEpLCAibnBtIiwgIm5vZGVfbW9kdWxlcyIsICJAdGVuY2VudC1haSIsICJjb2RlYnVkZHktY29kZSIsICJiaW4iLCAiY29kZWJ1ZGR5IikpLAogICAgICAgICAgICBNb2RlbCA9IEdldCgiTW9kZWwiLCAiY3VzdG9tLWxvY2FsOmdlbWluaS0zLjgtZmxhc2giKSwKICAgICAgICAgICAgV29ya2luZ0RpcmVjdG9yeSA9IEdldCgiV29ya2luZ0RpcmVjdG9yeSIsIEFwcENvbnRleHQuQmFzZURpcmVjdG9yeSksCiAgICAgICAgICAgIFRpbWVvdXRTZWNvbmRzID0gaW50LlRyeVBhcnNlKEdldCgiVGltZW91dFNlY29uZHMiLCAiMTgwIiksIG91dCB2YXIgdCkgPyB0IDogMTgwLAogICAgICAgICAgICBWaXNpb25Qcm9tcHQgPSBjb25maWcuT3B0aW9ucy5UcnlHZXRWYWx1ZSgiUHJvbXB0Iiwgb3V0IHZhciBwKSA/IHAgOiBudWxsLAogICAgICAgIH0sIHJ1bm5lciwgbG9ncy5DcmVhdGVMb2dnZXI8R2VtaW5pVmlzdWFsUmVjb2duaXplcj4oKSk7CiAgICB9Cn0K
+using IMBridge.Abstractions;
+using IMBridge.Infrastructure.Process;
+using IMBridge.Infrastructure.WorkBuddy;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.Media;
+
+public sealed class WorkBuddyVisualRecognizerFactory(IProcessRunner runner, ILoggerFactory logs) : IVisualRecognizerFactory
+{
+    public IVisualRecognizer Create(string visionId, VisionConfig config)
+    {
+        string Get(string key, string fallback) => config.Options.TryGetValue(key, out var v) ? v : fallback;
+        return new GeminiVisualRecognizer(new WorkBuddyOptions
+        {
+            NodePath = Get("NodePath", @"C:\Program Files\nodejs\node.exe"),
+            Entry = Get("Entry", Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "npm", "node_modules", "@tencent-ai", "codebuddy-code", "bin", "codebuddy")),
+            Model = Get("Model", "custom-local:gemini-3.8-flash"),
+            WorkingDirectory = Get("WorkingDirectory", AppContext.BaseDirectory),
+            TimeoutSeconds = int.TryParse(Get("TimeoutSeconds", "180"), out var t) ? t : 180,
+            VisionPrompt = config.Options.TryGetValue("Prompt", out var p) ? p : null,
+        }, runner, logs.CreateLogger<GeminiVisualRecognizer>());
+    }
+}

@@ -1,1 +1,18 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkRvbWFpbjsKCi8vLyA8c3VtbWFyeT5BZ2VudCDlpITnkIblrozkuIDmnaHmtojmga/lkI7nmoTnu5PmnpzvvIzmmI7noa7ljLrliIbmiJDlip8gLyDml6DljLnphY0gLyDlpLHotKXjgII8L3N1bW1hcnk+CnB1YmxpYyBzZWFsZWQgcmVjb3JkIEFnZW50UmVwbHkKewogICAgcHVibGljIHJlcXVpcmVkIEFnZW50T3V0Y29tZSBPdXRjb21lIHsgZ2V0OyBpbml0OyB9CgogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIOacgOe7iOWbnuWkjeaWh+ahiOOAguS7heW9kyBPdXRjb21lID09IFN1Y2Nlc3Mg5pe25pyJ5pWI5LiU5Lya6KKr5Y+R6YCB77ybCiAgICAvLy8gTm9NYXRjaCAvIEZhaWxlZCDml7blv4XpobvkuLogRW1wdHnvvIjlpLHotKXnu53kuI3lpJblj5HplJnor6/ovpPlh7rvvInjgIIKICAgIC8vLyA8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIFRleHQgeyBnZXQ7IGluaXQ7IH0KCiAgICBwdWJsaWMgc3RhdGljIHJlYWRvbmx5IEFnZW50UmVwbHkgTm9NYXRjaCA9IG5ldygpIHsgT3V0Y29tZSA9IEFnZW50T3V0Y29tZS5Ob01hdGNoLCBUZXh0ID0gc3RyaW5nLkVtcHR5IH07CiAgICBwdWJsaWMgc3RhdGljIHJlYWRvbmx5IEFnZW50UmVwbHkgRmFpbGVkID0gbmV3KCkgeyBPdXRjb21lID0gQWdlbnRPdXRjb21lLkZhaWxlZCwgVGV4dCA9IHN0cmluZy5FbXB0eSB9OwoKICAgIHB1YmxpYyBzdGF0aWMgQWdlbnRSZXBseSBTdWNjZXNzKHN0cmluZyB0ZXh0KSA9PiBuZXcoKSB7IE91dGNvbWUgPSBBZ2VudE91dGNvbWUuU3VjY2VzcywgVGV4dCA9IHRleHQgfTsKfQo=
+namespace IMBridge.Domain;
+
+/// <summary>Agent 处理完一条消息后的结果，明确区分成功 / 无匹配 / 失败。</summary>
+public sealed record AgentReply
+{
+    public required AgentOutcome Outcome { get; init; }
+
+    /// <summary>
+    /// 最终回复文案。仅当 Outcome == Success 时有效且会被发送；
+    /// NoMatch / Failed 时必须为 Empty（失败绝不外发错误输出）。
+    /// </summary>
+    public required string Text { get; init; }
+
+    public static readonly AgentReply NoMatch = new() { Outcome = AgentOutcome.NoMatch, Text = string.Empty };
+    public static readonly AgentReply Failed = new() { Outcome = AgentOutcome.Failed, Text = string.Empty };
+
+    public static AgentReply Success(string text) => new() { Outcome = AgentOutcome.Success, Text = text };
+}

@@ -1,1 +1,145 @@
-dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkltbXV0YWJsZTsKdXNpbmcgU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlczsKdXNpbmcgU3lzdGVtLlRocmVhZGluZy5DaGFubmVsczsKdXNpbmcgU3lzdGVtLlRleHQuSnNvbjsKdXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5Eb21haW47CnVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLlByb2Nlc3M7CnVzaW5nIElNQnJpZGdlLlNlcmlhbGl6YXRpb247CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuRHdzOwoKLy8vIDxzdW1tYXJ5PgovLy8g5Z+65LqOIGR3cyBldmVudCBjb25zdW1lIOeahOa2iOaBr+adpea6kO+8iOmSiemSieS4k+WxnumAgumFjeWxgu+8ieOAggovLy8g5Y2V6L+b56iL5ZCM5pe26K6i6ZiF5YWo6YOo5LqL5Lu2IGtlee+8iOWFseS6qyBidXPvvIzpgb/lhY3lpJogY29uc3VtZXIg5LqS5ouW77yJ77yM6L+b56iL6YCA5Ye65ZCO5oyH5pWw6YCA6YG/6Ieq5Yqo6YeN6L+e44CCCi8vLyA8L3N1bW1hcnk+CmludGVybmFsIHNlYWxlZCBjbGFzcyBEd3NNZXNzYWdlU291cmNlKAogICAgc3RyaW5nIGR3c1BhdGgsCiAgICBzdHJpbmcgY2hhbm5lbElkLAogICAgSVJlYWRPbmx5TGlzdDxzdHJpbmc+IGV2ZW50S2V5cywKICAgIElTdHJlYW1pbmdQcm9jZXNzUnVubmVyIHByb2Nlc3NSdW5uZXIsCiAgICBJTG9nZ2VyPER3c01lc3NhZ2VTb3VyY2U+IGxvZ2dlcikgOiBJTWVzc2FnZVNvdXJjZQp7CiAgICBwcml2YXRlIGNvbnN0IHN0cmluZyBHcm91cEF0RXZlbnRUeXBlID0gInVzZXJfaW1fbWVzc2FnZV9yZWNlaXZlX2F0IjsKCiAgICBwdWJsaWMgYXN5bmMgSUFzeW5jRW51bWVyYWJsZTxJbmNvbWluZ01lc3NhZ2U+IFJlYWRNZXNzYWdlc0FzeW5jKAogICAgICAgIFtFbnVtZXJhdG9yQ2FuY2VsbGF0aW9uXSBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbikKICAgIHsKICAgICAgICB2YXIgYmFja29mZk1zID0gMTAwMDsKICAgICAgICB3aGlsZSAoIWNhbmNlbGxhdGlvblRva2VuLklzQ2FuY2VsbGF0aW9uUmVxdWVzdGVkKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGNoYW5uZWwgPSBDaGFubmVsLkNyZWF0ZVVuYm91bmRlZDxJbmNvbWluZ01lc3NhZ2U+KCk7CiAgICAgICAgICAgIHZhciBzZXNzaW9uVGFzayA9IFJ1blNlc3Npb25Bc3luYyhjaGFubmVsLldyaXRlciwgY2FuY2VsbGF0aW9uVG9rZW4pOwogICAgICAgICAgICBhd2FpdCBmb3JlYWNoICh2YXIgbWVzc2FnZSBpbiBjaGFubmVsLlJlYWRlci5SZWFkQWxsQXN5bmMoY2FuY2VsbGF0aW9uVG9rZW4pKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBiYWNrb2ZmTXMgPSAxMDAwOwogICAgICAgICAgICAgICAgeWllbGQgcmV0dXJuIG1lc3NhZ2U7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhciBmYWlsdXJlID0gYXdhaXQgc2Vzc2lvblRhc2s7CiAgICAgICAgICAgIGlmIChjYW5jZWxsYXRpb25Ub2tlbi5Jc0NhbmNlbGxhdGlvblJlcXVlc3RlZCkKICAgICAgICAgICAgICAgIHlpZWxkIGJyZWFrOwogICAgICAgICAgICBpZiAoZmFpbHVyZSBpcyBub3QgbnVsbCkKICAgICAgICAgICAgICAgIGxvZ2dlci5Mb2dXYXJuaW5nKGZhaWx1cmUsICJkd3Mg5LqL5Lu25rWB5ZCv5Yqo5oiW6K+75Y+W5aSx6LSl77yMe0JhY2tvZmZ9bXMg5ZCO6YeN6L+eIiwgYmFja29mZk1zKTsKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgbG9nZ2VyLkxvZ1dhcm5pbmcoImR3cyDkuovku7bmtYHkuK3mlq3vvIx7QmFja29mZn1tcyDlkI7ph43ov54iLCBiYWNrb2ZmTXMpOwogICAgICAgICAgICBhd2FpdCBUYXNrLkRlbGF5KGJhY2tvZmZNcywgY2FuY2VsbGF0aW9uVG9rZW4pOwogICAgICAgICAgICBiYWNrb2ZmTXMgPSBNYXRoLk1pbihiYWNrb2ZmTXMgKiAyLCA2MF8wMDApOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGFzeW5jIFRhc2s8RXhjZXB0aW9uPz4gUnVuU2Vzc2lvbkFzeW5jKENoYW5uZWxXcml0ZXI8SW5jb21pbmdNZXNzYWdlPiB3cml0ZXIsIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKQogICAgewogICAgICAgIHZhciBhcmdzID0gbmV3IExpc3Q8c3RyaW5nPiB7ICJldmVudCIsICJjb25zdW1lIiB9OwogICAgICAgIGFyZ3MuQWRkUmFuZ2UoZXZlbnRLZXlzKTsKICAgICAgICBhcmdzLkFkZFJhbmdlKFsiLS1mbGF0dGVuIiwgIi1mIiwgIm5kanNvbiIsICItLXllcyJdKTsKICAgICAgICBsb2dnZXIuTG9nSW5mb3JtYXRpb24oIuWQr+WKqOS6i+S7tuiuoumYhSh7Q2hhbm5lbH0pOiBkd3Mge0FyZ3N9IiwgY2hhbm5lbElkLCBzdHJpbmcuSm9pbignICcsIGFyZ3MpKTsKCiAgICAgICAgSVN0cmVhbWluZ1Byb2Nlc3NTZXNzaW9uPyBwcm9jZXNzID0gbnVsbDsKICAgICAgICBUYXNrPyBzdGRlcnJUYXNrID0gbnVsbDsKICAgICAgICBFeGNlcHRpb24/IGZhaWx1cmUgPSBudWxsOwogICAgICAgIHRyeQogICAgICAgIHsKICAgICAgICAgICAgcHJvY2VzcyA9IHByb2Nlc3NSdW5uZXIuU3RhcnRTdHJlYW1pbmcobmV3IFByb2Nlc3NTcGVjIHsgRmlsZU5hbWUgPSBkd3NQYXRoLCBBcmd1bWVudHMgPSBhcmdzIH0pOwogICAgICAgICAgICBzdGRlcnJUYXNrID0gQ29uc3VtZVN0ZEVyckFzeW5jKHByb2Nlc3MuU3RhbmRhcmRFcnJvciwgY2FuY2VsbGF0aW9uVG9rZW4pOwogICAgICAgICAgICB3aGlsZSAoIWNhbmNlbGxhdGlvblRva2VuLklzQ2FuY2VsbGF0aW9uUmVxdWVzdGVkKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBzdHJpbmc/IGxpbmU7CiAgICAgICAgICAgICAgICB0cnkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBsaW5lID0gYXdhaXQgcHJvY2Vzcy5TdGFuZGFyZE91dHB1dC5SZWFkTGluZUFzeW5jKGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpIHdoZW4gKGV4IGlzIG5vdCBPcGVyYXRpb25DYW5jZWxlZEV4Y2VwdGlvbikKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBmYWlsdXJlID0gZXg7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAobGluZSBpcyBudWxsKSBicmVhazsKICAgICAgICAgICAgICAgIHZhciBtZXNzYWdlID0gUGFyc2UobGluZSwgY2hhbm5lbElkKTsKICAgICAgICAgICAgICAgIGlmIChtZXNzYWdlIGlzIG5vdCBudWxsKQogICAgICAgICAgICAgICAgICAgIGF3YWl0IHdyaXRlci5Xcml0ZUFzeW5jKG1lc3NhZ2UsIGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoIWNhbmNlbGxhdGlvblRva2VuLklzQ2FuY2VsbGF0aW9uUmVxdWVzdGVkKQogICAgICAgICAgICAgICAgYXdhaXQgcHJvY2Vzcy5XYWl0Rm9yRXhpdEFzeW5jKGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKE9wZXJhdGlvbkNhbmNlbGVkRXhjZXB0aW9uKSB3aGVuIChjYW5jZWxsYXRpb25Ub2tlbi5Jc0NhbmNlbGxhdGlvblJlcXVlc3RlZCkKICAgICAgICB7CiAgICAgICAgfQogICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpCiAgICAgICAgewogICAgICAgICAgICBmYWlsdXJlID0gZXg7CiAgICAgICAgfQogICAgICAgIGZpbmFsbHkKICAgICAgICB7CiAgICAgICAgICAgIGlmIChzdGRlcnJUYXNrIGlzIG5vdCBudWxsKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cnkgeyBhd2FpdCBzdGRlcnJUYXNrOyB9CiAgICAgICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IGZhaWx1cmUgPz89IGV4OyB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHByb2Nlc3MgaXMgbm90IG51bGwpCiAgICAgICAgICAgICAgICBhd2FpdCBwcm9jZXNzLkRpc3Bvc2VBc3luYygpOwogICAgICAgICAgICB3cml0ZXIuVHJ5Q29tcGxldGUoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhaWx1cmU7CiAgICB9CgogICAgcHJpdmF0ZSBJbmNvbWluZ01lc3NhZ2U/IFBhcnNlKHN0cmluZyBsaW5lLCBzdHJpbmcgY2hhbm5lbElkKQogICAgewogICAgICAgIGlmICghbGluZS5TdGFydHNXaXRoKCd7JykpIHJldHVybiBudWxsOwogICAgICAgIER3c0V2ZW50PyBldnQ7CiAgICAgICAgdHJ5IHsgZXZ0ID0gSnNvblNlcmlhbGl6ZXIuRGVzZXJpYWxpemUobGluZSwgQnJpZGdlSnNvbkNvbnRleHQuRGVmYXVsdC5Ed3NFdmVudCk7IH0KICAgICAgICBjYXRjaCAoSnNvbkV4Y2VwdGlvbiBleCkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dXYXJuaW5nKCJOREpTT04g6Kej5p6Q5aSx6LSlOiB7RXJyb3J9IHwg5Y6f5aeL5YaF5a65OiB7TGluZX0iLCBleC5NZXNzYWdlLCBsaW5lWy4uTWF0aC5NaW4obGluZS5MZW5ndGgsIDMwMCldKTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQogICAgICAgIGlmIChzdHJpbmcuSXNOdWxsT3JXaGl0ZVNwYWNlKGV2dD8uRXZlbnRJZCkgfHwgc3RyaW5nLklzTnVsbE9yV2hpdGVTcGFjZShldnQuU2VuZGVyT3BlbkRpbmdUYWxrSWQpIHx8IHN0cmluZy5Jc051bGxPcldoaXRlU3BhY2UoZXZ0Lk1lc3NhZ2VJZCkpIHJldHVybiBudWxsOwogICAgICAgIHZhciBpc0dyb3VwQXQgPSBldnQuVHlwZSA9PSBHcm91cEF0RXZlbnRUeXBlOwogICAgICAgIGlmIChpc0dyb3VwQXQgJiYgc3RyaW5nLklzTnVsbE9yV2hpdGVTcGFjZShldnQuQ29udmVyc2F0aW9uSWQpKSByZXR1cm4gbnVsbDsKICAgICAgICB2YXIgcmVwbHlUYXJnZXQgPSBpc0dyb3VwQXQKICAgICAgICAgICAgPyBuZXcgUmVwbHlUYXJnZXQgeyBUeXBlID0gQ29udmVyc2F0aW9uVHlwZS5Hcm91cCwgVGFyZ2V0SWQgPSBldnQuQ29udmVyc2F0aW9uSWQhIH0KICAgICAgICAgICAgOiBuZXcgUmVwbHlUYXJnZXQgeyBUeXBlID0gQ29udmVyc2F0aW9uVHlwZS5EaXJlY3QsIFRhcmdldElkID0gZXZ0LlNlbmRlck9wZW5EaW5nVGFsa0lkIH07CiAgICAgICAgdmFyIGNoYW5uZWxDb250ZXh0ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+CiAgICAgICAgewogICAgICAgICAgICBbImNvbnZlcnNhdGlvbklkIl0gPSBldnQuQ29udmVyc2F0aW9uSWQgPz8gc3RyaW5nLkVtcHR5LAogICAgICAgICAgICBbIm1lc3NhZ2VJZCJdID0gZXZ0Lk1lc3NhZ2VJZCA/PyBzdHJpbmcuRW1wdHksCiAgICAgICAgfTsKICAgICAgICByZXR1cm4gbmV3IEluY29taW5nTWVzc2FnZQogICAgICAgIHsKICAgICAgICAgICAgQ2hhbm5lbElkID0gY2hhbm5lbElkLCBFdmVudElkID0gZXZ0LkV2ZW50SWQsIE1lc3NhZ2VJZCA9IGV2dC5NZXNzYWdlSWQgPz8gc3RyaW5nLkVtcHR5LAogICAgICAgICAgICBFdmVudFR5cGUgPSBldnQuVHlwZSA/PyBzdHJpbmcuRW1wdHksIFNlbmRlck5hbWUgPSBldnQuU2VuZGVyID8/ICLlkIzkuosiLCBDb250ZW50ID0gZXZ0LkNvbnRlbnQgPz8gc3RyaW5nLkVtcHR5LAogICAgICAgICAgICBSZXBseVRhcmdldCA9IHJlcGx5VGFyZ2V0LCBDaGFubmVsQ29udGV4dCA9IGNoYW5uZWxDb250ZXh0LCBBdHRhY2htZW50cyA9IEltbXV0YWJsZUFycmF5PEF0dGFjaG1lbnQ+LkVtcHR5LAogICAgICAgIH07CiAgICB9CgogICAgcHJpdmF0ZSBhc3luYyBUYXNrIENvbnN1bWVTdGRFcnJBc3luYyhUZXh0UmVhZGVyIHJlYWRlciwgQ2FuY2VsbGF0aW9uVG9rZW4gY2FuY2VsbGF0aW9uVG9rZW4pCiAgICB7CiAgICAgICAgdHJ5CiAgICAgICAgewogICAgICAgICAgICB3aGlsZSAoYXdhaXQgcmVhZGVyLlJlYWRMaW5lQXN5bmMoY2FuY2VsbGF0aW9uVG9rZW4pIGlzIHsgfSBsaW5lKQogICAgICAgICAgICAgICAgbG9nZ2VyLkxvZ0RlYnVnKCJbZHdzXSB7TGluZX0iLCBsaW5lKTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKE9wZXJhdGlvbkNhbmNlbGVkRXhjZXB0aW9uKSB7IH0KICAgIH0KfQo=
+using System.Collections.Immutable;
+using System.Runtime.CompilerServices;
+using System.Threading.Channels;
+using System.Text.Json;
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using IMBridge.Infrastructure.Process;
+using IMBridge.Serialization;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.Dws;
+
+/// <summary>
+/// 基于 dws event consume 的消息来源（钉钉专属适配层）。
+/// 单进程同时订阅全部事件 key（共享 bus，避免多 consumer 互拖），进程退出后指数退避自动重连。
+/// </summary>
+internal sealed class DwsMessageSource(
+    string dwsPath,
+    string channelId,
+    IReadOnlyList<string> eventKeys,
+    IStreamingProcessRunner processRunner,
+    ILogger<DwsMessageSource> logger) : IMessageSource
+{
+    private const string GroupAtEventType = "user_im_message_receive_at";
+
+    public async IAsyncEnumerable<IncomingMessage> ReadMessagesAsync(
+        [EnumeratorCancellation] CancellationToken cancellationToken)
+    {
+        var backoffMs = 1000;
+        while (!cancellationToken.IsCancellationRequested)
+        {
+            var channel = Channel.CreateUnbounded<IncomingMessage>();
+            var sessionTask = RunSessionAsync(channel.Writer, cancellationToken);
+            await foreach (var message in channel.Reader.ReadAllAsync(cancellationToken))
+            {
+                backoffMs = 1000;
+                yield return message;
+            }
+
+            var failure = await sessionTask;
+            if (cancellationToken.IsCancellationRequested)
+                yield break;
+            if (failure is not null)
+                logger.LogWarning(failure, "dws 事件流启动或读取失败，{Backoff}ms 后重连", backoffMs);
+            else
+                logger.LogWarning("dws 事件流中断，{Backoff}ms 后重连", backoffMs);
+            await Task.Delay(backoffMs, cancellationToken);
+            backoffMs = Math.Min(backoffMs * 2, 60_000);
+        }
+    }
+
+    private async Task<Exception?> RunSessionAsync(ChannelWriter<IncomingMessage> writer, CancellationToken cancellationToken)
+    {
+        var args = new List<string> { "event", "consume" };
+        args.AddRange(eventKeys);
+        args.AddRange(["--flatten", "-f", "ndjson", "--yes"]);
+        logger.LogInformation("启动事件订阅({Channel}): dws {Args}", channelId, string.Join(' ', args));
+
+        IStreamingProcessSession? process = null;
+        Task? stderrTask = null;
+        Exception? failure = null;
+        try
+        {
+            process = processRunner.StartStreaming(new ProcessSpec { FileName = dwsPath, Arguments = args });
+            stderrTask = ConsumeStdErrAsync(process.StandardError, cancellationToken);
+            while (!cancellationToken.IsCancellationRequested)
+            {
+                string? line;
+                try
+                {
+                    line = await process.StandardOutput.ReadLineAsync(cancellationToken);
+                }
+                catch (Exception ex) when (ex is not OperationCanceledException)
+                {
+                    failure = ex;
+                    break;
+                }
+                if (line is null) break;
+                var message = Parse(line, channelId);
+                if (message is not null)
+                    await writer.WriteAsync(message, cancellationToken);
+            }
+            if (!cancellationToken.IsCancellationRequested)
+                await process.WaitForExitAsync(cancellationToken);
+        }
+        catch (OperationCanceledException) when (cancellationToken.IsCancellationRequested)
+        {
+        }
+        catch (Exception ex)
+        {
+            failure = ex;
+        }
+        finally
+        {
+            if (stderrTask is not null)
+            {
+                try { await stderrTask; }
+                catch (Exception ex) { failure ??= ex; }
+            }
+            if (process is not null)
+                await process.DisposeAsync();
+            writer.TryComplete();
+        }
+        return failure;
+    }
+
+    private IncomingMessage? Parse(string line, string channelId)
+    {
+        if (!line.StartsWith('{')) return null;
+        DwsEvent? evt;
+        try { evt = JsonSerializer.Deserialize(line, BridgeJsonContext.Default.DwsEvent); }
+        catch (JsonException ex)
+        {
+            logger.LogWarning("NDJSON 解析失败: {Error} | 原始内容: {Line}", ex.Message, line[..Math.Min(line.Length, 300)]);
+            return null;
+        }
+        if (string.IsNullOrWhiteSpace(evt?.EventId) || string.IsNullOrWhiteSpace(evt.SenderOpenDingTalkId) || string.IsNullOrWhiteSpace(evt.MessageId)) return null;
+        var isGroupAt = evt.Type == GroupAtEventType;
+        if (isGroupAt && string.IsNullOrWhiteSpace(evt.ConversationId)) return null;
+        var replyTarget = isGroupAt
+            ? new ReplyTarget { Type = ConversationType.Group, TargetId = evt.ConversationId! }
+            : new ReplyTarget { Type = ConversationType.Direct, TargetId = evt.SenderOpenDingTalkId };
+        var channelContext = new Dictionary<string, string>
+        {
+            ["conversationId"] = evt.ConversationId ?? string.Empty,
+            ["messageId"] = evt.MessageId ?? string.Empty,
+        };
+        return new IncomingMessage
+        {
+            ChannelId = channelId, EventId = evt.EventId, MessageId = evt.MessageId ?? string.Empty,
+            EventType = evt.Type ?? string.Empty, SenderName = evt.Sender ?? "同事", Content = evt.Content ?? string.Empty,
+            ReplyTarget = replyTarget, ChannelContext = channelContext, Attachments = ImmutableArray<Attachment>.Empty,
+        };
+    }
+
+    private async Task ConsumeStdErrAsync(TextReader reader, CancellationToken cancellationToken)
+    {
+        try
+        {
+            while (await reader.ReadLineAsync(cancellationToken) is { } line)
+                logger.LogDebug("[dws] {Line}", line);
+        }
+        catch (OperationCanceledException) { }
+    }
+}

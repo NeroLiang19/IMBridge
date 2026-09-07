@@ -1,1 +1,9 @@
-dXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT7mtojmga/lh7rlj6PjgILlj6rlgZrkuIDku7bkuovvvJrmiorlm57lpI3lj5Hlm57ljp/kvJror53jgII8L3N1bW1hcnk+CnB1YmxpYyBpbnRlcmZhY2UgSU1lc3NhZ2VTaW5rCnsKICAgIFRhc2sgU2VuZEFzeW5jKEluY29taW5nTWVzc2FnZSBvcmlnaW4sIHN0cmluZyB0ZXh0LCBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbik7Cn0K
+using IMBridge.Domain;
+
+namespace IMBridge.Abstractions;
+
+/// <summary>消息出口。只做一件事：把回复发回原会话。</summary>
+public interface IMessageSink
+{
+    Task SendAsync(IncomingMessage origin, string text, CancellationToken cancellationToken);
+}

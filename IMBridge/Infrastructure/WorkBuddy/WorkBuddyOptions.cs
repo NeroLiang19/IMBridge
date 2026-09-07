@@ -1,1 +1,12 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLldvcmtCdWRkeTsKCnB1YmxpYyBzZWFsZWQgcmVjb3JkIFdvcmtCdWRkeU9wdGlvbnMKewogICAgcHVibGljIHN0cmluZyBOb2RlUGF0aCB7IGdldDsgaW5pdDsgfSA9IEAiQzpcUHJvZ3JhbSBGaWxlc1xub2RlanNcbm9kZS5leGUiOwogICAgcHVibGljIHN0cmluZyBFbnRyeSB7IGdldDsgaW5pdDsgfSA9IFBhdGguQ29tYmluZShFbnZpcm9ubWVudC5HZXRGb2xkZXJQYXRoKEVudmlyb25tZW50LlNwZWNpYWxGb2xkZXIuQXBwbGljYXRpb25EYXRhKSwgIm5wbSIsICJub2RlX21vZHVsZXMiLCAiQHRlbmNlbnQtYWkiLCAiY29kZWJ1ZGR5LWNvZGUiLCAiYmluIiwgImNvZGVidWRkeSIpOwogICAgcHVibGljIHN0cmluZyBNb2RlbCB7IGdldDsgaW5pdDsgfSA9ICJjdXN0b20tbG9jYWw6Z2VtaW5pLTMuOC1mbGFzaCI7CiAgICBwdWJsaWMgc3RyaW5nIE93bmVyTmFtZSB7IGdldDsgaW5pdDsgfSA9ICIiOwogICAgcHVibGljIHN0cmluZyBXb3JraW5nRGlyZWN0b3J5IHsgZ2V0OyBpbml0OyB9ID0gQXBwQ29udGV4dC5CYXNlRGlyZWN0b3J5OwogICAgcHVibGljIGludCBUaW1lb3V0U2Vjb25kcyB7IGdldDsgaW5pdDsgfSA9IDE4MDsKICAgIHB1YmxpYyBzdHJpbmc/IFZpc2lvblByb21wdCB7IGdldDsgaW5pdDsgfQp9Cg==
+namespace IMBridge.Infrastructure.WorkBuddy;
+
+public sealed record WorkBuddyOptions
+{
+    public string NodePath { get; init; } = @"C:\Program Files\nodejs\node.exe";
+    public string Entry { get; init; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "npm", "node_modules", "@tencent-ai", "codebuddy-code", "bin", "codebuddy");
+    public string Model { get; init; } = "custom-local:gemini-3.8-flash";
+    public string OwnerName { get; init; } = "";
+    public string WorkingDirectory { get; init; } = AppContext.BaseDirectory;
+    public int TimeoutSeconds { get; init; } = 180;
+    public string? VisionPrompt { get; init; }
+}

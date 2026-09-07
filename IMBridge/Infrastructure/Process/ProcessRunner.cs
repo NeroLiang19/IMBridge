@@ -1,1 +1,119 @@
-dXNpbmcgU3lzdGVtLkRpYWdub3N0aWNzOwp1c2luZyBTeXN0ZW0uVGV4dDsKdXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLlByb2Nlc3M7CgovLy8gPHN1bW1hcnk+Ci8vLyDnu5/kuIDmnInpmZDov5vnqIvmiafooYzlmajvvJrlubblj5Hor7vlj5Ygc3Rkb3V0L3N0ZGVycuOAgVVURjjjgIHotoXml7YgKyDlpJbpg6jlj5bmtojjgIHlj5bmtojml7bmnYDmjonmlbTkuKrov5vnqIvlrZDmoJHjgIIKLy8vIOaJgOacieS4gOasoeaApyBDTEkg6LCD55So77yIZHdzIOWPkemAgS/kuIvovb3jgIFXb3JrQnVkZHkg5aSE55CG44CB6KeG6KeJ6K+G5Yir77yJ6YO95aSN55So5a6D77yM6YG/5YWN5p2D6ZmQL+e8lueggS/otoXml7bpgLvovpHmlaPokL3lkITlpITjgIIKLy8vIOazqOaEj++8muacrOWunueOsOS4jeaWsOWinuS7u+S9lSAteSDkuYvnsbvnmoTmnYPpmZDnu5Xov4flj4LmlbDvvIzkuZ/kuI3mianlsZXosIPnlKjmlrnml6LmnInnmoTmnYPpmZDojIPlm7TjgIIKLy8vIDwvc3VtbWFyeT4KaW50ZXJuYWwgc2VhbGVkIGNsYXNzIFByb2Nlc3NSdW5uZXIgOiBJUHJvY2Vzc1J1bm5lciwgSVN0cmVhbWluZ1Byb2Nlc3NSdW5uZXIKewogICAgcHVibGljIElTdHJlYW1pbmdQcm9jZXNzU2Vzc2lvbiBTdGFydFN0cmVhbWluZyhQcm9jZXNzU3BlYyBzcGVjKSA9PiBuZXcgU3RyZWFtaW5nUHJvY2Vzc1Nlc3Npb24oU3RhcnRQcm9jZXNzKHNwZWMpKTsKCiAgICBwcml2YXRlIFN5c3RlbS5EaWFnbm9zdGljcy5Qcm9jZXNzIFN0YXJ0UHJvY2VzcyhQcm9jZXNzU3BlYyBzcGVjKQogICAgewogICAgICAgIHZhciBwc2kgPSBuZXcgUHJvY2Vzc1N0YXJ0SW5mbwogICAgICAgIHsKICAgICAgICAgICAgRmlsZU5hbWUgPSBzcGVjLkZpbGVOYW1lLAogICAgICAgICAgICBSZWRpcmVjdFN0YW5kYXJkT3V0cHV0ID0gdHJ1ZSwKICAgICAgICAgICAgUmVkaXJlY3RTdGFuZGFyZEVycm9yID0gdHJ1ZSwKICAgICAgICAgICAgU3RhbmRhcmRPdXRwdXRFbmNvZGluZyA9IEVuY29kaW5nLlVURjgsCiAgICAgICAgICAgIFN0YW5kYXJkRXJyb3JFbmNvZGluZyA9IEVuY29kaW5nLlVURjgsCiAgICAgICAgICAgIFVzZVNoZWxsRXhlY3V0ZSA9IGZhbHNlLAogICAgICAgICAgICBDcmVhdGVOb1dpbmRvdyA9IHRydWUsCiAgICAgICAgfTsKICAgICAgICBpZiAoc3BlYy5Xb3JraW5nRGlyZWN0b3J5IGlzIG5vdCBudWxsKQogICAgICAgIHsKICAgICAgICAgICAgcHNpLldvcmtpbmdEaXJlY3RvcnkgPSBzcGVjLldvcmtpbmdEaXJlY3Rvcnk7CiAgICAgICAgfQogICAgICAgIGZvcmVhY2ggKHZhciBhcmcgaW4gc3BlYy5Bcmd1bWVudHMpCiAgICAgICAgewogICAgICAgICAgICBwc2kuQXJndW1lbnRMaXN0LkFkZChhcmcpOwogICAgICAgIH0KICAgICAgICAvLyDpu5jorqTku4XkvKDpgJLlkK/liqggQ0xJIOaJgOmcgOeahOacgOWwj+Wuv+S4u+eOr+Wig++8jOmBv+WFjeWwhuaVj+aEn+WPmOmHj+azhOmcsue7mSBBZ2VudC/op4bop4nov5vnqIvjgIIKICAgICAgICBwc2kuRW52aXJvbm1lbnQuQ2xlYXIoKTsKICAgICAgICBmb3JlYWNoICh2YXIga2V5IGluIG5ld1tdIHsgIlBBVEgiLCAiU3lzdGVtUm9vdCIsICJXSU5ESVIiLCAiQ29tU3BlYyIsICJURU1QIiwgIlRNUCIsICJVU0VSUFJPRklMRSIgfSkKICAgICAgICB7CiAgICAgICAgICAgIHZhciB2YWx1ZSA9IFN5c3RlbS5FbnZpcm9ubWVudC5HZXRFbnZpcm9ubWVudFZhcmlhYmxlKGtleSk7CiAgICAgICAgICAgIGlmICh2YWx1ZSBpcyBub3QgbnVsbCkKICAgICAgICAgICAgICAgIHBzaS5FbnZpcm9ubWVudFtrZXldID0gdmFsdWU7CiAgICAgICAgfQogICAgICAgIGlmIChzcGVjLkVudmlyb25tZW50IGlzIG5vdCBudWxsKQogICAgICAgIHsKICAgICAgICAgICAgZm9yZWFjaCAodmFyIChrZXksIHZhbHVlKSBpbiBzcGVjLkVudmlyb25tZW50KQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBwc2kuRW52aXJvbm1lbnRba2V5XSA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBTeXN0ZW0uRGlhZ25vc3RpY3MuUHJvY2Vzcy5TdGFydChwc2kpID8/IHRocm93IG5ldyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKCQi5peg5rOV5ZCv5Yqo6L+b56iLOiB7c3BlYy5GaWxlTmFtZX0iKTsKICAgIH0KCiAgICBwdWJsaWMgYXN5bmMgVGFzazxQcm9jZXNzUmVzdWx0PiBSdW5Bc3luYyhQcm9jZXNzU3BlYyBzcGVjLCBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbikKICAgIHsKICAgICAgICBjYW5jZWxsYXRpb25Ub2tlbi5UaHJvd0lmQ2FuY2VsbGF0aW9uUmVxdWVzdGVkKCk7CiAgICAgICAgLy8g6LaF5pe25LiO5aSW6YOo5Y+W5raI5YWx55So5LiA5Liq6ZO+5o6l5Luk54mM77yb6LaF5pe25Y2V54us5qCH6K6w5Lul5L6/5Yy65YiGIFRpbWVkT3V044CCCiAgICAgICAgdXNpbmcgdmFyIGN0cyA9IENhbmNlbGxhdGlvblRva2VuU291cmNlLkNyZWF0ZUxpbmtlZFRva2VuU291cmNlKGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICBpZiAoc3BlYy5UaW1lb3V0ID4gVGltZVNwYW4uWmVybykKICAgICAgICB7CiAgICAgICAgICAgIGN0cy5DYW5jZWxBZnRlcihzcGVjLlRpbWVvdXQpOwogICAgICAgIH0KCiAgICAgICAgdXNpbmcgdmFyIHByb2Nlc3MgPSBTdGFydFByb2Nlc3Moc3BlYyk7CgogICAgICAgIC8vIOW5tuWPkeivu+WPluS4pOadoea1ge+8jOebtOiHsyBFT0bvvIjov5vnqIvpgIDlh7ov6KKr5p2A5ZCO566h6YGT5YWz6Zet5Y2z57uT5p2f77yJ44CCCiAgICAgICAgdmFyIHN0ZG91dFRhc2sgPSBwcm9jZXNzLlN0YW5kYXJkT3V0cHV0LlJlYWRUb0VuZEFzeW5jKCk7CiAgICAgICAgdmFyIHN0ZGVyclRhc2sgPSBwcm9jZXNzLlN0YW5kYXJkRXJyb3IuUmVhZFRvRW5kQXN5bmMoKTsKCiAgICAgICAgLy8g562J5b6F6L+b56iL6YCA5Ye677yI5Y+X6LaF5pe2L+WPlua2iOe6puadn++8ieOAggogICAgICAgIHZhciBleGl0VGFzayA9IHByb2Nlc3MuV2FpdEZvckV4aXRBc3luYyhjdHMuVG9rZW4pOwogICAgICAgIHRyeQogICAgICAgIHsKICAgICAgICAgICAgYXdhaXQgVGFzay5XaGVuQW55KGV4aXRUYXNrLCBUYXNrLkRlbGF5KFRpbWVvdXQuSW5maW5pdGUsIGN0cy5Ub2tlbikpOwogICAgICAgICAgICAvLyDop4Llr58gV2FpdEZvckV4aXRBc3luYyDnmoTlvILluLjvvIzpgb/lhY3kuKLlpLHlupXlsYLov5vnqIvplJnor6/jgIIKICAgICAgICAgICAgaWYgKGV4aXRUYXNrLklzRmF1bHRlZCkKICAgICAgICAgICAgICAgIGF3YWl0IGV4aXRUYXNrOwogICAgICAgIH0KICAgICAgICBmaW5hbGx5CiAgICAgICAgewogICAgICAgICAgICBpZiAoIXByb2Nlc3MuSGFzRXhpdGVkKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cnkgeyBwcm9jZXNzLktpbGwoZW50aXJlUHJvY2Vzc1RyZWU6IHRydWUpOyB9CiAgICAgICAgICAgICAgICBjYXRjaCAoSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbikgeyB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmICghcHJvY2Vzcy5IYXNFeGl0ZWQpCiAgICAgICAgewogICAgICAgICAgICAvLyDotoXml7bmiJblpJbpg6jlj5bmtojvvJrmnYDmjonmlbTkuKrlrZDmoJHvvIjlt7LlkK/liqjnmoTlrZDov5vnqIvkuIDlubbmuIXnkIbvvInjgIIKICAgICAgICAgICAgdHJ5CiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGlmICghcHJvY2Vzcy5IYXNFeGl0ZWQpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgcHJvY2Vzcy5LaWxsKGVudGlyZVByb2Nlc3NUcmVlOiB0cnVlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCAoSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbikKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgLy8g6L+b56iL5oGw5aW95q2k5pe26YCA5Ye677yM5b+955Wl44CCCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g5LiN5bim5Luk54mM562J5b6F55yf5q2j6YCA5Ye677yM56Gu5L+d5ZCO57ut6K+75Y+W6IO95ou/5Yiw5a6M5pW06L6T5Ye644CCCiAgICAgICAgICAgIGF3YWl0IHByb2Nlc3MuV2FpdEZvckV4aXRBc3luYygpOwogICAgICAgIH0KCiAgICAgICAgdmFyIHN0YW5kYXJkT3V0cHV0ID0gYXdhaXQgc3Rkb3V0VGFzazsKICAgICAgICB2YXIgc3RhbmRhcmRFcnJvciA9IGF3YWl0IHN0ZGVyclRhc2s7CgogICAgICAgIHZhciB0aW1lZE91dCA9IGN0cy5Jc0NhbmNlbGxhdGlvblJlcXVlc3RlZCAmJiAhY2FuY2VsbGF0aW9uVG9rZW4uSXNDYW5jZWxsYXRpb25SZXF1ZXN0ZWQ7CiAgICAgICAgY2FuY2VsbGF0aW9uVG9rZW4uVGhyb3dJZkNhbmNlbGxhdGlvblJlcXVlc3RlZCgpOwogICAgICAgIHJldHVybiBuZXcgUHJvY2Vzc1Jlc3VsdAogICAgICAgIHsKICAgICAgICAgICAgRXhpdENvZGUgPSBwcm9jZXNzLkV4aXRDb2RlLAogICAgICAgICAgICBTdGFuZGFyZE91dHB1dCA9IHN0YW5kYXJkT3V0cHV0LAogICAgICAgICAgICBTdGFuZGFyZEVycm9yID0gc3RhbmRhcmRFcnJvciwKICAgICAgICAgICAgVGltZWRPdXQgPSB0aW1lZE91dCwKICAgICAgICB9OwogICAgfQp9Cg==
+using System.Diagnostics;
+using System.Text;
+using IMBridge.Abstractions;
+
+namespace IMBridge.Infrastructure.Process;
+
+/// <summary>
+/// 统一有限进程执行器：并发读取 stdout/stderr、UTF8、超时 + 外部取消、取消时杀掉整个进程子树。
+/// 所有一次性 CLI 调用（dws 发送/下载、WorkBuddy 处理、视觉识别）都复用它，避免权限/编码/超时逻辑散落各处。
+/// 注意：本实现不新增任何 -y 之类的权限绕过参数，也不扩展调用方既有的权限范围。
+/// </summary>
+internal sealed class ProcessRunner : IProcessRunner, IStreamingProcessRunner
+{
+    public IStreamingProcessSession StartStreaming(ProcessSpec spec) => new StreamingProcessSession(StartProcess(spec));
+
+    private System.Diagnostics.Process StartProcess(ProcessSpec spec)
+    {
+        var psi = new ProcessStartInfo
+        {
+            FileName = spec.FileName,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            StandardOutputEncoding = Encoding.UTF8,
+            StandardErrorEncoding = Encoding.UTF8,
+            UseShellExecute = false,
+            CreateNoWindow = true,
+        };
+        if (spec.WorkingDirectory is not null)
+        {
+            psi.WorkingDirectory = spec.WorkingDirectory;
+        }
+        foreach (var arg in spec.Arguments)
+        {
+            psi.ArgumentList.Add(arg);
+        }
+        // 默认仅传递启动 CLI 所需的最小宿主环境，避免将敏感变量泄露给 Agent/视觉进程。
+        psi.Environment.Clear();
+        foreach (var key in new[] { "PATH", "SystemRoot", "WINDIR", "ComSpec", "TEMP", "TMP", "USERPROFILE" })
+        {
+            var value = System.Environment.GetEnvironmentVariable(key);
+            if (value is not null)
+                psi.Environment[key] = value;
+        }
+        if (spec.Environment is not null)
+        {
+            foreach (var (key, value) in spec.Environment)
+            {
+                psi.Environment[key] = value;
+            }
+        }
+        return System.Diagnostics.Process.Start(psi) ?? throw new InvalidOperationException($"无法启动进程: {spec.FileName}");
+    }
+
+    public async Task<ProcessResult> RunAsync(ProcessSpec spec, CancellationToken cancellationToken)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        // 超时与外部取消共用一个链接令牌；超时单独标记以便区分 TimedOut。
+        using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+        if (spec.Timeout > TimeSpan.Zero)
+        {
+            cts.CancelAfter(spec.Timeout);
+        }
+
+        using var process = StartProcess(spec);
+
+        // 并发读取两条流，直至 EOF（进程退出/被杀后管道关闭即结束）。
+        var stdoutTask = process.StandardOutput.ReadToEndAsync();
+        var stderrTask = process.StandardError.ReadToEndAsync();
+
+        // 等待进程退出（受超时/取消约束）。
+        var exitTask = process.WaitForExitAsync(cts.Token);
+        try
+        {
+            await Task.WhenAny(exitTask, Task.Delay(Timeout.Infinite, cts.Token));
+            // 观察 WaitForExitAsync 的异常，避免丢失底层进程错误。
+            if (exitTask.IsFaulted)
+                await exitTask;
+        }
+        finally
+        {
+            if (!process.HasExited)
+            {
+                try { process.Kill(entireProcessTree: true); }
+                catch (InvalidOperationException) { }
+            }
+        }
+
+        if (!process.HasExited)
+        {
+            // 超时或外部取消：杀掉整个子树（已启动的子进程一并清理）。
+            try
+            {
+                if (!process.HasExited)
+                {
+                    process.Kill(entireProcessTree: true);
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                // 进程恰好此时退出，忽略。
+            }
+            // 不带令牌等待真正退出，确保后续读取能拿到完整输出。
+            await process.WaitForExitAsync();
+        }
+
+        var standardOutput = await stdoutTask;
+        var standardError = await stderrTask;
+
+        var timedOut = cts.IsCancellationRequested && !cancellationToken.IsCancellationRequested;
+        cancellationToken.ThrowIfCancellationRequested();
+        return new ProcessResult
+        {
+            ExitCode = process.ExitCode,
+            StandardOutput = standardOutput,
+            StandardError = standardError,
+            TimedOut = timedOut,
+        };
+    }
+}

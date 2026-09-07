@@ -1,1 +1,54 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5BcHBsaWNhdGlvbjsKdXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLlRlc3RzOwoKaW50ZXJuYWwgc3RhdGljIGNsYXNzIFJvdXRpbmdDb250cmFjdFRlc3RzCnsKICAgIHB1YmxpYyBzdGF0aWMgYXN5bmMgVGFzayBSdW5Bc3luYygpCiAgICB7CiAgICAgICAgdmFyIGRpc3BhdGNoZXIgPSBuZXcgTWVzc2FnZURpc3BhdGNoZXIoMik7CiAgICAgICAgdmFyIHNpbmsgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgYWdlbnRzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PiB7IFsiZyJdID0gbmV3IEZha2VHYXRld2F5KF8gPT4gQWdlbnRSZXBseS5TdWNjZXNzKCJvayIpKSB9OwogICAgICAgIGF3YWl0IGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhNZXNzYWdlKCJhOmIiLCAiYyIpLCBCaW5kaW5nKCJhOmIiLCBzaW5rKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KTsKICAgICAgICBhd2FpdCBkaXNwYXRjaGVyLkRpc3BhdGNoQXN5bmMoTWVzc2FnZSgiYSIsICJiOmMiKSwgQmluZGluZygiYSIsIHNpbmspLCBhZ2VudHMsIG51bGwsIGRlZmF1bHQpOwogICAgICAgIGlmIChzaW5rLlNlbnQuQ291bnQgIT0gMikgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oIuWOu+mHjemUruWIhumalOespueisOaSnuWvvOiHtOS4jeWQjOS6i+S7tuS4ouWksSIpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSDkuozlhYPnu4Tljrvph43plK7ml6DliIbpmpTnrKbnorDmkp4iKTsKCiAgICAgICAgdHJ5CiAgICAgICAgewogICAgICAgICAgICBhd2FpdCBkaXNwYXRjaGVyLkRpc3BhdGNoQXN5bmMoTWVzc2FnZSgib3RoZXIiLCAiZSIpLCBCaW5kaW5nKCJhIiwgc2luayksIGFnZW50cywgbnVsbCwgZGVmYXVsdCk7CiAgICAgICAgICAgIHRocm93IG5ldyBFeGNlcHRpb24oIumUmeivr+mAmumBk+e7keWumuacquiiq+aLkue7nSIpOwogICAgICAgIH0KICAgICAgICBjYXRjaCAoSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbikgeyB9CiAgICAgICAgaWYgKHNpbmsuU2VudC5Db3VudCAhPSAyKSB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigi6Leo6YCa6YGT5raI5oGv6KKr5Y+R6YCBIik7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoIiAgW1BBU1NdIOS4jeS4gOiHtOeahOmAmumBk+e7keWumuaLkue7neWPkemAgSIpOwoKICAgICAgICB0cnkKICAgICAgICB7CiAgICAgICAgICAgIGF3YWl0IGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhNZXNzYWdlKCJhIiwgInRhbXBlciIpLCBCaW5kaW5nKCJhIiwgc2luaykgd2l0aCB7IEVucmljaGVyID0gbmV3IFRhcmdldENoYW5naW5nRW5yaWNoZXIoKSB9LCBhZ2VudHMsIG51bGwsIGRlZmF1bHQpOwogICAgICAgICAgICB0aHJvdyBuZXcgRXhjZXB0aW9uKCLlr4zljJblmajmlLnlj5jlm57lpI3nm67moIfmnKrooqvmi5Lnu50iKTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24pIHsgfQogICAgICAgIGlmIChzaW5rLlNlbnQuQ291bnQgIT0gMikgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oIuWPkemAgeS6huiiq+evoeaUueWbnuWkjeebruagh+eahOa2iOaBryIpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSDlr4zljJblmajkuI3lvpfmlLnlj5jmtojmga/ouqvku73miJblm57lpI3nm67moIciKTsKICAgIH0KCiAgICBwcml2YXRlIHNlYWxlZCBjbGFzcyBUYXJnZXRDaGFuZ2luZ0VucmljaGVyIDogSU1lc3NhZ2VFbnJpY2hlcgogICAgewogICAgICAgIHB1YmxpYyBUYXNrPEluY29taW5nTWVzc2FnZT4gRW5yaWNoQXN5bmMoSW5jb21pbmdNZXNzYWdlIG1lc3NhZ2UsIENhbmNlbGxhdGlvblRva2VuIHRva2VuKQogICAgICAgICAgICA9PiBUYXNrLkZyb21SZXN1bHQobWVzc2FnZSB3aXRoIHsgUmVwbHlUYXJnZXQgPSBtZXNzYWdlLlJlcGx5VGFyZ2V0IHdpdGggeyBUYXJnZXRJZCA9ICJ3cm9uZy1yZWNlaXZlciIgfSB9KTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBJbmNvbWluZ01lc3NhZ2UgTWVzc2FnZShzdHJpbmcgY2hhbm5lbCwgc3RyaW5nIGlkKSA9PiBuZXcoKQogICAgewogICAgICAgIENoYW5uZWxJZCA9IGNoYW5uZWwsIEV2ZW50SWQgPSBpZCwgTWVzc2FnZUlkID0gaWQsIEV2ZW50VHlwZSA9ICJ0ZXh0IiwgU2VuZGVyTmFtZSA9ICJ0ZXN0ZXIiLCBDb250ZW50ID0gImhlbGxvIiwKICAgICAgICBSZXBseVRhcmdldCA9IG5ldyBSZXBseVRhcmdldCB7IFR5cGUgPSBDb252ZXJzYXRpb25UeXBlLkRpcmVjdCwgVGFyZ2V0SWQgPSAicmVjZWl2ZXIiIH0sCiAgICB9OwoKICAgIHByaXZhdGUgc3RhdGljIENoYW5uZWxCaW5kaW5nIEJpbmRpbmcoc3RyaW5nIGNoYW5uZWwsIElNZXNzYWdlU2luayBzaW5rKSA9PiBuZXcoKQogICAgewogICAgICAgIENoYW5uZWxJZCA9IGNoYW5uZWwsIEFnZW50R2F0ZXdheUlkID0gImciLCBTb3VyY2UgPSBuZXcgRmFrZVNvdXJjZSgpLCBTaW5rID0gc2luaywgRW5yaWNoZXIgPSBuZXcgRmFrZUVucmljaGVyKCksCiAgICB9Owp9Cg==
+using IMBridge.Abstractions;
+using IMBridge.Application;
+using IMBridge.Domain;
+
+namespace IMBridge.Tests;
+
+internal static class RoutingContractTests
+{
+    public static async Task RunAsync()
+    {
+        var dispatcher = new MessageDispatcher(2);
+        var sink = new FakeSink();
+        var agents = new Dictionary<string, IAgentGateway> { ["g"] = new FakeGateway(_ => AgentReply.Success("ok")) };
+        await dispatcher.DispatchAsync(Message("a:b", "c"), Binding("a:b", sink), agents, null, default);
+        await dispatcher.DispatchAsync(Message("a", "b:c"), Binding("a", sink), agents, null, default);
+        if (sink.Sent.Count != 2) throw new InvalidOperationException("去重键分隔符碰撞导致不同事件丢失");
+        Console.WriteLine("  [PASS] 二元组去重键无分隔符碰撞");
+
+        try
+        {
+            await dispatcher.DispatchAsync(Message("other", "e"), Binding("a", sink), agents, null, default);
+            throw new Exception("错误通道绑定未被拒绝");
+        }
+        catch (InvalidOperationException) { }
+        if (sink.Sent.Count != 2) throw new InvalidOperationException("跨通道消息被发送");
+        Console.WriteLine("  [PASS] 不一致的通道绑定拒绝发送");
+
+        try
+        {
+            await dispatcher.DispatchAsync(Message("a", "tamper"), Binding("a", sink) with { Enricher = new TargetChangingEnricher() }, agents, null, default);
+            throw new Exception("富化器改变回复目标未被拒绝");
+        }
+        catch (InvalidOperationException) { }
+        if (sink.Sent.Count != 2) throw new InvalidOperationException("发送了被篡改回复目标的消息");
+        Console.WriteLine("  [PASS] 富化器不得改变消息身份或回复目标");
+    }
+
+    private sealed class TargetChangingEnricher : IMessageEnricher
+    {
+        public Task<IncomingMessage> EnrichAsync(IncomingMessage message, CancellationToken token)
+            => Task.FromResult(message with { ReplyTarget = message.ReplyTarget with { TargetId = "wrong-receiver" } });
+    }
+
+    private static IncomingMessage Message(string channel, string id) => new()
+    {
+        ChannelId = channel, EventId = id, MessageId = id, EventType = "text", SenderName = "tester", Content = "hello",
+        ReplyTarget = new ReplyTarget { Type = ConversationType.Direct, TargetId = "receiver" },
+    };
+
+    private static ChannelBinding Binding(string channel, IMessageSink sink) => new()
+    {
+        ChannelId = channel, AgentGatewayId = "g", Source = new FakeSource(), Sink = sink, Enricher = new FakeEnricher(),
+    };
+}

@@ -1,1 +1,51 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Ed3M7CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuTWVkaWE7CgovLy8gPHN1bW1hcnk+Ci8vLyDln7rkuo4gZHdzIGNoYXQgbWVzc2FnZSBkb3dubG9hZC1tZWRpYSDlrp7njrDnmoTlqpLkvZPkuIvovb3lmajvvIjpkonpkonkuJPlsZ7vvInjgIIKLy8vIOWNleS4gOiBjOi0o++8muagueaNriBtZWRpYUlkIOS4juS8muivneS4iuS4i+aWh+S4i+i9veWbvueJh+iHs+S4tOaXtuebruW9leOAgue7n+S4gOi/m+eoi+aJp+ihjOi1sCBJUHJvY2Vzc1J1bm5lcuOAggovLy8gPC9zdW1tYXJ5PgppbnRlcm5hbCBzZWFsZWQgY2xhc3MgRHdzTWVkaWFEb3dubG9hZGVyKERpbmd0YWxrT3B0aW9ucyBvcHRpb25zLCBJUHJvY2Vzc1J1bm5lciBwcm9jZXNzUnVubmVyLCBJTG9nZ2VyPER3c01lZGlhRG93bmxvYWRlcj4gbG9nZ2VyKSA6IElNZWRpYURvd25sb2FkZXIKewogICAgcHVibGljIGFzeW5jIFRhc2s8c3RyaW5nPz4gRG93bmxvYWRJbWFnZUFzeW5jKAogICAgICAgIHN0cmluZyBtZWRpYUlkLAogICAgICAgIHN0cmluZyBtZXNzYWdlSWQsCiAgICAgICAgc3RyaW5nIGNvbnZlcnNhdGlvbklkLAogICAgICAgIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKQogICAgewogICAgICAgIHZhciB0ZW1wRGlyID0gUGF0aC5Db21iaW5lKFBhdGguR2V0VGVtcFBhdGgoKSwgIklNQnJpZGdlX01lZGlhIik7CiAgICAgICAgRGlyZWN0b3J5LkNyZWF0ZURpcmVjdG9yeSh0ZW1wRGlyKTsKICAgICAgICB2YXIgb3V0cHV0UGF0aCA9IFBhdGguQ29tYmluZSh0ZW1wRGlyLCAkIntHdWlkLk5ld0d1aWQoKTpOfS5wbmciKTsKCiAgICAgICAgdmFyIGFyZ3MgPSBuZXcgTGlzdDxzdHJpbmc+CiAgICAgICAgewogICAgICAgICAgICAiY2hhdCIsICJtZXNzYWdlIiwgImRvd25sb2FkLW1lZGlhIiwKICAgICAgICAgICAgIi0tdHlwZSIsICJtZWRpYUlkIiwKICAgICAgICAgICAgIi0tcmVzb3VyY2UtaWQiLCBtZWRpYUlkLAogICAgICAgICAgICAiLS1tZXNzYWdlLWlkIiwgbWVzc2FnZUlkLAogICAgICAgICAgICAiLS1vcGVuLWNvbnZlcnNhdGlvbi1pZCIsIGNvbnZlcnNhdGlvbklkLAogICAgICAgICAgICAiLS1vdXRwdXQiLCBvdXRwdXRQYXRoLAogICAgICAgIH07CgogICAgICAgIGxvZ2dlci5Mb2dJbmZvcm1hdGlvbigiW21lZGlhXSDlvIDlp4vkuIvovb3lqpLkvZPmlofku7Y6IHJlc291cmNlPXtNZWRpYUlkfSwgbXNnPXtNc2dJZH0iLCBtZWRpYUlkLCBtZXNzYWdlSWQpOwoKICAgICAgICB2YXIgcmVzdWx0ID0gYXdhaXQgcHJvY2Vzc1J1bm5lci5SdW5Bc3luYyhuZXcgUHJvY2Vzc1NwZWMKICAgICAgICB7CiAgICAgICAgICAgIEZpbGVOYW1lID0gb3B0aW9ucy5Ed3NQYXRoLAogICAgICAgICAgICBBcmd1bWVudHMgPSBhcmdzLAogICAgICAgICAgICBUaW1lb3V0ID0gVGltZVNwYW4uRnJvbVNlY29uZHMoMTIwKSwKICAgICAgICB9LCBjYW5jZWxsYXRpb25Ub2tlbik7CgogICAgICAgIGlmIChyZXN1bHQuRXhpdENvZGUgPT0gMCAmJiBGaWxlLkV4aXN0cyhvdXRwdXRQYXRoKSkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dJbmZvcm1hdGlvbigiW21lZGlhXSDlqpLkvZPkuIvovb3miJDlip8gLT4ge1BhdGh9Iiwgb3V0cHV0UGF0aCk7CiAgICAgICAgICAgIHJldHVybiBvdXRwdXRQYXRoOwogICAgICAgIH0KCiAgICAgICAgbG9nZ2VyLkxvZ1dhcm5pbmcoIlttZWRpYV0g5LiL6L295aqS5L2T6YCA5Ye656CBIHtDb2RlfTogc3Rkb3V0PXtPdXR9LCBzdGRlcnI9e0Vycn0iLCByZXN1bHQuRXhpdENvZGUsIHJlc3VsdC5TdGFuZGFyZE91dHB1dCwgcmVzdWx0LlN0YW5kYXJkRXJyb3IpOwogICAgICAgIHJldHVybiBudWxsOwogICAgfQp9Cg==
+using IMBridge.Abstractions;
+using IMBridge.Infrastructure.Dws;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.Media;
+
+/// <summary>
+/// 基于 dws chat message download-media 实现的媒体下载器（钉钉专属）。
+/// 单一职责：根据 mediaId 与会话上下文下载图片至临时目录。统一进程执行走 IProcessRunner。
+/// </summary>
+internal sealed class DwsMediaDownloader(DingtalkOptions options, IProcessRunner processRunner, ILogger<DwsMediaDownloader> logger) : IMediaDownloader
+{
+    public async Task<string?> DownloadImageAsync(
+        string mediaId,
+        string messageId,
+        string conversationId,
+        CancellationToken cancellationToken)
+    {
+        var tempDir = Path.Combine(Path.GetTempPath(), "IMBridge_Media");
+        Directory.CreateDirectory(tempDir);
+        var outputPath = Path.Combine(tempDir, $"{Guid.NewGuid():N}.png");
+
+        var args = new List<string>
+        {
+            "chat", "message", "download-media",
+            "--type", "mediaId",
+            "--resource-id", mediaId,
+            "--message-id", messageId,
+            "--open-conversation-id", conversationId,
+            "--output", outputPath,
+        };
+
+        logger.LogInformation("[media] 开始下载媒体文件: resource={MediaId}, msg={MsgId}", mediaId, messageId);
+
+        var result = await processRunner.RunAsync(new ProcessSpec
+        {
+            FileName = options.DwsPath,
+            Arguments = args,
+            Timeout = TimeSpan.FromSeconds(120),
+        }, cancellationToken);
+
+        if (result.ExitCode == 0 && File.Exists(outputPath))
+        {
+            logger.LogInformation("[media] 媒体下载成功 -> {Path}", outputPath);
+            return outputPath;
+        }
+
+        logger.LogWarning("[media] 下载媒体退出码 {Code}: stdout={Out}, stderr={Err}", result.ExitCode, result.StandardOutput, result.StandardError);
+        return null;
+    }
+}

@@ -1,1 +1,54 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Ib3N0aW5nOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFwcGxpY2F0aW9uOwoKLy8vIDxzdW1tYXJ5PgovLy8g5bi46am75Li75b6q546v77ya5Li65q+P5Liq5rOo5YaM55qE6YCa6YGT5ZCv5Yqo5LiA5p2h6K+75Y+W566h57q/77yIc291cmNlIC0+IGRpc3BhdGNoZXLvvInvvIwKLy8vIGRpc3BhdGNoZXIg5YaF5a6M5oiQ5a+M5YyWIC8gQWdlbnQg6Lev55SxIC8g5p2h5Lu25Zue5aSN44CC5Y2V5p2h5raI5oGv5byC5bi45Y+q6K6w5b2V5LiN5Lit5pat77yM5L+d6K+B5bi46am756iz5a6a5oCn44CCCi8vLyA8L3N1bW1hcnk+CmludGVybmFsIHNlYWxlZCBjbGFzcyBCcmlkZ2VXb3JrZXIoCiAgICBJUmVhZE9ubHlMaXN0PENoYW5uZWxCaW5kaW5nPiBjaGFubmVscywKICAgIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PiBhZ2VudHMsCiAgICBNZXNzYWdlRGlzcGF0Y2hlciBkaXNwYXRjaGVyLAogICAgSUxvZ2dlcjxCcmlkZ2VXb3JrZXI+IGxvZ2dlcikgOiBCYWNrZ3JvdW5kU2VydmljZQp7CiAgICBwcm90ZWN0ZWQgb3ZlcnJpZGUgYXN5bmMgVGFzayBFeGVjdXRlQXN5bmMoQ2FuY2VsbGF0aW9uVG9rZW4gc3RvcHBpbmdUb2tlbikKICAgIHsKICAgICAgICBsb2dnZXIuTG9nSW5mb3JtYXRpb24oIklNQnJpZGdlIOW3suWQr+WKqO+8iOmAmumBk+aVsD17Q291bnR977yJIiwgY2hhbm5lbHMuQ291bnQpOwogICAgICAgIHZhciBwdW1wcyA9IGNoYW5uZWxzLlNlbGVjdChiaW5kaW5nID0+IFB1bXBBc3luYyhiaW5kaW5nLCBzdG9wcGluZ1Rva2VuKSkuVG9BcnJheSgpOwogICAgICAgIGF3YWl0IFRhc2suV2hlbkFsbChwdW1wcyk7CiAgICB9CgogICAgcHJpdmF0ZSBhc3luYyBUYXNrIFB1bXBBc3luYyhDaGFubmVsQmluZGluZyBiaW5kaW5nLCBDYW5jZWxsYXRpb25Ub2tlbiBzdG9wcGluZ1Rva2VuKQogICAgewogICAgICAgIHRyeQogICAgICAgIHsKICAgICAgICAgICAgYXdhaXQgZm9yZWFjaCAodmFyIG1lc3NhZ2UgaW4gYmluZGluZy5Tb3VyY2UuUmVhZE1lc3NhZ2VzQXN5bmMoc3RvcHBpbmdUb2tlbikpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHRyeQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGF3YWl0IGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhtZXNzYWdlLCBiaW5kaW5nLCBhZ2VudHMsIGxvZ2dlciwgc3RvcHBpbmdUb2tlbik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCAoT3BlcmF0aW9uQ2FuY2VsZWRFeGNlcHRpb24pIHdoZW4gKHN0b3BwaW5nVG9rZW4uSXNDYW5jZWxsYXRpb25SZXF1ZXN0ZWQpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3c7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGxvZ2dlci5Mb2dFcnJvcihleCwgIumAmumBkyB7Q2hhbm5lbH0g5raI5oGvIHtFdmVudElkfSDlpITnkIblpLHotKXvvIznu6fnu63or7vlj5bkuIvkuIDmnaEiLCBiaW5kaW5nLkNoYW5uZWxJZCwgbWVzc2FnZS5FdmVudElkKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBjYXRjaCAoT3BlcmF0aW9uQ2FuY2VsZWRFeGNlcHRpb24pIHdoZW4gKHN0b3BwaW5nVG9rZW4uSXNDYW5jZWxsYXRpb25SZXF1ZXN0ZWQpCiAgICAgICAgewogICAgICAgICAgICAvLyDmraPluLjlgZzmnLrvvIzlv73nlaUKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkKICAgICAgICB7CiAgICAgICAgICAgIC8vIOWNlemAmumBk+ivu+WPluW8guW4uOS4jeaLluWeruWFtuWug+mAmumBk++8m+iusOW9leWQjueUsSBzb3VyY2Ug5YaF6YOo55qE6YeN6L+e6YC76L6R5YWc5bqV44CCCiAgICAgICAgICAgIGxvZ2dlci5Mb2dFcnJvcihleCwgIumAmumBkyB7Q2hhbm5lbH0g6K+75Y+W566h57q/5byC5bi4IiwgYmluZGluZy5DaGFubmVsSWQpOwogICAgICAgIH0KICAgIH0KfQo=
+using IMBridge.Abstractions;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Application;
+
+/// <summary>
+/// 常驻主循环：为每个注册的通道启动一条读取管线（source -> dispatcher），
+/// dispatcher 内完成富化 / Agent 路由 / 条件回复。单条消息异常只记录不中断，保证常驻稳定性。
+/// </summary>
+internal sealed class BridgeWorker(
+    IReadOnlyList<ChannelBinding> channels,
+    IReadOnlyDictionary<string, IAgentGateway> agents,
+    MessageDispatcher dispatcher,
+    ILogger<BridgeWorker> logger) : BackgroundService
+{
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        logger.LogInformation("IMBridge 已启动（通道数={Count}）", channels.Count);
+        var pumps = channels.Select(binding => PumpAsync(binding, stoppingToken)).ToArray();
+        await Task.WhenAll(pumps);
+    }
+
+    private async Task PumpAsync(ChannelBinding binding, CancellationToken stoppingToken)
+    {
+        try
+        {
+            await foreach (var message in binding.Source.ReadMessagesAsync(stoppingToken))
+            {
+                try
+                {
+                    await dispatcher.DispatchAsync(message, binding, agents, logger, stoppingToken);
+                }
+                catch (OperationCanceledException) when (stoppingToken.IsCancellationRequested)
+                {
+                    throw;
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex, "通道 {Channel} 消息 {EventId} 处理失败，继续读取下一条", binding.ChannelId, message.EventId);
+                }
+            }
+        }
+        catch (OperationCanceledException) when (stoppingToken.IsCancellationRequested)
+        {
+            // 正常停机，忽略
+        }
+        catch (Exception ex)
+        {
+            // 单通道读取异常不拖垮其它通道；记录后由 source 内部的重连逻辑兜底。
+            logger.LogError(ex, "通道 {Channel} 读取管线异常", binding.ChannelId);
+        }
+    }
+}

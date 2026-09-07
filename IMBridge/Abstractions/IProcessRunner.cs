@@ -1,1 +1,37 @@
-dXNpbmcgU3lzdGVtLlRleHQ7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwoKLy8vIDxzdW1tYXJ5PuS4gOasoeaAp++8iOaciemZkOaXtumVv++8iei/m+eoi+eahOaJp+ihjOinhOagvOOAguaJgOaciSBDTEkg6LCD55So57uf5LiA6LWw5a6D77yM6YG/5YWN5ZCE5aSE5YiG5pWj5a6e546w44CCPC9zdW1tYXJ5PgpwdWJsaWMgc2VhbGVkIHJlY29yZCBQcm9jZXNzU3BlYwp7CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIEZpbGVOYW1lIHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgcmVxdWlyZWQgSVJlYWRPbmx5TGlzdDxzdHJpbmc+IEFyZ3VtZW50cyB7IGdldDsgaW5pdDsgfQogICAgcHVibGljIHN0cmluZz8gV29ya2luZ0RpcmVjdG9yeSB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7pop3lpJbnjq/looPlj5jph4/vvIjlpoIgU0VSVkVSX19QT1JU77yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+PyBFbnZpcm9ubWVudCB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7mnIDplb/miafooYzml7bpl7TvvJvotoXov4fliJnlj5bmtojlubbmnYDmjonmlbTkuKrov5vnqIvlrZDmoJHjgILpu5jorqQgMCDooajnpLrkuI3pop3lpJbliqDotoXml7bvvIjku4Xlj5flpJbpg6jlj5bmtojnuqbmnZ/vvInjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgVGltZVNwYW4gVGltZW91dCB7IGdldDsgaW5pdDsgfQp9CgovLy8gPHN1bW1hcnk+5LiA5qyh5oCn6L+b56iL55qE5omn6KGM57uT5p6c44CCPC9zdW1tYXJ5PgpwdWJsaWMgc2VhbGVkIHJlY29yZCBQcm9jZXNzUmVzdWx0CnsKICAgIHB1YmxpYyByZXF1aXJlZCBpbnQgRXhpdENvZGUgeyBnZXQ7IGluaXQ7IH0KICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgU3RhbmRhcmRPdXRwdXQgeyBnZXQ7IGluaXQ7IH0KICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgU3RhbmRhcmRFcnJvciB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT50cnVlID0g5Zug6LaF5pe26KKr5Y+W5raI77yI5Yy65Yir5LqO5aSW6YOo5Lyg5YWl55qE5Y+W5raI77yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIHJlcXVpcmVkIGJvb2wgVGltZWRPdXQgeyBnZXQ7IGluaXQ7IH0KfQoKLy8vIDxzdW1tYXJ5PgovLy8g57uf5LiA5pyJ6ZmQ6L+b56iL5omn6KGM5o6l5Y+j77ya5bm25Y+R6K+75Y+WIHN0ZG91dC9zdGRlcnLjgIFVVEY444CB5pSv5oyB6LaF5pe25LiO5aSW6YOo5Y+W5raI44CB5Y+W5raIL+i2heaXtuadgOaOieaVtOS4qui/m+eoi+WtkOagkeOAggovLy8g5rOo5oSP77ya5bi46am75rWB5byP6L+b56iL77yI5aaCIGR3cyBldmVudCBjb25zdW1l77yJ5LiN5L2/55So5pys5o6l5Y+j77yM5pys5o6l5Y+j5Y+q6Z2i5ZCRIuaciemZkOaXtumVvyLnmoTkuIDmrKHmgKcgQ0xJIOiwg+eUqOOAggovLy8gPC9zdW1tYXJ5PgpwdWJsaWMgaW50ZXJmYWNlIElQcm9jZXNzUnVubmVyCnsKICAgIFRhc2s8UHJvY2Vzc1Jlc3VsdD4gUnVuQXN5bmMoUHJvY2Vzc1NwZWMgc3BlYywgQ2FuY2VsbGF0aW9uVG9rZW4gY2FuY2VsbGF0aW9uVG9rZW4pOwp9Cg==
+using System.Text;
+
+namespace IMBridge.Abstractions;
+
+/// <summary>一次性（有限时长）进程的执行规格。所有 CLI 调用统一走它，避免各处分散实现。</summary>
+public sealed record ProcessSpec
+{
+    public required string FileName { get; init; }
+    public required IReadOnlyList<string> Arguments { get; init; }
+    public string? WorkingDirectory { get; init; }
+
+    /// <summary>额外环境变量（如 SERVER__PORT）。</summary>
+    public IReadOnlyDictionary<string, string>? Environment { get; init; }
+
+    /// <summary>最长执行时间；超过则取消并杀掉整个进程子树。默认 0 表示不额外加超时（仅受外部取消约束）。</summary>
+    public TimeSpan Timeout { get; init; }
+}
+
+/// <summary>一次性进程的执行结果。</summary>
+public sealed record ProcessResult
+{
+    public required int ExitCode { get; init; }
+    public required string StandardOutput { get; init; }
+    public required string StandardError { get; init; }
+
+    /// <summary>true = 因超时被取消（区别于外部传入的取消）。</summary>
+    public required bool TimedOut { get; init; }
+}
+
+/// <summary>
+/// 统一有限进程执行接口：并发读取 stdout/stderr、UTF8、支持超时与外部取消、取消/超时杀掉整个进程子树。
+/// 注意：常驻流式进程（如 dws event consume）不使用本接口，本接口只面向"有限时长"的一次性 CLI 调用。
+/// </summary>
+public interface IProcessRunner
+{
+    Task<ProcessResult> RunAsync(ProcessSpec spec, CancellationToken cancellationToken);
+}

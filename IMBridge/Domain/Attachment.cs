@@ -1,1 +1,21 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkRvbWFpbjsKCi8vLyA8c3VtbWFyeT4KLy8vIOmAmueUqOmZhOS7tuWlkee6puOAgklNIOmAgumFjeWxguaKiuWbvueJhy/mlofku7bnrYnotYTmupDmj4/ov7DmiJDkuI7lhbfkvZPlubPlj7Dml6DlhbPnmoTpmYTku7bvvIwKLy8vIOWFtuS4rSBSZXNvdXJjZUlkIOaYryBJTSDlubPlj7DnmoTlqpLkvZPmoIfor4bvvIjlpoLpkonpkokgbWVkaWFJZO+8ie+8jAovLy8gQ29udGV4dCDmkLrluKbor6UgSU0g5LiL6L296LWE5rqQ5omA6ZyA55qE6aKd5aSW5LiK5LiL5paH77yI6ZSu5YC85a+577yM5bmz5Y+w55u45YWz77yM5L2GIERvbWFpbiDlj6rlvZPkuI3pgI/mmI7lrZfnrKbkuLLlpITnkIbvvInjgIIKLy8vIDwvc3VtbWFyeT4KcHVibGljIHNlYWxlZCByZWNvcmQgQXR0YWNobWVudAp7CiAgICAvLy8gPHN1bW1hcnk+6ZmE5Lu256eN57G777yM5aaCICJpbWFnZSIgLyAiZmlsZSLjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIEtpbmQgeyBnZXQ7IGluaXQ7IH0KCiAgICAvLy8gPHN1bW1hcnk+SU0g5bmz5Y+w55qE5aqS5L2T6LWE5rqQ5qCH6K+G77yI5aaC6ZKJ6ZKJIG1lZGlhSWTvvInjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIFJlc291cmNlSWQgeyBnZXQ7IGluaXQ7IH0KCiAgICAvLy8gPHN1bW1hcnk+5Y+v6YCJ55qE5Y6f5aeL5paH5Lu25ZCN44CCPC9zdW1tYXJ5PgogICAgcHVibGljIHN0cmluZz8gTmFtZSB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7kuIvovb3or6XotYTmupDmiYDpnIDnmoQgSU0g5LiT5bGe5LiK5LiL5paH77yI5LiN6YCP5piO6ZSu5YC85a+577yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+PyBDb250ZXh0IHsgZ2V0OyBpbml0OyB9Cn0K
+namespace IMBridge.Domain;
+
+/// <summary>
+/// 通用附件契约。IM 适配层把图片/文件等资源描述成与具体平台无关的附件，
+/// 其中 ResourceId 是 IM 平台的媒体标识（如钉钉 mediaId），
+/// Context 携带该 IM 下载资源所需的额外上下文（键值对，平台相关，但 Domain 只当不透明字符串处理）。
+/// </summary>
+public sealed record Attachment
+{
+    /// <summary>附件种类，如 "image" / "file"。</summary>
+    public required string Kind { get; init; }
+
+    /// <summary>IM 平台的媒体资源标识（如钉钉 mediaId）。</summary>
+    public required string ResourceId { get; init; }
+
+    /// <summary>可选的原始文件名。</summary>
+    public string? Name { get; init; }
+
+    /// <summary>下载该资源所需的 IM 专属上下文（不透明键值对）。</summary>
+    public IReadOnlyDictionary<string, string>? Context { get; init; }
+}

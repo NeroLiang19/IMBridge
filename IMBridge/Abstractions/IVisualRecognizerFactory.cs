@@ -1,1 +1,6 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCnB1YmxpYyBpbnRlcmZhY2UgSVZpc3VhbFJlY29nbml6ZXJGYWN0b3J5CnsKICAgIElWaXN1YWxSZWNvZ25pemVyIENyZWF0ZShzdHJpbmcgdmlzaW9uSWQsIFZpc2lvbkNvbmZpZyBjb25maWcpOwp9Cg==
+namespace IMBridge.Abstractions;
+
+public interface IVisualRecognizerFactory
+{
+    IVisualRecognizer Create(string visionId, VisionConfig config);
+}

@@ -1,1 +1,109 @@
-dXNpbmcgU3lzdGVtLkRpYWdub3N0aWNzOwp1c2luZyBJTUJyaWRnZS5BYnN0cmFjdGlvbnM7CnVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkR3czsKdXNpbmcgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuUHJvY2VzczsKdXNpbmcgTWljcm9zb2Z0LkV4dGVuc2lvbnMuTG9nZ2luZy5BYnN0cmFjdGlvbnM7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuVGVzdHM7CgpwdWJsaWMgc3RhdGljIGNsYXNzIFByb2Nlc3NDb250cmFjdFRlc3RzCnsKICAgIHB1YmxpYyBzdGF0aWMgYXN5bmMgVGFzayBSdW5Bc3luYygpCiAgICB7CiAgICAgICAgYXdhaXQgUnVuVW5pY29kZUFuZEV4aXRBc3luYygpOwogICAgICAgIGF3YWl0IFJ1bkVudmlyb25tZW50SXNvbGF0aW9uQXN5bmMoKTsKICAgICAgICBhd2FpdCBSdW5DYW5jZWxsYXRpb25EaXNwb3Nlc1RyZWVBc3luYygpOwogICAgICAgIGF3YWl0IER3c1JlY29ubmVjdHNBbmRTdG9wc0FzeW5jKCk7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgYXN5bmMgVGFzayBSdW5Vbmljb2RlQW5kRXhpdEFzeW5jKCkKICAgIHsKICAgICAgICB2YXIgcmVzdWx0ID0gYXdhaXQgbmV3IFByb2Nlc3NSdW5uZXIoKS5SdW5Bc3luYyhuZXcgUHJvY2Vzc1NwZWMKICAgICAgICB7CiAgICAgICAgICAgIEZpbGVOYW1lID0gInBvd2Vyc2hlbGwuZXhlIiwgQXJndW1lbnRzID0gWyItTm9Qcm9maWxlIiwgIi1Db21tYW5kIiwgIiRPdXRwdXRFbmNvZGluZz1bQ29uc29sZV06Ok91dHB1dEVuY29kaW5nPVtUZXh0LlVURjhFbmNvZGluZ106Om5ldygpOyBXcml0ZS1PdXRwdXQgJ+S9oOWlvS3mtYHlvI8nIl0sCiAgICAgICAgfSwgQ2FuY2VsbGF0aW9uVG9rZW4uTm9uZSk7CiAgICAgICAgaWYgKHJlc3VsdC5FeGl0Q29kZSAhPSAwIHx8ICFyZXN1bHQuU3RhbmRhcmRPdXRwdXQuQ29udGFpbnMoIuS9oOWlvS3mtYHlvI8iKSkKICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oIuecn+Wunui/m+eoiyBVbmljb2RlL+mAgOWHuuWlkee6puWksei0pSIpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSDnnJ/lrp7ov5vnqIsgVW5pY29kZSDkuI7pgIDlh7rnoIEiKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBhc3luYyBUYXNrIFJ1bkVudmlyb25tZW50SXNvbGF0aW9uQXN5bmMoKQogICAgewogICAgICAgIGNvbnN0IHN0cmluZyBzZW50aW5lbCA9ICJESU5HVEFMS0JSSURHRV9TRUNSRVRfU0VOVElORUwiOwogICAgICAgIHZhciBvbGQgPSBFbnZpcm9ubWVudC5HZXRFbnZpcm9ubWVudFZhcmlhYmxlKHNlbnRpbmVsKTsKICAgICAgICBFbnZpcm9ubWVudC5TZXRFbnZpcm9ubWVudFZhcmlhYmxlKHNlbnRpbmVsLCAibXVzdC1ub3QtaW5oZXJpdCIpOwogICAgICAgIHRyeQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHJlc3VsdCA9IGF3YWl0IG5ldyBQcm9jZXNzUnVubmVyKCkuUnVuQXN5bmMobmV3IFByb2Nlc3NTcGVjCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIEZpbGVOYW1lID0gInBvd2Vyc2hlbGwuZXhlIiwKICAgICAgICAgICAgICAgIEFyZ3VtZW50cyA9IFsiLU5vUHJvZmlsZSIsICItQ29tbWFuZCIsICIkZW52OkRJTkdUQUxLQlJJREdFX1NFQ1JFVF9TRU5USU5FTCArICd8JyArICRlbnY6UEFUSCArICd8JyArICRlbnY6RVhQTElDSVRfVEVTVF9WQVIiXSwKICAgICAgICAgICAgICAgIEVudmlyb25tZW50ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+IHsgWyJFWFBMSUNJVF9URVNUX1ZBUiJdID0gImV4cGxpY2l0LXZhbHVlIiB9CiAgICAgICAgICAgIH0sIENhbmNlbGxhdGlvblRva2VuLk5vbmUpOwogICAgICAgICAgICB2YXIgcGFydHMgPSByZXN1bHQuU3RhbmRhcmRPdXRwdXQuVHJpbSgpLlNwbGl0KCd8Jyk7CiAgICAgICAgICAgIGlmIChwYXJ0cy5MZW5ndGggPCAzIHx8ICFzdHJpbmcuSXNOdWxsT3JFbXB0eShwYXJ0c1swXSkgfHwgc3RyaW5nLklzTnVsbE9yRW1wdHkocGFydHNbMV0pIHx8IHBhcnRzWzJdICE9ICJleHBsaWNpdC12YWx1ZSIpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigi6L+b56iL546v5aKD57un5om/5aWR57qm5aSx6LSlIik7CiAgICAgICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSDmnIDlsI/njq/looPnu6fmib/kuI7mmL7lvI/lj5jph48iKTsKICAgICAgICB9CiAgICAgICAgZmluYWxseSB7IEVudmlyb25tZW50LlNldEVudmlyb25tZW50VmFyaWFibGUoc2VudGluZWwsIG9sZCk7IH0KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBhc3luYyBUYXNrIFJ1bkNhbmNlbGxhdGlvbkRpc3Bvc2VzVHJlZUFzeW5jKCkKICAgIHsKICAgICAgICB2YXIgcGlkRmlsZSA9IFBhdGguQ29tYmluZShQYXRoLkdldFRlbXBQYXRoKCksICQiYnJpZGdlLXBpZC17R3VpZC5OZXdHdWlkKCk6Tn0udHh0Iik7CiAgICAgICAgdmFyIHNjcmlwdCA9ICIkcD1TdGFydC1Qcm9jZXNzIHBvd2Vyc2hlbGwuZXhlICctTm9Qcm9maWxlIC1Db21tYW5kIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDMwJyAtUGFzc1RocnU7IFNldC1Db250ZW50IC1QYXRoICciICsgcGlkRmlsZS5SZXBsYWNlKCInIiwgIicnIikgKyAiJyAtVmFsdWUgKCRQSUQuVG9TdHJpbmcoKSsnLCcrJHAuSWQuVG9TdHJpbmcoKSk7IFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDMwIjsKICAgICAgICB2YXIgc2Vzc2lvbiA9IG5ldyBQcm9jZXNzUnVubmVyKCkuU3RhcnRTdHJlYW1pbmcobmV3IFByb2Nlc3NTcGVjCiAgICAgICAgewogICAgICAgICAgICBGaWxlTmFtZSA9ICJwb3dlcnNoZWxsLmV4ZSIsIEFyZ3VtZW50cyA9IFsiLU5vUHJvZmlsZSIsICItQ29tbWFuZCIsIHNjcmlwdF0sCiAgICAgICAgfSk7CiAgICAgICAgd2hpbGUgKCFGaWxlLkV4aXN0cyhwaWRGaWxlKSkgYXdhaXQgVGFzay5EZWxheSgyMCk7CiAgICAgICAgdXNpbmcgdmFyIGN0cyA9IG5ldyBDYW5jZWxsYXRpb25Ub2tlblNvdXJjZShUaW1lU3Bhbi5Gcm9tTWlsbGlzZWNvbmRzKDEwMCkpOwogICAgICAgIHRyeSB7IGF3YWl0IHNlc3Npb24uV2FpdEZvckV4aXRBc3luYyhjdHMuVG9rZW4pOyB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigi5Y+W5raI5pyq6Kem5Y+RIik7IH0KICAgICAgICBjYXRjaCAoT3BlcmF0aW9uQ2FuY2VsZWRFeGNlcHRpb24pIHsgfQogICAgICAgIGF3YWl0IHNlc3Npb24uRGlzcG9zZUFzeW5jKCk7CiAgICAgICAgYXdhaXQgc2Vzc2lvbi5EaXNwb3NlQXN5bmMoKTsKICAgICAgICB2YXIgcGlkcyA9IChhd2FpdCBGaWxlLlJlYWRBbGxUZXh0QXN5bmMocGlkRmlsZSkpLlNwbGl0KCcsJykuU2VsZWN0KGludC5QYXJzZSkuVG9BcnJheSgpOwogICAgICAgIGlmIChwaWRzLkFueShwaWQgPT4gUHJvY2Vzcy5HZXRQcm9jZXNzZXMoKS5BbnkocCA9PiBwLklkID09IHBpZCkpKQogICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigiRGlzcG9zZSDlkI7ov5vnqIvmoJHku43lrZjmtLsiKTsKICAgICAgICBGaWxlLkRlbGV0ZShwaWRGaWxlKTsKICAgICAgICBDb25zb2xlLldyaXRlTGluZSgiICBbUEFTU10g5Y+W5raI5LiOIERpc3Bvc2Ug5Zue5pS26L+b56iL5qCRIik7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgYXN5bmMgVGFzayBEd3NSZWNvbm5lY3RzQW5kU3RvcHNBc3luYygpCiAgICB7CiAgICAgICAgdmFyIHJ1bm5lciA9IG5ldyBGYWtlU3RyZWFtaW5nUnVubmVyKCk7CiAgICAgICAgdmFyIHNvdXJjZSA9IG5ldyBEd3NNZXNzYWdlU291cmNlKCJkd3MiLCAidGVzdCIsIFsiZXZlbnQiXSwgcnVubmVyLCBOdWxsTG9nZ2VyPER3c01lc3NhZ2VTb3VyY2U+Lkluc3RhbmNlKTsKICAgICAgICB1c2luZyB2YXIgY3RzID0gbmV3IENhbmNlbGxhdGlvblRva2VuU291cmNlKFRpbWVTcGFuLkZyb21NaWxsaXNlY29uZHMoMTIwMCkpOwogICAgICAgIHRyeQogICAgICAgIHsKICAgICAgICAgICAgYXdhaXQgZm9yZWFjaCAodmFyIF8gaW4gc291cmNlLlJlYWRNZXNzYWdlc0FzeW5jKGN0cy5Ub2tlbikpIHsgfQogICAgICAgIH0KICAgICAgICBjYXRjaCAoT3BlcmF0aW9uQ2FuY2VsZWRFeGNlcHRpb24pIHdoZW4gKGN0cy5Jc0NhbmNlbGxhdGlvblJlcXVlc3RlZCkgeyB9CiAgICAgICAgaWYgKHJ1bm5lci5TdGFydHMgPCAyIHx8IHJ1bm5lci5EaXNwb3NhbHMgPCAxKQogICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigiRHdzIOW8guW4uOmAgOWHuuacqumHjei/nuaIluS8muivneacqumHiuaUviIpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSBEd3Mg5byC5bi46YCA5Ye66YeN6L+e5LiO5Y+W5raI5YGc5q2iIik7CiAgICB9CgogICAgcHJpdmF0ZSBzZWFsZWQgY2xhc3MgRmFrZVN0cmVhbWluZ1J1bm5lciA6IElTdHJlYW1pbmdQcm9jZXNzUnVubmVyCiAgICB7CiAgICAgICAgcHVibGljIGludCBTdGFydHM7CiAgICAgICAgcHVibGljIGludCBEaXNwb3NhbHM7CiAgICAgICAgcHVibGljIElTdHJlYW1pbmdQcm9jZXNzU2Vzc2lvbiBTdGFydFN0cmVhbWluZyhQcm9jZXNzU3BlYyBzcGVjKQogICAgICAgIHsKICAgICAgICAgICAgU3RhcnRzKys7CiAgICAgICAgICAgIGlmIChTdGFydHMgPT0gMSkgdGhyb3cgbmV3IElPRXhjZXB0aW9uKCLmqKHmi5/lkK/liqjlpLHotKUiKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBGYWtlU2Vzc2lvbigoKSA9PiBEaXNwb3NhbHMrKyk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc2VhbGVkIGNsYXNzIEZha2VTZXNzaW9uKEFjdGlvbiBkaXNwb3NlZCkgOiBJU3RyZWFtaW5nUHJvY2Vzc1Nlc3Npb24KICAgIHsKICAgICAgICBwcml2YXRlIHJlYWRvbmx5IFN0cmluZ1JlYWRlciBfc3Rkb3V0ID0gbmV3KCLnirbmgIHooYxcbiIpOwogICAgICAgIHByaXZhdGUgcmVhZG9ubHkgU3RyaW5nUmVhZGVyIF9zdGRlcnIgPSBuZXcoInN0ZGVyclxuIik7CiAgICAgICAgcHVibGljIFRleHRSZWFkZXIgU3RhbmRhcmRPdXRwdXQgPT4gX3N0ZG91dDsKICAgICAgICBwdWJsaWMgVGV4dFJlYWRlciBTdGFuZGFyZEVycm9yID0+IF9zdGRlcnI7CiAgICAgICAgcHVibGljIGludCBFeGl0Q29kZSA9PiAxOwogICAgICAgIHB1YmxpYyBUYXNrIFdhaXRGb3JFeGl0QXN5bmMoQ2FuY2VsbGF0aW9uVG9rZW4gY2FuY2VsbGF0aW9uVG9rZW4gPSBkZWZhdWx0KSA9PiBUYXNrLkNvbXBsZXRlZFRhc2s7CiAgICAgICAgcHVibGljIFZhbHVlVGFzayBEaXNwb3NlQXN5bmMoKSB7IGRpc3Bvc2VkKCk7IHJldHVybiBWYWx1ZVRhc2suQ29tcGxldGVkVGFzazsgfQogICAgfQp9Cg==
+using System.Diagnostics;
+using IMBridge.Abstractions;
+using IMBridge.Infrastructure.Dws;
+using IMBridge.Infrastructure.Process;
+using Microsoft.Extensions.Logging.Abstractions;
+
+namespace IMBridge.Tests;
+
+public static class ProcessContractTests
+{
+    public static async Task RunAsync()
+    {
+        await RunUnicodeAndExitAsync();
+        await RunEnvironmentIsolationAsync();
+        await RunCancellationDisposesTreeAsync();
+        await DwsReconnectsAndStopsAsync();
+    }
+
+    private static async Task RunUnicodeAndExitAsync()
+    {
+        var result = await new ProcessRunner().RunAsync(new ProcessSpec
+        {
+            FileName = "powershell.exe", Arguments = ["-NoProfile", "-Command", "$OutputEncoding=[Console]::OutputEncoding=[Text.UTF8Encoding]::new(); Write-Output '你好-流式'"],
+        }, CancellationToken.None);
+        if (result.ExitCode != 0 || !result.StandardOutput.Contains("你好-流式"))
+            throw new InvalidOperationException("真实进程 Unicode/退出契约失败");
+        Console.WriteLine("  [PASS] 真实进程 Unicode 与退出码");
+    }
+
+    private static async Task RunEnvironmentIsolationAsync()
+    {
+        const string sentinel = "DINGTALKBRIDGE_SECRET_SENTINEL";
+        var old = Environment.GetEnvironmentVariable(sentinel);
+        Environment.SetEnvironmentVariable(sentinel, "must-not-inherit");
+        try
+        {
+            var result = await new ProcessRunner().RunAsync(new ProcessSpec
+            {
+                FileName = "powershell.exe",
+                Arguments = ["-NoProfile", "-Command", "$env:DINGTALKBRIDGE_SECRET_SENTINEL + '|' + $env:PATH + '|' + $env:EXPLICIT_TEST_VAR"],
+                Environment = new Dictionary<string, string> { ["EXPLICIT_TEST_VAR"] = "explicit-value" }
+            }, CancellationToken.None);
+            var parts = result.StandardOutput.Trim().Split('|');
+            if (parts.Length < 3 || !string.IsNullOrEmpty(parts[0]) || string.IsNullOrEmpty(parts[1]) || parts[2] != "explicit-value")
+                throw new InvalidOperationException("进程环境继承契约失败");
+            Console.WriteLine("  [PASS] 最小环境继承与显式变量");
+        }
+        finally { Environment.SetEnvironmentVariable(sentinel, old); }
+    }
+
+    private static async Task RunCancellationDisposesTreeAsync()
+    {
+        var pidFile = Path.Combine(Path.GetTempPath(), $"bridge-pid-{Guid.NewGuid():N}.txt");
+        var script = "$p=Start-Process powershell.exe '-NoProfile -Command Start-Sleep -Seconds 30' -PassThru; Set-Content -Path '" + pidFile.Replace("'", "''") + "' -Value ($PID.ToString()+','+$p.Id.ToString()); Start-Sleep -Seconds 30";
+        var session = new ProcessRunner().StartStreaming(new ProcessSpec
+        {
+            FileName = "powershell.exe", Arguments = ["-NoProfile", "-Command", script],
+        });
+        while (!File.Exists(pidFile)) await Task.Delay(20);
+        using var cts = new CancellationTokenSource(TimeSpan.FromMilliseconds(100));
+        try { await session.WaitForExitAsync(cts.Token); throw new InvalidOperationException("取消未触发"); }
+        catch (OperationCanceledException) { }
+        await session.DisposeAsync();
+        await session.DisposeAsync();
+        var pids = (await File.ReadAllTextAsync(pidFile)).Split(',').Select(int.Parse).ToArray();
+        if (pids.Any(pid => Process.GetProcesses().Any(p => p.Id == pid)))
+            throw new InvalidOperationException("Dispose 后进程树仍存活");
+        File.Delete(pidFile);
+        Console.WriteLine("  [PASS] 取消与 Dispose 回收进程树");
+    }
+
+    private static async Task DwsReconnectsAndStopsAsync()
+    {
+        var runner = new FakeStreamingRunner();
+        var source = new DwsMessageSource("dws", "test", ["event"], runner, NullLogger<DwsMessageSource>.Instance);
+        using var cts = new CancellationTokenSource(TimeSpan.FromMilliseconds(1200));
+        try
+        {
+            await foreach (var _ in source.ReadMessagesAsync(cts.Token)) { }
+        }
+        catch (OperationCanceledException) when (cts.IsCancellationRequested) { }
+        if (runner.Starts < 2 || runner.Disposals < 1)
+            throw new InvalidOperationException("Dws 异常退出未重连或会话未释放");
+        Console.WriteLine("  [PASS] Dws 异常退出重连与取消停止");
+    }
+
+    private sealed class FakeStreamingRunner : IStreamingProcessRunner
+    {
+        public int Starts;
+        public int Disposals;
+        public IStreamingProcessSession StartStreaming(ProcessSpec spec)
+        {
+            Starts++;
+            if (Starts == 1) throw new IOException("模拟启动失败");
+            return new FakeSession(() => Disposals++);
+        }
+    }
+
+    private sealed class FakeSession(Action disposed) : IStreamingProcessSession
+    {
+        private readonly StringReader _stdout = new("状态行\n");
+        private readonly StringReader _stderr = new("stderr\n");
+        public TextReader StandardOutput => _stdout;
+        public TextReader StandardError => _stderr;
+        public int ExitCode => 1;
+        public Task WaitForExitAsync(CancellationToken cancellationToken = default) => Task.CompletedTask;
+        public ValueTask DisposeAsync() { disposed(); return ValueTask.CompletedTask; }
+    }
+}

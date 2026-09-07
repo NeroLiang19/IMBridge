@@ -1,1 +1,122 @@
-dXNpbmcgU3lzdGVtLlRleHQuUmVndWxhckV4cHJlc3Npb25zOwp1c2luZyBJTUJyaWRnZS5BYnN0cmFjdGlvbnM7CnVzaW5nIElNQnJpZGdlLkRvbWFpbjsKdXNpbmcgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuQ29uZmlndXJhdGlvbjsKdXNpbmcgTWljcm9zb2Z0LkV4dGVuc2lvbnMuQ29uZmlndXJhdGlvbjsKCm5hbWVzcGFjZSBJTUJyaWRnZS5UZXN0czsKCmludGVybmFsIHN0YXRpYyBjbGFzcyBBcmNoaXRlY3R1cmVDb250cmFjdFRlc3RzCnsKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBSdW4oKQogICAgewogICAgICAgIENvbmZpZ3VyYXRpb25Jbmhlcml0YW5jZSgpOwogICAgICAgIHZhciBwcm9qZWN0ID0gTG9jYXRlUHJvamVjdCgpOwogICAgICAgIGZvcmVhY2ggKHZhciBsYXllciBpbiBuZXdbXSB7ICJEb21haW4iLCAiQXBwbGljYXRpb24iLCAiQWJzdHJhY3Rpb25zIiB9KQogICAgICAgIHsKICAgICAgICAgICAgZm9yZWFjaCAodmFyIGZpbGUgaW4gRGlyZWN0b3J5LkVudW1lcmF0ZUZpbGVzKFBhdGguQ29tYmluZShwcm9qZWN0LCBsYXllciksICIqLmNzIiwgU2VhcmNoT3B0aW9uLkFsbERpcmVjdG9yaWVzKSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdmFyIGNvZGUgPSBTdHJpcENvbW1lbnRzKEZpbGUuUmVhZEFsbFRleHQoZmlsZSkpOwogICAgICAgICAgICAgICAgaWYgKGNvZGUuQ29udGFpbnMoInVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlIiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsKSB8fAogICAgICAgICAgICAgICAgICAgIGNvZGUuQ29udGFpbnMoIlN5c3RlbS5EaWFnbm9zdGljcy5Qcm9jZXNzIiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsKSB8fAogICAgICAgICAgICAgICAgICAgIGNvZGUuQ29udGFpbnMoInVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkNvbmZpZ3VyYXRpb24iLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWwpKQogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKCQi5YaF5bGC5Y+N5ZCR5L6d6LWW5Z+656GA6K6+5pa9OiB7ZmlsZX0iKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBDb25zb2xlLldyaXRlTGluZSgiICBbUEFTU10gRG9tYWluL0FwcGxpY2F0aW9uL0Fic3RyYWN0aW9ucyDml6Dln7rnoYDorr7mlr3kuI7phY3nva7or7vlj5bkvp3otZYiKTsKCiAgICAgICAgQXNzZXJ0UHJvcGVydGllcyh0eXBlb2YoQWdlbnRDb25maWcpLCAiVHlwZSIsICJPcHRpb25zIik7CiAgICAgICAgQXNzZXJ0UHJvcGVydGllcyh0eXBlb2YoQ2hhbm5lbENvbmZpZyksICJUeXBlIiwgIkFnZW50IiwgIlZpc2lvbiIsICJPcHRpb25zIik7CiAgICAgICAgdmFyIGVucmljaGVyID0gdHlwZW9mKElDaGFubmVsQWRhcHRlckZhY3RvcnkpLkdldE1ldGhvZCgiQ3JlYXRlRW5yaWNoZXIiKSE7CiAgICAgICAgaWYgKGVucmljaGVyLkdldFBhcmFtZXRlcnMoKS5BbnkocCA9PiBwLlBhcmFtZXRlclR5cGUgPT0gdHlwZW9mKEFnZW50Q29uZmlnKSkpCiAgICAgICAgICAgIHRocm93IG5ldyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKCJJTSDlt6XljoLku43kvp3otZYgQWdlbnQg6YWN572uIik7CiAgICAgICAgaWYgKHR5cGVvZihJUHJvY2Vzc1J1bm5lcikuR2V0TWV0aG9kcygpLkFueShtID0+IG0uTmFtZSAhPSAiUnVuQXN5bmMiKSkKICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oIuaciemZkOi/m+eoi+err+WPo+a3t+WFpea1geW8j+i/m+eoi+iBjOi0oyIpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCIgIFtQQVNTXSDpgJrnlKjphY3nva7kuI3lkKvljoLllYblrZfmrrXvvJtJTeW3peWOguS4juaciemZkOi/m+eoi+aOpeWPo+malOemuyIpOwoKICAgICAgICBmb3JlYWNoICh2YXIgZmlsZSBpbiBEaXJlY3RvcnkuRW51bWVyYXRlRmlsZXMoUGF0aC5Db21iaW5lKHByb2plY3QsICJJbmZyYXN0cnVjdHVyZSIsICJEd3MiKSwgIiouY3MiLCBTZWFyY2hPcHRpb24uQWxsRGlyZWN0b3JpZXMpKQogICAgICAgIHsKICAgICAgICAgICAgdmFyIGNvZGUgPSBTdHJpcENvbW1lbnRzKEZpbGUuUmVhZEFsbFRleHQoZmlsZSkpOwogICAgICAgICAgICBpZiAoY29kZS5Db250YWlucygibmV3IEdlbWluaVZpc3VhbFJlY29nbml6ZXIiLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWwpIHx8CiAgICAgICAgICAgICAgICBjb2RlLkNvbnRhaW5zKCJ1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Xb3JrQnVkZHkiLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWwpIHx8CiAgICAgICAgICAgICAgICBjb2RlLkNvbnRhaW5zKCJBZ2VudENvbmZpZyIsIFN0cmluZ0NvbXBhcmlzb24uT3JkaW5hbCkpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigkIklNIOmAgumFjeWZqOi2iueVjOS6huinoyBBZ2VudCDlrp7njrA6IHtmaWxlfSIpOwogICAgICAgIH0KICAgICAgICBDb25zb2xlLldyaXRlTGluZSgiICBbUEFTU10g6ZKJ6ZKJ6YCC6YWN5Zmo5LiN5p6E6YCg5oiW5L6d6LWWIFdvcmtCdWRkeSDop4bop4nlrp7njrAiKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIENvbmZpZ3VyYXRpb25Jbmhlcml0YW5jZSgpCiAgICB7CiAgICAgICAgdmFyIHZhbHVlcyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPz4KICAgICAgICB7CiAgICAgICAgICAgIFsiQnJpZGdlOkR3c1BhdGgiXSA9ICJyb290LWR3cyIsCiAgICAgICAgICAgIFsiQnJpZGdlOkRyeVJ1biJdID0gImZhbHNlIiwKICAgICAgICAgICAgWyJCcmlkZ2U6RXZlbnRLZXlzOjAiXSA9ICJyb290LWV2ZW50LTAiLAogICAgICAgICAgICBbIkJyaWRnZTpFdmVudEtleXM6MSJdID0gInJvb3QtZXZlbnQtMSIsCiAgICAgICAgICAgIFsiQnJpZGdlOkNoYW5uZWxzOm93bjpUeXBlIl0gPSAiRGluZ1RhbGsiLAogICAgICAgICAgICBbIkJyaWRnZTpDaGFubmVsczpvd246RHdzUGF0aCJdID0gImNoYW5uZWwtZHdzIiwKICAgICAgICAgICAgWyJCcmlkZ2U6Q2hhbm5lbHM6b3duOkRyeVJ1biJdID0gInRydWUiLAogICAgICAgICAgICBbIkJyaWRnZTpDaGFubmVsczpvd246RXZlbnRLZXlzOjAiXSA9ICJjaGFubmVsLWV2ZW50IiwKICAgICAgICAgICAgWyJCcmlkZ2U6Q2hhbm5lbHM6aW5oZXJpdGVkOlR5cGUiXSA9ICJkaW5ndGFsayIsCiAgICAgICAgICAgIFsiQnJpZGdlOkNoYW5uZWxzOm90aGVyOlR5cGUiXSA9ICJvdGhlciIsCiAgICAgICAgfTsKICAgICAgICB2YXIgb3B0aW9ucyA9IEJyaWRnZUNvbmZpZ3VyYXRpb24uTG9hZChuZXcgQ29uZmlndXJhdGlvbkJ1aWxkZXIoKS5BZGRJbk1lbW9yeUNvbGxlY3Rpb24odmFsdWVzKS5CdWlsZCgpKTsKICAgICAgICB2YXIgb3duID0gb3B0aW9ucy5DaGFubmVsc1sib3duIl0uT3B0aW9uczsKICAgICAgICBSZXF1aXJlKG93blsiRHdzUGF0aCJdID09ICJjaGFubmVsLWR3cyIgJiYgb3duWyJEcnlSdW4iXSA9PSAidHJ1ZSIsICJFeHBsaWNpdCBjaGFubmVsIG9wdGlvbnMgbXVzdCBvdmVycmlkZSBsZWdhY3kgZGVmYXVsdHMiKTsKICAgICAgICBSZXF1aXJlKG93blsiRXZlbnRLZXlzOjAiXSA9PSAiY2hhbm5lbC1ldmVudCIgJiYgIW93bi5Db250YWluc0tleSgiRXZlbnRLZXlzOjEiKSwgIkNoYW5uZWwgZXZlbnQgbGlzdHMgbXVzdCByZXBsYWNlIHJhdGhlciB0aGFuIG1lcmdlIHJvb3QgbGlzdHMiKTsKICAgICAgICB2YXIgaW5oZXJpdGVkID0gb3B0aW9ucy5DaGFubmVsc1siaW5oZXJpdGVkIl0uT3B0aW9uczsKICAgICAgICBSZXF1aXJlKGluaGVyaXRlZFsiRHdzUGF0aCJdID09ICJyb290LWR3cyIgJiYgaW5oZXJpdGVkWyJEcnlSdW4iXSA9PSAiZmFsc2UiLCAiTWlzc2luZyBjaGFubmVsIG9wdGlvbnMgbXVzdCBpbmhlcml0IGxlZ2FjeSBkZWZhdWx0cyIpOwogICAgICAgIFJlcXVpcmUoaW5oZXJpdGVkLlRyeUdldFZhbHVlKCJFdmVudEtleXM6MCIsIG91dCB2YXIgZmlyc3QpICYmIGZpcnN0ID09ICJyb290LWV2ZW50LTAiICYmIGluaGVyaXRlZFsiRXZlbnRLZXlzOjEiXSA9PSAicm9vdC1ldmVudC0xIiwgIk1pc3NpbmcgZXZlbnQgbGlzdCBtdXN0IGluaGVyaXQgcm9vdCBldmVudHMiKTsKICAgICAgICB2YXIgb3RoZXIgPSBvcHRpb25zLkNoYW5uZWxzWyJvdGhlciJdLk9wdGlvbnM7CiAgICAgICAgUmVxdWlyZSghb3RoZXIuQ29udGFpbnNLZXkoIkR3c1BhdGgiKSAmJiAhb3RoZXIuQ29udGFpbnNLZXkoIkRyeVJ1biIpICYmICFvdGhlci5LZXlzLkFueShrID0+IGsuU3RhcnRzV2l0aCgiRXZlbnRLZXlzOiIsIFN0cmluZ0NvbXBhcmlzb24uT3JkaW5hbElnbm9yZUNhc2UpKSwgIkxlZ2FjeSBkZWZhdWx0cyBtdXN0IG5vdCBsZWFrIGludG8gdW5yZWxhdGVkIGFkYXB0ZXJzIik7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoIiAgW1BBU1NdIENoYW5uZWwgb3ZlcnJpZGVzLCBsZWdhY3kgZGVmYXVsdHMgYW5kIGFkYXB0ZXIgaXNvbGF0aW9uIik7CgogICAgICAgIHZhciBsZWdhY3kgPSBCcmlkZ2VDb25maWd1cmF0aW9uLkxvYWQobmV3IENvbmZpZ3VyYXRpb25CdWlsZGVyKCkuQWRkSW5NZW1vcnlDb2xsZWN0aW9uKG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPz4KICAgICAgICB7CiAgICAgICAgICAgIFsiQnJpZGdlOkR3c1BhdGgiXSA9ICJsZWdhY3ktZHdzIiwKICAgICAgICAgICAgWyJCcmlkZ2U6RHJ5UnVuIl0gPSAiZmFsc2UiLAogICAgICAgICAgICBbIkJyaWRnZTpFdmVudEtleXM6MCJdID0gImxlZ2FjeS1ldmVudCIsCiAgICAgICAgICAgIFsiQnJpZGdlOk93bmVyTmFtZSJdID0gIm93bmVyIiwKICAgICAgICAgICAgWyJCcmlkZ2U6TWF4Q29uY3VycmVudFRhc2tzIl0gPSAiNyIsCiAgICAgICAgICAgIFsiQnJpZGdlOldvcmtCdWRkeTpNb2RlbCJdID0gImxlZ2FjeS1tb2RlbCIsCiAgICAgICAgICAgIFsiQnJpZGdlOlZpc2lvbnM6dmlzaW9uOlR5cGUiXSA9ICJ3b3JrYnVkZHkiLAogICAgICAgICAgICBbIkJyaWRnZTpWaXNpb25zOnZpc2lvbjpUb2tlbiJdID0gInRlc3Qtb25seS12YWx1ZSIsCiAgICAgICAgfSkuQnVpbGQoKSk7CiAgICAgICAgdmFyIG1pZ3JhdGVkID0gbGVnYWN5LkNoYW5uZWxzWyJkaW5ndGFsayJdLk9wdGlvbnM7CiAgICAgICAgUmVxdWlyZShtaWdyYXRlZC5LZXlzLlRvSGFzaFNldChTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSkuU2V0RXF1YWxzKG5ld1tdIHsgIkR3c1BhdGgiLCAiRHJ5UnVuIiwgIkV2ZW50S2V5czowIiB9KSwgIkxlZ2FjeSBtaWdyYXRpb24gbXVzdCBjb3B5IG9ubHkgRGluZ1RhbGsgb3B0aW9ucyIpOwogICAgICAgIFJlcXVpcmUobWlncmF0ZWRbIkR3c1BhdGgiXSA9PSAibGVnYWN5LWR3cyIgJiYgbWlncmF0ZWRbIkRyeVJ1biJdID09ICJmYWxzZSIgJiYgbWlncmF0ZWRbIkV2ZW50S2V5czowIl0gPT0gImxlZ2FjeS1ldmVudCIsICJMZWdhY3kgbWlncmF0aW9uIG11c3QgcHJlc2VydmUgb3B0aW9uIHZhbHVlcyIpOwogICAgICAgIFJlcXVpcmUobGVnYWN5LkFnZW50c1sid29ya2J1ZGR5Il0uT3B0aW9uc1siTW9kZWwiXSA9PSAibGVnYWN5LW1vZGVsIiAmJiBsZWdhY3kuQWdlbnRzWyJ3b3JrYnVkZHkiXS5PcHRpb25zWyJPd25lck5hbWUiXSA9PSAib3duZXIiLCAiTGVnYWN5IGFnZW50IG1pZ3JhdGlvbiBtdXN0IHJlbWFpbiBpbnRhY3QiKTsKICAgICAgICBSZXF1aXJlKGxlZ2FjeS5NYXhDb25jdXJyZW50VGFza3MgPT0gNyAmJiAhbGVnYWN5LkRyeVJ1biAmJiBsZWdhY3kuVmlzaW9ucy5Db250YWluc0tleSgidmlzaW9uIiksICJTaGFyZWQgY29uZmlndXJhdGlvbiBtdXN0IHJlbWFpbiBpbnRhY3QiKTsKICAgICAgICB2YXIgZW1wdHkgPSBCcmlkZ2VDb25maWd1cmF0aW9uLkxvYWQobmV3IENvbmZpZ3VyYXRpb25CdWlsZGVyKCkuQnVpbGQoKSk7CiAgICAgICAgUmVxdWlyZShlbXB0eS5EcnlSdW4gJiYgZW1wdHkuQ2hhbm5lbHNbImRpbmd0YWxrIl0uT3B0aW9ucy5Db3VudCA9PSAwLCAiRW1wdHkgY29uZmlndXJhdGlvbiBtdXN0IHByZXNlcnZlIHNhZmUgZGVmYXVsdHMiKTsKICAgICAgICBDb25zb2xlLldyaXRlTGluZSgiICBbUEFTU10gTGVnYWN5IG1pZ3JhdGlvbiB3aGl0ZWxpc3QgYW5kIHNhZmUgZGVmYXVsdHMiKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIFJlcXVpcmUoYm9vbCBjb25kaXRpb24sIHN0cmluZyBtZXNzYWdlKQogICAgewogICAgICAgIGlmICghY29uZGl0aW9uKSB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbihtZXNzYWdlKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBzdHJpbmcgU3RyaXBDb21tZW50cyhzdHJpbmcgY29kZSkKICAgIHsKICAgICAgICBjb2RlID0gUmVnZXguUmVwbGFjZShjb2RlLCBAIi9cXCpbXFxzXFxTXSo/XFwqLyIsICIiLCBSZWdleE9wdGlvbnMuQ3VsdHVyZUludmFyaWFudCk7CiAgICAgICAgY29kZSA9IFJlZ2V4LlJlcGxhY2UoY29kZSwgQCIvL1teXFxyXFxuXSoiLCAiIiwgUmVnZXhPcHRpb25zLkN1bHR1cmVJbnZhcmlhbnQpOwogICAgICAgIHJldHVybiBjb2RlOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIHZvaWQgQXNzZXJ0UHJvcGVydGllcyhUeXBlIHR5cGUsIHBhcmFtcyBzdHJpbmdbXSBleHBlY3RlZCkKICAgIHsKICAgICAgICBpZiAoIXR5cGUuR2V0UHJvcGVydGllcygpLlNlbGVjdChwID0+IHAuTmFtZSkuVG9IYXNoU2V0KCkuU2V0RXF1YWxzKGV4cGVjdGVkKSkKICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oJCJ7dHlwZS5OYW1lfSDlh7rnjrDmnKrnuqblrprnmoTpgJrnlKjphY3nva7lrZfmrrUiKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBzdHJpbmcgTG9jYXRlUHJvamVjdCgpCiAgICB7CiAgICAgICAgZm9yICh2YXIgZGlyID0gbmV3IERpcmVjdG9yeUluZm8oQXBwQ29udGV4dC5CYXNlRGlyZWN0b3J5KTsgZGlyIGlzIG5vdCBudWxsOyBkaXIgPSBkaXIuUGFyZW50KQogICAgICAgIHsKICAgICAgICAgICAgdmFyIHByb2plY3QgPSBQYXRoLkNvbWJpbmUoZGlyLkZ1bGxOYW1lLCAiSU1CcmlkZ2UiKTsKICAgICAgICAgICAgaWYgKEZpbGUuRXhpc3RzKFBhdGguQ29tYmluZShwcm9qZWN0LCAiSU1CcmlkZ2UuY3Nwcm9qIikpKSByZXR1cm4gcHJvamVjdDsKICAgICAgICB9CiAgICAgICAgdGhyb3cgbmV3IERpcmVjdG9yeU5vdEZvdW5kRXhjZXB0aW9uKCLmnrbmnoTmupDnoIHnuqbmnZ/mtYvor5XpnIDlnKjljIXlkKsgSU1CcmlkZ2Ug5rqQ56CB55qE5bel5L2c5Yy66L+Q6KGMIik7CiAgICB9Cn0K
+using System.Text.RegularExpressions;
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using IMBridge.Infrastructure.Configuration;
+using Microsoft.Extensions.Configuration;
+
+namespace IMBridge.Tests;
+
+internal static class ArchitectureContractTests
+{
+    public static void Run()
+    {
+        ConfigurationInheritance();
+        var project = LocateProject();
+        foreach (var layer in new[] { "Domain", "Application", "Abstractions" })
+        {
+            foreach (var file in Directory.EnumerateFiles(Path.Combine(project, layer), "*.cs", SearchOption.AllDirectories))
+            {
+                var code = StripComments(File.ReadAllText(file));
+                if (code.Contains("using IMBridge.Infrastructure", StringComparison.Ordinal) ||
+                    code.Contains("System.Diagnostics.Process", StringComparison.Ordinal) ||
+                    code.Contains("using Microsoft.Extensions.Configuration", StringComparison.Ordinal))
+                    throw new InvalidOperationException($"内层反向依赖基础设施: {file}");
+            }
+        }
+        Console.WriteLine("  [PASS] Domain/Application/Abstractions 无基础设施与配置读取依赖");
+
+        AssertProperties(typeof(AgentConfig), "Type", "Options");
+        AssertProperties(typeof(ChannelConfig), "Type", "Agent", "Vision", "Options");
+        var enricher = typeof(IChannelAdapterFactory).GetMethod("CreateEnricher")!;
+        if (enricher.GetParameters().Any(p => p.ParameterType == typeof(AgentConfig)))
+            throw new InvalidOperationException("IM 工厂仍依赖 Agent 配置");
+        if (typeof(IProcessRunner).GetMethods().Any(m => m.Name != "RunAsync"))
+            throw new InvalidOperationException("有限进程端口混入流式进程职责");
+        Console.WriteLine("  [PASS] 通用配置不含厂商字段；IM工厂与有限进程接口隔离");
+
+        foreach (var file in Directory.EnumerateFiles(Path.Combine(project, "Infrastructure", "Dws"), "*.cs", SearchOption.AllDirectories))
+        {
+            var code = StripComments(File.ReadAllText(file));
+            if (code.Contains("new GeminiVisualRecognizer", StringComparison.Ordinal) ||
+                code.Contains("using IMBridge.Infrastructure.WorkBuddy", StringComparison.Ordinal) ||
+                code.Contains("AgentConfig", StringComparison.Ordinal))
+                throw new InvalidOperationException($"IM 适配器越界了解 Agent 实现: {file}");
+        }
+        Console.WriteLine("  [PASS] 钉钉适配器不构造或依赖 WorkBuddy 视觉实现");
+    }
+
+    private static void ConfigurationInheritance()
+    {
+        var values = new Dictionary<string, string?>
+        {
+            ["Bridge:DwsPath"] = "root-dws",
+            ["Bridge:DryRun"] = "false",
+            ["Bridge:EventKeys:0"] = "root-event-0",
+            ["Bridge:EventKeys:1"] = "root-event-1",
+            ["Bridge:Channels:own:Type"] = "DingTalk",
+            ["Bridge:Channels:own:DwsPath"] = "channel-dws",
+            ["Bridge:Channels:own:DryRun"] = "true",
+            ["Bridge:Channels:own:EventKeys:0"] = "channel-event",
+            ["Bridge:Channels:inherited:Type"] = "dingtalk",
+            ["Bridge:Channels:other:Type"] = "other",
+        };
+        var options = BridgeConfiguration.Load(new ConfigurationBuilder().AddInMemoryCollection(values).Build());
+        var own = options.Channels["own"].Options;
+        Require(own["DwsPath"] == "channel-dws" && own["DryRun"] == "true", "Explicit channel options must override legacy defaults");
+        Require(own["EventKeys:0"] == "channel-event" && !own.ContainsKey("EventKeys:1"), "Channel event lists must replace rather than merge root lists");
+        var inherited = options.Channels["inherited"].Options;
+        Require(inherited["DwsPath"] == "root-dws" && inherited["DryRun"] == "false", "Missing channel options must inherit legacy defaults");
+        Require(inherited.TryGetValue("EventKeys:0", out var first) && first == "root-event-0" && inherited["EventKeys:1"] == "root-event-1", "Missing event list must inherit root events");
+        var other = options.Channels["other"].Options;
+        Require(!other.ContainsKey("DwsPath") && !other.ContainsKey("DryRun") && !other.Keys.Any(k => k.StartsWith("EventKeys:", StringComparison.OrdinalIgnoreCase)), "Legacy defaults must not leak into unrelated adapters");
+        Console.WriteLine("  [PASS] Channel overrides, legacy defaults and adapter isolation");
+
+        var legacy = BridgeConfiguration.Load(new ConfigurationBuilder().AddInMemoryCollection(new Dictionary<string, string?>
+        {
+            ["Bridge:DwsPath"] = "legacy-dws",
+            ["Bridge:DryRun"] = "false",
+            ["Bridge:EventKeys:0"] = "legacy-event",
+            ["Bridge:OwnerName"] = "owner",
+            ["Bridge:MaxConcurrentTasks"] = "7",
+            ["Bridge:WorkBuddy:Model"] = "legacy-model",
+            ["Bridge:Visions:vision:Type"] = "workbuddy",
+            ["Bridge:Visions:vision:Token"] = "test-only-value",
+        }).Build());
+        var migrated = legacy.Channels["dingtalk"].Options;
+        Require(migrated.Keys.ToHashSet(StringComparer.OrdinalIgnoreCase).SetEquals(new[] { "DwsPath", "DryRun", "EventKeys:0" }), "Legacy migration must copy only DingTalk options");
+        Require(migrated["DwsPath"] == "legacy-dws" && migrated["DryRun"] == "false" && migrated["EventKeys:0"] == "legacy-event", "Legacy migration must preserve option values");
+        Require(legacy.Agents["workbuddy"].Options["Model"] == "legacy-model" && legacy.Agents["workbuddy"].Options["OwnerName"] == "owner", "Legacy agent migration must remain intact");
+        Require(legacy.MaxConcurrentTasks == 7 && !legacy.DryRun && legacy.Visions.ContainsKey("vision"), "Shared configuration must remain intact");
+        var empty = BridgeConfiguration.Load(new ConfigurationBuilder().Build());
+        Require(empty.DryRun && empty.Channels["dingtalk"].Options.Count == 0, "Empty configuration must preserve safe defaults");
+        Console.WriteLine("  [PASS] Legacy migration whitelist and safe defaults");
+    }
+
+    private static void Require(bool condition, string message)
+    {
+        if (!condition) throw new InvalidOperationException(message);
+    }
+
+    private static string StripComments(string code)
+    {
+        code = Regex.Replace(code, @"/\\*[\\s\\S]*?\\*/", "", RegexOptions.CultureInvariant);
+        code = Regex.Replace(code, @"//[^\\r\\n]*", "", RegexOptions.CultureInvariant);
+        return code;
+    }
+
+    private static void AssertProperties(Type type, params string[] expected)
+    {
+        if (!type.GetProperties().Select(p => p.Name).ToHashSet().SetEquals(expected))
+            throw new InvalidOperationException($"{type.Name} 出现未约定的通用配置字段");
+    }
+
+    private static string LocateProject()
+    {
+        for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir is not null; dir = dir.Parent)
+        {
+            var project = Path.Combine(dir.FullName, "IMBridge");
+            if (File.Exists(Path.Combine(project, "IMBridge.csproj"))) return project;
+        }
+        throw new DirectoryNotFoundException("架构源码约束测试需在包含 IMBridge 源码的工作区运行");
+    }
+}

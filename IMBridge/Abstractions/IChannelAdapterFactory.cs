@@ -1,1 +1,10 @@
-dXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCnB1YmxpYyBpbnRlcmZhY2UgSUNoYW5uZWxBZGFwdGVyRmFjdG9yeQp7CiAgICBJTWVzc2FnZVNvdXJjZSBDcmVhdGVTb3VyY2Uoc3RyaW5nIGNoYW5uZWxJZCwgQ2hhbm5lbENvbmZpZyBjb25maWcpOwogICAgSU1lc3NhZ2VTaW5rIENyZWF0ZVNpbmsoQ2hhbm5lbENvbmZpZyBjb25maWcpOwogICAgSU1lc3NhZ2VFbnJpY2hlciBDcmVhdGVFbnJpY2hlcihDaGFubmVsQ29uZmlnIGNvbmZpZywgSVZpc3VhbFJlY29nbml6ZXI/IHZpc3VhbFJlY29nbml6ZXIpOwp9Cg==
+using IMBridge.Domain;
+
+namespace IMBridge.Abstractions;
+
+public interface IChannelAdapterFactory
+{
+    IMessageSource CreateSource(string channelId, ChannelConfig config);
+    IMessageSink CreateSink(ChannelConfig config);
+    IMessageEnricher CreateEnricher(ChannelConfig config, IVisualRecognizer? visualRecognizer);
+}

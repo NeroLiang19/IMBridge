@@ -1,1 +1,31 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5Eb21haW47CnVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLk1lZGlhOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Qcm9jZXNzOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nOwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkR3czsKCnB1YmxpYyBzZWFsZWQgY2xhc3MgRGluZ3RhbGtDaGFubmVsQWRhcHRlckZhY3RvcnkoSVByb2Nlc3NSdW5uZXIgcHJvY2Vzc1J1bm5lciwgSVN0cmVhbWluZ1Byb2Nlc3NSdW5uZXIgc3RyZWFtaW5nUHJvY2Vzc1J1bm5lciwgSUxvZ2dlckZhY3RvcnkgbG9nZ2VyRmFjdG9yeSkgOiBJQ2hhbm5lbEFkYXB0ZXJGYWN0b3J5CnsKICAgIHN0YXRpYyBEaW5ndGFsa09wdGlvbnMgR2V0T3B0aW9ucyhDaGFubmVsQ29uZmlnIGNvbmZpZykgPT4gbmV3KCkKICAgIHsKICAgICAgICBEd3NQYXRoID0gY29uZmlnLk9wdGlvbnMuVHJ5R2V0VmFsdWUoIkR3c1BhdGgiLCBvdXQgdmFyIHBhdGgpID8gcGF0aCA6IFBhdGguQ29tYmluZShFbnZpcm9ubWVudC5HZXRGb2xkZXJQYXRoKEVudmlyb25tZW50LlNwZWNpYWxGb2xkZXIuVXNlclByb2ZpbGUpLCAiLmxvY2FsIiwgImJpbiIsICJkd3MuZXhlIiksCiAgICAgICAgRHJ5UnVuID0gY29uZmlnLk9wdGlvbnMuVHJ5R2V0VmFsdWUoIkRyeVJ1biIsIG91dCB2YXIgZHJ5KSAmJiBib29sLlRyeVBhcnNlKGRyeSwgb3V0IHZhciB2YWx1ZSkgPyB2YWx1ZSA6IHRydWUsCiAgICAgICAgRXZlbnRLZXlzID0gY29uZmlnLk9wdGlvbnMuV2hlcmUoeCA9PiB4LktleS5TdGFydHNXaXRoKCJFdmVudEtleXM6IiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsSWdub3JlQ2FzZSkpCiAgICAgICAgICAgIC5PcmRlckJ5KHggPT4gUGFyc2VFdmVudEtleUluZGV4KHguS2V5KSkuVGhlbkJ5KHggPT4geC5LZXksIFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKQogICAgICAgICAgICAuU2VsZWN0KHggPT4geC5WYWx1ZSkuVG9BcnJheSgpIGlzIHsgTGVuZ3RoOiA+IDAgfSBrZXlzID8ga2V5cyA6IFsidXNlcl9pbV9tZXNzYWdlX3JlY2VpdmVfbzJvX2FsbCIsICJ1c2VyX2ltX21lc3NhZ2VfcmVjZWl2ZV9hdCJdCiAgICB9OwoKICAgIHN0YXRpYyBpbnQgUGFyc2VFdmVudEtleUluZGV4KHN0cmluZyBrZXkpCiAgICAgICAgPT4gaW50LlRyeVBhcnNlKGtleVsoa2V5LkluZGV4T2YoJzonKSArIDEpLi5dLCBvdXQgdmFyIGluZGV4KSA/IGluZGV4IDogaW50Lk1heFZhbHVlOwoKICAgIHB1YmxpYyBJTWVzc2FnZVNvdXJjZSBDcmVhdGVTb3VyY2Uoc3RyaW5nIGNoYW5uZWxJZCwgQ2hhbm5lbENvbmZpZyBjb25maWcpCiAgICB7CiAgICAgICAgdmFyIG9wdGlvbnMgPSBHZXRPcHRpb25zKGNvbmZpZyk7CiAgICAgICAgcmV0dXJuIG5ldyBEd3NNZXNzYWdlU291cmNlKG9wdGlvbnMuRHdzUGF0aCwgY2hhbm5lbElkLCBvcHRpb25zLkV2ZW50S2V5cywgc3RyZWFtaW5nUHJvY2Vzc1J1bm5lciwgbG9nZ2VyRmFjdG9yeS5DcmVhdGVMb2dnZXI8RHdzTWVzc2FnZVNvdXJjZT4oKSk7CiAgICB9CiAgICBwdWJsaWMgSU1lc3NhZ2VTaW5rIENyZWF0ZVNpbmsoQ2hhbm5lbENvbmZpZyBjb25maWcpID0+IG5ldyBEd3NNZXNzYWdlU2luayhHZXRPcHRpb25zKGNvbmZpZyksIHByb2Nlc3NSdW5uZXIsIGxvZ2dlckZhY3RvcnkuQ3JlYXRlTG9nZ2VyPER3c01lc3NhZ2VTaW5rPigpKTsKICAgIHB1YmxpYyBJTWVzc2FnZUVucmljaGVyIENyZWF0ZUVucmljaGVyKENoYW5uZWxDb25maWcgY29uZmlnLCBJVmlzdWFsUmVjb2duaXplcj8gdmlzdWFsUmVjb2duaXplcikKICAgICAgICA9PiBuZXcgRHdzTWVzc2FnZUVucmljaGVyKG5ldyBEd3NNZWRpYURvd25sb2FkZXIoR2V0T3B0aW9ucyhjb25maWcpLCBwcm9jZXNzUnVubmVyLCBsb2dnZXJGYWN0b3J5LkNyZWF0ZUxvZ2dlcjxEd3NNZWRpYURvd25sb2FkZXI+KCkpLCB2aXN1YWxSZWNvZ25pemVyLCBsb2dnZXJGYWN0b3J5LkNyZWF0ZUxvZ2dlcjxEd3NNZXNzYWdlRW5yaWNoZXI+KCkpOwp9Cg==
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using IMBridge.Infrastructure.Media;
+using IMBridge.Infrastructure.Process;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.Dws;
+
+public sealed class DingtalkChannelAdapterFactory(IProcessRunner processRunner, IStreamingProcessRunner streamingProcessRunner, ILoggerFactory loggerFactory) : IChannelAdapterFactory
+{
+    static DingtalkOptions GetOptions(ChannelConfig config) => new()
+    {
+        DwsPath = config.Options.TryGetValue("DwsPath", out var path) ? path : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), ".local", "bin", "dws.exe"),
+        DryRun = config.Options.TryGetValue("DryRun", out var dry) && bool.TryParse(dry, out var value) ? value : true,
+        EventKeys = config.Options.Where(x => x.Key.StartsWith("EventKeys:", StringComparison.OrdinalIgnoreCase))
+            .OrderBy(x => ParseEventKeyIndex(x.Key)).ThenBy(x => x.Key, StringComparer.OrdinalIgnoreCase)
+            .Select(x => x.Value).ToArray() is { Length: > 0 } keys ? keys : ["user_im_message_receive_o2o_all", "user_im_message_receive_at"]
+    };
+
+    static int ParseEventKeyIndex(string key)
+        => int.TryParse(key[(key.IndexOf(':') + 1)..], out var index) ? index : int.MaxValue;
+
+    public IMessageSource CreateSource(string channelId, ChannelConfig config)
+    {
+        var options = GetOptions(config);
+        return new DwsMessageSource(options.DwsPath, channelId, options.EventKeys, streamingProcessRunner, loggerFactory.CreateLogger<DwsMessageSource>());
+    }
+    public IMessageSink CreateSink(ChannelConfig config) => new DwsMessageSink(GetOptions(config), processRunner, loggerFactory.CreateLogger<DwsMessageSink>());
+    public IMessageEnricher CreateEnricher(ChannelConfig config, IVisualRecognizer? visualRecognizer)
+        => new DwsMessageEnricher(new DwsMediaDownloader(GetOptions(config), processRunner, loggerFactory.CreateLogger<DwsMediaDownloader>()), visualRecognizer, loggerFactory.CreateLogger<DwsMessageEnricher>());
+}

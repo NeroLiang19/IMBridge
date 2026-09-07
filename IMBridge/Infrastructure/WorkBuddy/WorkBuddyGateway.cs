@@ -1,1 +1,68 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5Eb21haW47CnVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLlByb2Nlc3M7CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuV29ya0J1ZGR5OwoKLy8vIDxzdW1tYXJ5PgovLy8g6YCa6L+HIGNvZGVidWRkeSBDTEkg5peg5aS05qih5byP77yILXDvvInmiormtojmga/kuqTnu5kgV29ya0J1ZGR544CCCi8vLyDnuqblrprljY/orq7vvJpXb3JrQnVkZHkg5pyJ5oqA6IO96IO95aSE55CGIC0+IOi+k+WHuuacgOe7iOWbnuWkjeaWh+ahiO+8m+aXoOaKgOiDveWMuemFjSAtPiDlj6rovpPlh7ogTk9fU0tJTExfTUFUQ0hFRO+8mwovLy8g5YW25a6D77yI6Z2e6Zu26YCA5Ye6IC8g6LaF5pe2IC8g5byC5bi477yJ5LiA5b6L6KeG5Li6IEZhaWxlZO+8jOS/neaMgeayiem7mOS4lOS4jeWkluWPkeS7u+S9lemUmeivr+i+k+WHuuOAggovLy8g57uf5LiA6L+b56iL5omn6KGM6LWwIElQcm9jZXNzUnVubmVy77yb5rK/55So5pei5pyJIC1577yI5peg5aS05qih5byP6Lez6L+H5p2D6ZmQ56Gu6K6k77yJ77yM5LiN5paw5aKe5p2D6ZmQ57uV6L+H44CB5LiN5omp5bGV546w5pyJ5p2D6ZmQ6IyD5Zu044CCCi8vLyA8L3N1bW1hcnk+CmludGVybmFsIHNlYWxlZCBjbGFzcyBXb3JrQnVkZHlHYXRld2F5KFdvcmtCdWRkeU9wdGlvbnMgY29uZmlnLCBJUHJvY2Vzc1J1bm5lciBwcm9jZXNzUnVubmVyLCBJTG9nZ2VyPFdvcmtCdWRkeUdhdGV3YXk+IGxvZ2dlcikgOiBJQWdlbnRHYXRld2F5CnsKICAgIHByaXZhdGUgY29uc3Qgc3RyaW5nIE5vTWF0Y2hNYXJrZXIgPSAiTk9fU0tJTExfTUFUQ0hFRCI7CgogICAgcHVibGljIGFzeW5jIFRhc2s8QWdlbnRSZXBseT4gQXNrQXN5bmMoSW5jb21pbmdNZXNzYWdlIG1lc3NhZ2UsIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKQogICAgewogICAgICAgIHZhciBzY2VuZSA9IG1lc3NhZ2UuUmVwbHlUYXJnZXQuVHlwZSA9PSBDb252ZXJzYXRpb25UeXBlLkdyb3VwID8gIue+pOiBiuS4rUDmiJEiIDogIuengeiBiiI7CiAgICAgICAgdmFyIHByb21wdCA9CiAgICAgICAgICAgICQi5Y+R6YCB5Lq677yae21lc3NhZ2UuU2VuZGVyTmFtZX3vvIh7c2NlbmV977yJXG4iICsKICAgICAgICAgICAgJCLmtojmga/lhoXlrrnvvJp7bWVzc2FnZS5Db250ZW50fVxuXG4iICsKICAgICAgICAgICAgIuivt+ajgOafpeS9oOeahOaKgOiDve+8iHNraWxsc++8ieS4reaYr+WQpuacieiDveWkhOeQhui/meadoea2iOaBr+eahO+8mlxuIiArCiAgICAgICAgICAgICItIOWmguaenOacie+8muaJp+ihjOWvueW6lOaKgOiDve+8jOWujOaIkOWQjuWPqui+k+WHuuimgeWbnuWkjee7meWPkemAgeS6uueahOacgOe7iOaWh+ahiO+8iOS4jeimgeino+mHiuaJp+ihjOi/h+eoi++8ieOAglxuIiArCiAgICAgICAgICAgICQiLSDlpoLmnpzmsqHmnInku7vkvZXmioDog73pgILnlKjvvJrlj6rovpPlh7oge05vTWF0Y2hNYXJrZXJ977yM5LiN6KaB6L6T5Ye65YW25LuW5Lu75L2V5YaF5a6544CCIjsKCiAgICAgICAgdmFyIGFyZ3MgPSBuZXcgTGlzdDxzdHJpbmc+CiAgICAgICAgewogICAgICAgICAgICBjb25maWcuRW50cnksCiAgICAgICAgICAgICItLW1vZGVsIiwgY29uZmlnLk1vZGVsLAogICAgICAgICAgICAiLXAiLAogICAgICAgICAgICAiLXkiLCAvLyDmsr/nlKjml6LmnInvvJrml6DlpLTmqKHlvI/ml6Dms5XlvLnnqpflrqHmibnvvIzot7Pov4fmnYPpmZDnoa7orqTvvIjku4XpmZAgTUNQIOWPquivu+afpeivou+8jOS4jeaJqeWxleadg+mZkO+8iQogICAgICAgICAgICAiLS1vdXRwdXQtZm9ybWF0IiwgInRleHQiLAogICAgICAgICAgICBwcm9tcHQsCiAgICAgICAgfTsKCiAgICAgICAgbG9nZ2VyLkxvZ0luZm9ybWF0aW9uKCJbZ2F0ZXdheV0g6L2s5Y+R57uZIFdvcmtCdWRkeToge0NvbnRlbnR9IiwgbWVzc2FnZS5Db250ZW50Wy4uTWF0aC5NaW4obWVzc2FnZS5Db250ZW50Lkxlbmd0aCwgNjApXSk7CgogICAgICAgIHZhciByZXN1bHQgPSBhd2FpdCBwcm9jZXNzUnVubmVyLlJ1bkFzeW5jKG5ldyBQcm9jZXNzU3BlYwogICAgICAgIHsKICAgICAgICAgICAgRmlsZU5hbWUgPSBjb25maWcuTm9kZVBhdGgsCiAgICAgICAgICAgIEFyZ3VtZW50cyA9IGFyZ3MsCiAgICAgICAgICAgIFdvcmtpbmdEaXJlY3RvcnkgPSBjb25maWcuV29ya2luZ0RpcmVjdG9yeSwKICAgICAgICAgICAgRW52aXJvbm1lbnQgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyBbIlNFUlZFUl9fUE9SVCJdID0gIjAiIH0sCiAgICAgICAgICAgIFRpbWVvdXQgPSBUaW1lU3Bhbi5Gcm9tU2Vjb25kcyhjb25maWcuVGltZW91dFNlY29uZHMpLAogICAgICAgIH0sIGNhbmNlbGxhdGlvblRva2VuKTsKCiAgICAgICAgaWYgKHJlc3VsdC5UaW1lZE91dCkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dXYXJuaW5nKCJbZ2F0ZXdheV0gV29ya0J1ZGR5IOWkhOeQhui2heaXtu+8iHtUaW1lb3V0fXPvvInvvIznu4jmraIiLCBjb25maWcuVGltZW91dFNlY29uZHMpOwogICAgICAgICAgICByZXR1cm4gQWdlbnRSZXBseS5GYWlsZWQ7CiAgICAgICAgfQogICAgICAgIGlmIChyZXN1bHQuRXhpdENvZGUgIT0gMCkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dXYXJuaW5nKCJbZ2F0ZXdheV0gY29kZWJ1ZGR5IOmAgOWHuueggSB7Q29kZX0iLCByZXN1bHQuRXhpdENvZGUpOwogICAgICAgICAgICByZXR1cm4gQWdlbnRSZXBseS5GYWlsZWQ7CiAgICAgICAgfQoKICAgICAgICB2YXIgdGV4dCA9IHJlc3VsdC5TdGFuZGFyZE91dHB1dC5UcmltKCk7CiAgICAgICAgaWYgKHRleHQuTGVuZ3RoID09IDAgfHwgc3RyaW5nLkVxdWFscyh0ZXh0LCBOb01hdGNoTWFya2VyLCBTdHJpbmdDb21wYXJpc29uLk9yZGluYWwpKQogICAgICAgIHsKICAgICAgICAgICAgbG9nZ2VyLkxvZ0luZm9ybWF0aW9uKCJbZ2F0ZXdheV0g5peg5oqA6IO95Yy56YWN77yM5L+d5oyB5rKJ6buYIik7CiAgICAgICAgICAgIHJldHVybiBBZ2VudFJlcGx5Lk5vTWF0Y2g7CiAgICAgICAgfQogICAgICAgIHJldHVybiBBZ2VudFJlcGx5LlN1Y2Nlc3ModGV4dCk7CiAgICB9Cn0K
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using IMBridge.Infrastructure.Process;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.WorkBuddy;
+
+/// <summary>
+/// 通过 codebuddy CLI 无头模式（-p）把消息交给 WorkBuddy。
+/// 约定协议：WorkBuddy 有技能能处理 -> 输出最终回复文案；无技能匹配 -> 只输出 NO_SKILL_MATCHED；
+/// 其它（非零退出 / 超时 / 异常）一律视为 Failed，保持沉默且不外发任何错误输出。
+/// 统一进程执行走 IProcessRunner；沿用既有 -y（无头模式跳过权限确认），不新增权限绕过、不扩展现有权限范围。
+/// </summary>
+internal sealed class WorkBuddyGateway(WorkBuddyOptions config, IProcessRunner processRunner, ILogger<WorkBuddyGateway> logger) : IAgentGateway
+{
+    private const string NoMatchMarker = "NO_SKILL_MATCHED";
+
+    public async Task<AgentReply> AskAsync(IncomingMessage message, CancellationToken cancellationToken)
+    {
+        var scene = message.ReplyTarget.Type == ConversationType.Group ? "群聊中@我" : "私聊";
+        var prompt =
+            $"发送人：{message.SenderName}（{scene}）\n" +
+            $"消息内容：{message.Content}\n\n" +
+            "请检查你的技能（skills）中是否有能处理这条消息的：\n" +
+            "- 如果有：执行对应技能，完成后只输出要回复给发送人的最终文案（不要解释执行过程）。\n" +
+            $"- 如果没有任何技能适用：只输出 {NoMatchMarker}，不要输出其他任何内容。";
+
+        var args = new List<string>
+        {
+            config.Entry,
+            "--model", config.Model,
+            "-p",
+            "-y", // 沿用既有：无头模式无法弹窗审批，跳过权限确认（仅限 MCP 只读查询，不扩展权限）
+            "--output-format", "text",
+            prompt,
+        };
+
+        logger.LogInformation("[gateway] 转发给 WorkBuddy: {Content}", message.Content[..Math.Min(message.Content.Length, 60)]);
+
+        var result = await processRunner.RunAsync(new ProcessSpec
+        {
+            FileName = config.NodePath,
+            Arguments = args,
+            WorkingDirectory = config.WorkingDirectory,
+            Environment = new Dictionary<string, string> { ["SERVER__PORT"] = "0" },
+            Timeout = TimeSpan.FromSeconds(config.TimeoutSeconds),
+        }, cancellationToken);
+
+        if (result.TimedOut)
+        {
+            logger.LogWarning("[gateway] WorkBuddy 处理超时（{Timeout}s），终止", config.TimeoutSeconds);
+            return AgentReply.Failed;
+        }
+        if (result.ExitCode != 0)
+        {
+            logger.LogWarning("[gateway] codebuddy 退出码 {Code}", result.ExitCode);
+            return AgentReply.Failed;
+        }
+
+        var text = result.StandardOutput.Trim();
+        if (text.Length == 0 || string.Equals(text, NoMatchMarker, StringComparison.Ordinal))
+        {
+            logger.LogInformation("[gateway] 无技能匹配，保持沉默");
+            return AgentReply.NoMatch;
+        }
+        return AgentReply.Success(text);
+    }
+}

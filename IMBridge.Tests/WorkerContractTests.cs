@@ -1,1 +1,94 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5BcHBsaWNhdGlvbjsKdXNpbmcgSU1CcmlkZ2UuRG9tYWluOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nLkFic3RyYWN0aW9uczsKCm5hbWVzcGFjZSBJTUJyaWRnZS5UZXN0czsKCmludGVybmFsIHN0YXRpYyBjbGFzcyBXb3JrZXJDb250cmFjdFRlc3RzCnsKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBSdW4oKQogICAgewogICAgICAgIGZvcmVhY2ggKHZhciBzdGFnZSBpbiBuZXdbXSB7ICJhZ2VudCIsICJzaW5rIiwgImVucmljaGVyIiwgInVucmVsYXRlZC1jYW5jZWxsYXRpb24iIH0pCiAgICAgICAgICAgIENvbnRpbnVlc0FmdGVyRmFpbHVyZShzdGFnZSkuR2V0QXdhaXRlcigpLkdldFJlc3VsdCgpOwogICAgICAgIFN0b3BzT25Ib3N0Q2FuY2VsbGF0aW9uKCkuR2V0QXdhaXRlcigpLkdldFJlc3VsdCgpOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIEluY29taW5nTWVzc2FnZSBNZXNzYWdlKHN0cmluZyBpZCkgPT4gbmV3KCkKICAgIHsKICAgICAgICBDaGFubmVsSWQgPSAidGVzdCIsIEV2ZW50SWQgPSBpZCwgTWVzc2FnZUlkID0gaWQsIEV2ZW50VHlwZSA9ICJ0ZXh0IiwKICAgICAgICBTZW5kZXJOYW1lID0gInRlc3RlciIsIENvbnRlbnQgPSBpZCwKICAgICAgICBSZXBseVRhcmdldCA9IG5ldyBSZXBseVRhcmdldCB7IFR5cGUgPSBDb252ZXJzYXRpb25UeXBlLkRpcmVjdCwgVGFyZ2V0SWQgPSAicmVjZWl2ZXIiIH0sCiAgICB9OwoKICAgIHByaXZhdGUgc3RhdGljIGFzeW5jIFRhc2sgQ29udGludWVzQWZ0ZXJGYWlsdXJlKHN0cmluZyBzdGFnZSkKICAgIHsKICAgICAgICB2YXIgc2luayA9IG5ldyBUaHJvd2luZ1Npbmsoc3RhZ2UgPT0gInNpbmsiKTsKICAgICAgICB2YXIgZ2F0ZXdheSA9IG5ldyBGYWtlR2F0ZXdheShtID0+CiAgICAgICAgewogICAgICAgICAgICBpZiAobS5FdmVudElkID09ICJmaXJzdCIgJiYgc3RhZ2UgPT0gImFnZW50IikgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oImFnZW50IGZhaWx1cmUiKTsKICAgICAgICAgICAgaWYgKG0uRXZlbnRJZCA9PSAiZmlyc3QiICYmIHN0YWdlID09ICJ1bnJlbGF0ZWQtY2FuY2VsbGF0aW9uIikgdGhyb3cgbmV3IE9wZXJhdGlvbkNhbmNlbGVkRXhjZXB0aW9uKCJhZGFwdGVyIHRpbWVvdXQiKTsKICAgICAgICAgICAgcmV0dXJuIEFnZW50UmVwbHkuU3VjY2VzcyhtLkNvbnRlbnQpOwogICAgICAgIH0pOwogICAgICAgIHZhciBiaW5kaW5nID0gbmV3IENoYW5uZWxCaW5kaW5nCiAgICAgICAgewogICAgICAgICAgICBDaGFubmVsSWQgPSAidGVzdCIsIEFnZW50R2F0ZXdheUlkID0gImciLCBTb3VyY2UgPSBuZXcgRmFrZVNvdXJjZShNZXNzYWdlKCJmaXJzdCIpLCBNZXNzYWdlKCJzZWNvbmQiKSksCiAgICAgICAgICAgIFNpbmsgPSBzaW5rLCBFbnJpY2hlciA9IG5ldyBUaHJvd2luZ0VucmljaGVyKHN0YWdlID09ICJlbnJpY2hlciIpLAogICAgICAgIH07CiAgICAgICAgdXNpbmcgdmFyIHdvcmtlciA9IG5ldyBCcmlkZ2VXb3JrZXIobmV3W10geyBiaW5kaW5nIH0sIG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50R2F0ZXdheT4geyBbImciXSA9IGdhdGV3YXkgfSwKICAgICAgICAgICAgbmV3IE1lc3NhZ2VEaXNwYXRjaGVyKDEpLCBOdWxsTG9nZ2VyPEJyaWRnZVdvcmtlcj4uSW5zdGFuY2UpOwogICAgICAgIGF3YWl0IHdvcmtlci5TdGFydEFzeW5jKGRlZmF1bHQpOwogICAgICAgIGF3YWl0IHdvcmtlci5FeGVjdXRlVGFzayEuV2FpdEFzeW5jKFRpbWVTcGFuLkZyb21TZWNvbmRzKDUpKTsKICAgICAgICBpZiAoIXNpbmsuU2VudC5Db250YWlucygic2Vjb25kIikpIHRocm93IG5ldyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKCQie3N0YWdlfTog56ys5LiA5p2h5aSx6LSl5a+86Ie056ys5LqM5p2h5raI5oGv5pyq5aSE55CGIik7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoJCIgIFtQQVNTXSB7c3RhZ2V9IOW8guW4uOWQjumAmumBk+e7p+e7reWkhOeQhuS4i+S4gOadoSIpOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIGFzeW5jIFRhc2sgU3RvcHNPbkhvc3RDYW5jZWxsYXRpb24oKQogICAgewogICAgICAgIHZhciBzb3VyY2UgPSBuZXcgV2FpdGluZ1NvdXJjZSgpOwogICAgICAgIHZhciBiaW5kaW5nID0gbmV3IENoYW5uZWxCaW5kaW5nCiAgICAgICAgewogICAgICAgICAgICBDaGFubmVsSWQgPSAidGVzdCIsIEFnZW50R2F0ZXdheUlkID0gImciLCBTb3VyY2UgPSBzb3VyY2UsCiAgICAgICAgICAgIFNpbmsgPSBuZXcgRmFrZVNpbmsoKSwgRW5yaWNoZXIgPSBuZXcgRmFrZUVucmljaGVyKCksCiAgICAgICAgfTsKICAgICAgICB1c2luZyB2YXIgd29ya2VyID0gbmV3IEJyaWRnZVdvcmtlcihuZXdbXSB7IGJpbmRpbmcgfSwgbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PiB7IFsiZyJdID0gbmV3IEZha2VHYXRld2F5KF8gPT4gQWdlbnRSZXBseS5Ob01hdGNoKSB9LAogICAgICAgICAgICBuZXcgTWVzc2FnZURpc3BhdGNoZXIoMSksIE51bGxMb2dnZXI8QnJpZGdlV29ya2VyPi5JbnN0YW5jZSk7CiAgICAgICAgYXdhaXQgd29ya2VyLlN0YXJ0QXN5bmMoZGVmYXVsdCk7CiAgICAgICAgYXdhaXQgc291cmNlLlN0YXJ0ZWQuVGFzay5XYWl0QXN5bmMoVGltZVNwYW4uRnJvbVNlY29uZHMoNSkpOwogICAgICAgIHVzaW5nIHZhciBkZWFkbGluZSA9IG5ldyBDYW5jZWxsYXRpb25Ub2tlblNvdXJjZShUaW1lU3Bhbi5Gcm9tU2Vjb25kcyg1KSk7CiAgICAgICAgYXdhaXQgd29ya2VyLlN0b3BBc3luYyhkZWFkbGluZS5Ub2tlbik7CiAgICAgICAgaWYgKCF3b3JrZXIuRXhlY3V0ZVRhc2shLklzQ29tcGxldGVkKSB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigi5a6/5Li75Y+W5raI5pyq57uT5p2f6YCa6YGTIik7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoIiAgW1BBU1NdIOWuv+S4u+WPlua2iOato+W4uOe7k+adn+mAmumBkyIpOwogICAgfQoKICAgIHByaXZhdGUgc2VhbGVkIGNsYXNzIFRocm93aW5nU2luayhib29sIGZhaWwpIDogSU1lc3NhZ2VTaW5rCiAgICB7CiAgICAgICAgcHVibGljIExpc3Q8c3RyaW5nPiBTZW50IHsgZ2V0OyB9ID0gbmV3KCk7CiAgICAgICAgcHVibGljIFRhc2sgU2VuZEFzeW5jKEluY29taW5nTWVzc2FnZSBvcmlnaW4sIHN0cmluZyB0ZXh0LCBDYW5jZWxsYXRpb25Ub2tlbiB0b2tlbikKICAgICAgICB7CiAgICAgICAgICAgIGlmIChmYWlsICYmIG9yaWdpbi5FdmVudElkID09ICJmaXJzdCIpIHRocm93IG5ldyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKCJzZW5kIGZhaWx1cmUiKTsKICAgICAgICAgICAgU2VudC5BZGQob3JpZ2luLkV2ZW50SWQpOwogICAgICAgICAgICByZXR1cm4gVGFzay5Db21wbGV0ZWRUYXNrOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHNlYWxlZCBjbGFzcyBUaHJvd2luZ0VucmljaGVyKGJvb2wgZmFpbCkgOiBJTWVzc2FnZUVucmljaGVyCiAgICB7CiAgICAgICAgcHVibGljIFRhc2s8SW5jb21pbmdNZXNzYWdlPiBFbnJpY2hBc3luYyhJbmNvbWluZ01lc3NhZ2UgbWVzc2FnZSwgQ2FuY2VsbGF0aW9uVG9rZW4gdG9rZW4pCiAgICAgICAgewogICAgICAgICAgICBpZiAoZmFpbCAmJiBtZXNzYWdlLkV2ZW50SWQgPT0gImZpcnN0IikgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oImVucmljaCBmYWlsdXJlIik7CiAgICAgICAgICAgIHJldHVybiBUYXNrLkZyb21SZXN1bHQobWVzc2FnZSk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc2VhbGVkIGNsYXNzIFdhaXRpbmdTb3VyY2UgOiBJTWVzc2FnZVNvdXJjZQogICAgewogICAgICAgIHB1YmxpYyBUYXNrQ29tcGxldGlvblNvdXJjZSBTdGFydGVkIHsgZ2V0OyB9ID0gbmV3KFRhc2tDcmVhdGlvbk9wdGlvbnMuUnVuQ29udGludWF0aW9uc0FzeW5jaHJvbm91c2x5KTsKICAgICAgICBwdWJsaWMgYXN5bmMgSUFzeW5jRW51bWVyYWJsZTxJbmNvbWluZ01lc3NhZ2U+IFJlYWRNZXNzYWdlc0FzeW5jKFtTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzLkVudW1lcmF0b3JDYW5jZWxsYXRpb25dIENhbmNlbGxhdGlvblRva2VuIHRva2VuKQogICAgICAgIHsKICAgICAgICAgICAgU3RhcnRlZC5UcnlTZXRSZXN1bHQoKTsKICAgICAgICAgICAgYXdhaXQgVGFzay5EZWxheShUaW1lb3V0LkluZmluaXRlLCB0b2tlbik7CiAgICAgICAgICAgIHlpZWxkIGJyZWFrOwogICAgICAgIH0KICAgIH0KfQo=
+using IMBridge.Abstractions;
+using IMBridge.Application;
+using IMBridge.Domain;
+using Microsoft.Extensions.Logging.Abstractions;
+
+namespace IMBridge.Tests;
+
+internal static class WorkerContractTests
+{
+    public static void Run()
+    {
+        foreach (var stage in new[] { "agent", "sink", "enricher", "unrelated-cancellation" })
+            ContinuesAfterFailure(stage).GetAwaiter().GetResult();
+        StopsOnHostCancellation().GetAwaiter().GetResult();
+    }
+
+    private static IncomingMessage Message(string id) => new()
+    {
+        ChannelId = "test", EventId = id, MessageId = id, EventType = "text",
+        SenderName = "tester", Content = id,
+        ReplyTarget = new ReplyTarget { Type = ConversationType.Direct, TargetId = "receiver" },
+    };
+
+    private static async Task ContinuesAfterFailure(string stage)
+    {
+        var sink = new ThrowingSink(stage == "sink");
+        var gateway = new FakeGateway(m =>
+        {
+            if (m.EventId == "first" && stage == "agent") throw new InvalidOperationException("agent failure");
+            if (m.EventId == "first" && stage == "unrelated-cancellation") throw new OperationCanceledException("adapter timeout");
+            return AgentReply.Success(m.Content);
+        });
+        var binding = new ChannelBinding
+        {
+            ChannelId = "test", AgentGatewayId = "g", Source = new FakeSource(Message("first"), Message("second")),
+            Sink = sink, Enricher = new ThrowingEnricher(stage == "enricher"),
+        };
+        using var worker = new BridgeWorker(new[] { binding }, new Dictionary<string, IAgentGateway> { ["g"] = gateway },
+            new MessageDispatcher(1), NullLogger<BridgeWorker>.Instance);
+        await worker.StartAsync(default);
+        await worker.ExecuteTask!.WaitAsync(TimeSpan.FromSeconds(5));
+        if (!sink.Sent.Contains("second")) throw new InvalidOperationException($"{stage}: 第一条失败导致第二条消息未处理");
+        Console.WriteLine($"  [PASS] {stage} 异常后通道继续处理下一条");
+    }
+
+    private static async Task StopsOnHostCancellation()
+    {
+        var source = new WaitingSource();
+        var binding = new ChannelBinding
+        {
+            ChannelId = "test", AgentGatewayId = "g", Source = source,
+            Sink = new FakeSink(), Enricher = new FakeEnricher(),
+        };
+        using var worker = new BridgeWorker(new[] { binding }, new Dictionary<string, IAgentGateway> { ["g"] = new FakeGateway(_ => AgentReply.NoMatch) },
+            new MessageDispatcher(1), NullLogger<BridgeWorker>.Instance);
+        await worker.StartAsync(default);
+        await source.Started.Task.WaitAsync(TimeSpan.FromSeconds(5));
+        using var deadline = new CancellationTokenSource(TimeSpan.FromSeconds(5));
+        await worker.StopAsync(deadline.Token);
+        if (!worker.ExecuteTask!.IsCompleted) throw new InvalidOperationException("宿主取消未结束通道");
+        Console.WriteLine("  [PASS] 宿主取消正常结束通道");
+    }
+
+    private sealed class ThrowingSink(bool fail) : IMessageSink
+    {
+        public List<string> Sent { get; } = new();
+        public Task SendAsync(IncomingMessage origin, string text, CancellationToken token)
+        {
+            if (fail && origin.EventId == "first") throw new InvalidOperationException("send failure");
+            Sent.Add(origin.EventId);
+            return Task.CompletedTask;
+        }
+    }
+
+    private sealed class ThrowingEnricher(bool fail) : IMessageEnricher
+    {
+        public Task<IncomingMessage> EnrichAsync(IncomingMessage message, CancellationToken token)
+        {
+            if (fail && message.EventId == "first") throw new InvalidOperationException("enrich failure");
+            return Task.FromResult(message);
+        }
+    }
+
+    private sealed class WaitingSource : IMessageSource
+    {
+        public TaskCompletionSource Started { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
+        public async IAsyncEnumerable<IncomingMessage> ReadMessagesAsync([System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken token)
+        {
+            Started.TrySetResult();
+            await Task.Delay(Timeout.Infinite, token);
+            yield break;
+        }
+    }
+}

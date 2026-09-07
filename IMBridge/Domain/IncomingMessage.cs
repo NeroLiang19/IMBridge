@@ -1,1 +1,41 @@
-dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkltbXV0YWJsZTsKCm5hbWVzcGFjZSBJTUJyaWRnZS5Eb21haW47CgovLy8gPHN1bW1hcnk+Ci8vLyDkuIDmnaHlj5Hnu5ki5oiR5pys5Lq6IueahCBJTSDmtojmga/vvIjnp4HogYrmiJbnvqTph4xA5oiR77yJ44CCCi8vLyDor6XnsbvlnovkuI7lhbfkvZMgSU0g6Kej6ICm77ya6ZKJ6ZKJ5LiT5bGe55qEIHNlbmRlciBpZCAvIG1lZGlhIOato+WImeWPquWtmOWcqOS6jiBEd3Mg6YCC6YWN5bGC77yMCi8vLyDov5nph4zlj6rkv53nlZnpgJrnlKjlrZfmrrUgQ2hhbm5lbElkIC8gUmVwbHlUYXJnZXQgLyBDaGFubmVsQ29udGV4dCAvIEF0dGFjaG1lbnRz44CCCi8vLyA8L3N1bW1hcnk+CnB1YmxpYyBzZWFsZWQgcmVjb3JkIEluY29taW5nTWVzc2FnZQp7CiAgICAvLy8gPHN1bW1hcnk+6YCa6YGT5qCH6K+G77yI5aaCICJkaW5ndGFsayLvvInvvIzljrvph43kuI7kvJror53ot6/nlLHpg73ku6XlroPkuLrlh4bvvIzkuJTkuI3og73ot6jpgJrpgZPlm57lpI3jgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIENoYW5uZWxJZCB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7kuovku7bljrvph43nlKjnmoTkuovku7YgSUTvvIjphY3lkIggQ2hhbm5lbElkIOaehOaIkOWOu+mHjemUru+8ieOAgjwvc3VtbWFyeT4KICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgRXZlbnRJZCB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7mtojmga8gSUTvvIjnlKjkuo7luYLnrYnlm57lpI3plK7kuI7lqpLkvZPkuIvovb3kuIrkuIvmlofvvInjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIE1lc3NhZ2VJZCB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7ljp/lp4vkuovku7bnsbvlnovvvIjnlLHpgILphY3lsYLloavlhYXvvIzku4XkvZzml6Xlv5cv6K+K5pat55So77yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIHJlcXVpcmVkIHN0cmluZyBFdmVudFR5cGUgeyBnZXQ7IGluaXQ7IH0KCiAgICAvLy8gPHN1bW1hcnk+5Y+R6YCB5Lq65bGV56S65ZCN77yI55So5LqO5o+Q56S66K+N5LiO5pel5b+X77yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIHJlcXVpcmVkIHN0cmluZyBTZW5kZXJOYW1lIHsgZ2V0OyBpbml0OyB9CgogICAgLy8vIDxzdW1tYXJ5Pua2iOaBr+aWh+acrOWGheWuueOAgjwvc3VtbWFyeT4KICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgQ29udGVudCB7IGdldDsgaW5pdDsgfQoKICAgIC8vLyA8c3VtbWFyeT7lm57lpI3nm67moIfvvIjkvJror53nsbvlnosgKyDnm67moIcgSUTvvInjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgUmVwbHlUYXJnZXQgUmVwbHlUYXJnZXQgeyBnZXQ7IGluaXQ7IH0KCiAgICAvLy8gPHN1bW1hcnk+6ZmE5Lu25YiX6KGo77yI55Sx6YCC6YWN5bGC5aGr5YWF77yM5Y+v5Li656m677yJ44CCPC9zdW1tYXJ5PgogICAgcHVibGljIEltbXV0YWJsZUFycmF5PEF0dGFjaG1lbnQ+IEF0dGFjaG1lbnRzIHsgZ2V0OyBpbml0OyB9ID0gSW1tdXRhYmxlQXJyYXk8QXR0YWNobWVudD4uRW1wdHk7CgogICAgLy8vIDxzdW1tYXJ5PgogICAgLy8vIElNIOS4k+WxnuS4iuS4i+aWh++8iOS4jemAj+aYjumUruWAvOWvue+8ie+8jOS7heS+m+ivpemAmumBk+eahOmAgumFjeWxgu+8iOWmguWqkuS9k+S4i+i9ve+8ieS9v+eUqO+8jAogICAgLy8vIOS+i+WmgumSiemSieS8muaUvuWFpSBjb252ZXJzYXRpb25JZCDku6Xkvr8gZG93bmxvYWQtbWVkaWEg6LCD55So44CCCiAgICAvLy8gPC9zdW1tYXJ5PgogICAgcHVibGljIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+PyBDaGFubmVsQ29udGV4dCB7IGdldDsgaW5pdDsgfQp9Cg==
+using System.Collections.Immutable;
+
+namespace IMBridge.Domain;
+
+/// <summary>
+/// 一条发给"我本人"的 IM 消息（私聊或群里@我）。
+/// 该类型与具体 IM 解耦：钉钉专属的 sender id / media 正则只存在于 Dws 适配层，
+/// 这里只保留通用字段 ChannelId / ReplyTarget / ChannelContext / Attachments。
+/// </summary>
+public sealed record IncomingMessage
+{
+    /// <summary>通道标识（如 "dingtalk"），去重与会话路由都以它为准，且不能跨通道回复。</summary>
+    public required string ChannelId { get; init; }
+
+    /// <summary>事件去重用的事件 ID（配合 ChannelId 构成去重键）。</summary>
+    public required string EventId { get; init; }
+
+    /// <summary>消息 ID（用于幂等回复键与媒体下载上下文）。</summary>
+    public required string MessageId { get; init; }
+
+    /// <summary>原始事件类型（由适配层填充，仅作日志/诊断用）。</summary>
+    public required string EventType { get; init; }
+
+    /// <summary>发送人展示名（用于提示词与日志）。</summary>
+    public required string SenderName { get; init; }
+
+    /// <summary>消息文本内容。</summary>
+    public required string Content { get; init; }
+
+    /// <summary>回复目标（会话类型 + 目标 ID）。</summary>
+    public required ReplyTarget ReplyTarget { get; init; }
+
+    /// <summary>附件列表（由适配层填充，可为空）。</summary>
+    public ImmutableArray<Attachment> Attachments { get; init; } = ImmutableArray<Attachment>.Empty;
+
+    /// <summary>
+    /// IM 专属上下文（不透明键值对），仅供该通道的适配层（如媒体下载）使用，
+    /// 例如钉钉会放入 conversationId 以便 download-media 调用。
+    /// </summary>
+    public IReadOnlyDictionary<string, string>? ChannelContext { get; init; }
+}

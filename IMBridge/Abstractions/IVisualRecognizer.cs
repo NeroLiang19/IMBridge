@@ -1,1 +1,10 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT4KLy8vIOinhuiniS/lpJrmqKHmgIHor4bliKvmnI3liqHmjqXlj6PjgIIKLy8vIOWNleS4gOiBjOi0o++8muagueaNruacrOWcsOWbvueJh+aPkOWPluaWh+acrOaIluWFs+mUruS4muWKoeWNleWPt+S/oeaBr++8iE9DUi/op4bop4nnkIbop6PvvInjgIIKLy8vIDwvc3VtbWFyeT4KcHVibGljIGludGVyZmFjZSBJVmlzdWFsUmVjb2duaXplcgp7CiAgICBUYXNrPHN0cmluZz8+IFJlY29nbml6ZUFzeW5jKHN0cmluZyBpbWFnZVBhdGgsIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKTsKfQo=
+namespace IMBridge.Abstractions;
+
+/// <summary>
+/// 视觉/多模态识别服务接口。
+/// 单一职责：根据本地图片提取文本或关键业务单号信息（OCR/视觉理解）。
+/// </summary>
+public interface IVisualRecognizer
+{
+    Task<string?> RecognizeAsync(string imagePath, CancellationToken cancellationToken);
+}

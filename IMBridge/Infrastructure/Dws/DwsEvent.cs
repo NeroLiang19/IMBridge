@@ -1,1 +1,28 @@
-dXNpbmcgU3lzdGVtLlRleHQuSnNvbi5TZXJpYWxpemF0aW9uOwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkR3czsKCi8vLyA8c3VtbWFyeT5kd3MgZXZlbnQgY29uc3VtZSAtLWZsYXR0ZW4g6L6T5Ye655qE5LiA6KGMIE5ESlNPTu+8iOWPquWPlumcgOimgeeahOWtl+aute+8ieOAgjwvc3VtbWFyeT4KaW50ZXJuYWwgc2VhbGVkIGNsYXNzIER3c0V2ZW50CnsKICAgIFtKc29uUHJvcGVydHlOYW1lKCJ0eXBlIildCiAgICBwdWJsaWMgc3RyaW5nPyBUeXBlIHsgZ2V0OyBzZXQ7IH0KCiAgICBbSnNvblByb3BlcnR5TmFtZSgiZXZlbnRfaWQiKV0KICAgIHB1YmxpYyBzdHJpbmc/IEV2ZW50SWQgeyBnZXQ7IHNldDsgfQoKICAgIFtKc29uUHJvcGVydHlOYW1lKCJtZXNzYWdlX2lkIildCiAgICBwdWJsaWMgc3RyaW5nPyBNZXNzYWdlSWQgeyBnZXQ7IHNldDsgfQoKICAgIFtKc29uUHJvcGVydHlOYW1lKCJjb252ZXJzYXRpb25faWQiKV0KICAgIHB1YmxpYyBzdHJpbmc/IENvbnZlcnNhdGlvbklkIHsgZ2V0OyBzZXQ7IH0KCiAgICBbSnNvblByb3BlcnR5TmFtZSgic2VuZGVyIildCiAgICBwdWJsaWMgc3RyaW5nPyBTZW5kZXIgeyBnZXQ7IHNldDsgfQoKICAgIFtKc29uUHJvcGVydHlOYW1lKCJzZW5kZXJfb3Blbl9kaW5ndGFsa19pZCIpXQogICAgcHVibGljIHN0cmluZz8gU2VuZGVyT3BlbkRpbmdUYWxrSWQgeyBnZXQ7IHNldDsgfQoKICAgIFtKc29uUHJvcGVydHlOYW1lKCJjb250ZW50IildCiAgICBwdWJsaWMgc3RyaW5nPyBDb250ZW50IHsgZ2V0OyBzZXQ7IH0KfQo=
+using System.Text.Json.Serialization;
+
+namespace IMBridge.Infrastructure.Dws;
+
+/// <summary>dws event consume --flatten 输出的一行 NDJSON（只取需要的字段）。</summary>
+internal sealed class DwsEvent
+{
+    [JsonPropertyName("type")]
+    public string? Type { get; set; }
+
+    [JsonPropertyName("event_id")]
+    public string? EventId { get; set; }
+
+    [JsonPropertyName("message_id")]
+    public string? MessageId { get; set; }
+
+    [JsonPropertyName("conversation_id")]
+    public string? ConversationId { get; set; }
+
+    [JsonPropertyName("sender")]
+    public string? Sender { get; set; }
+
+    [JsonPropertyName("sender_open_dingtalk_id")]
+    public string? SenderOpenDingTalkId { get; set; }
+
+    [JsonPropertyName("content")]
+    public string? Content { get; set; }
+}

@@ -1,1 +1,9 @@
-dXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT7mtojmga/mnaXmupDjgILlj6rlgZrkuIDku7bkuovvvJrmjIHnu63kuqflh7rlj5Hnu5nmiJHmnKzkurrnmoTmtojmga/jgII8L3N1bW1hcnk+CnB1YmxpYyBpbnRlcmZhY2UgSU1lc3NhZ2VTb3VyY2UKewogICAgSUFzeW5jRW51bWVyYWJsZTxJbmNvbWluZ01lc3NhZ2U+IFJlYWRNZXNzYWdlc0FzeW5jKENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKTsKfQo=
+using IMBridge.Domain;
+
+namespace IMBridge.Abstractions;
+
+/// <summary>消息来源。只做一件事：持续产出发给我本人的消息。</summary>
+public interface IMessageSource
+{
+    IAsyncEnumerable<IncomingMessage> ReadMessagesAsync(CancellationToken cancellationToken);
+}

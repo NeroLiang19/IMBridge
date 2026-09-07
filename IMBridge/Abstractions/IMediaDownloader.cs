@@ -1,1 +1,10 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT4KLy8vIOWqkuS9k+S4i+i9veacjeWKoeaOpeWPo+OAggovLy8g5Y2V5LiA6IGM6LSj77ya5qC55o2u5aqS5L2T6LWE5rqQ5Yet6K+B5bCG6L+c56iL5Zu+54mHL+aWh+S7tuS4i+i9veiHs+acrOWcsOS4tOaXtui3r+W+hOOAggovLy8gPC9zdW1tYXJ5PgpwdWJsaWMgaW50ZXJmYWNlIElNZWRpYURvd25sb2FkZXIKewogICAgVGFzazxzdHJpbmc/PiBEb3dubG9hZEltYWdlQXN5bmMoc3RyaW5nIG1lZGlhSWQsIHN0cmluZyBtZXNzYWdlSWQsIHN0cmluZyBjb252ZXJzYXRpb25JZCwgQ2FuY2VsbGF0aW9uVG9rZW4gY2FuY2VsbGF0aW9uVG9rZW4pOwp9Cg==
+namespace IMBridge.Abstractions;
+
+/// <summary>
+/// 媒体下载服务接口。
+/// 单一职责：根据媒体资源凭证将远程图片/文件下载至本地临时路径。
+/// </summary>
+public interface IMediaDownloader
+{
+    Task<string?> DownloadImageAsync(string mediaId, string messageId, string conversationId, CancellationToken cancellationToken);
+}

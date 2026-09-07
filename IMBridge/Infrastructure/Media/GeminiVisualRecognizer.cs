@@ -1,1 +1,60 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Xb3JrQnVkZHk7CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CgpuYW1lc3BhY2UgSU1CcmlkZ2UuSW5mcmFzdHJ1Y3R1cmUuTWVkaWE7CgovLy8gPHN1bW1hcnk+Ci8vLyDln7rkuo4gV29ya0J1ZGR5IOWkmuaooeaAgeaooeWei++8iEdlbWluaSAzLjggRmxhc2jvvInlrp7njrDnmoTop4bop4nor4bliKvlmajvvIjpkonpkonkuJPlsZ7vvInjgIIKLy8vIOWNleS4gOiBjOi0o++8muS7juacrOWcsOWbvueJh+aPkOWPluaWh+acrOS4juW3peWNleWPt+OAgue7n+S4gOi/m+eoi+aJp+ihjOi1sCBJUHJvY2Vzc1J1bm5lcu+8mwovLy8g5rK/55So5pei5pyJIC1577yI5peg5aS05qih5byP6Lez6L+H5p2D6ZmQ56Gu6K6k77yJ77yM5LiN5paw5aKe5p2D6ZmQ57uV6L+H44CB5LiN5omp5bGV546w5pyJ5p2D6ZmQ6IyD5Zu044CCCi8vLyA8L3N1bW1hcnk+CmludGVybmFsIHNlYWxlZCBjbGFzcyBHZW1pbmlWaXN1YWxSZWNvZ25pemVyKFdvcmtCdWRkeU9wdGlvbnMgY29uZmlnLCBJUHJvY2Vzc1J1bm5lciBwcm9jZXNzUnVubmVyLCBJTG9nZ2VyPEdlbWluaVZpc3VhbFJlY29nbml6ZXI+IGxvZ2dlcikgOiBJVmlzdWFsUmVjb2duaXplcgp7CiAgICBwdWJsaWMgYXN5bmMgVGFzazxzdHJpbmc/PiBSZWNvZ25pemVBc3luYyhzdHJpbmcgaW1hZ2VQYXRoLCBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbikKICAgIHsKICAgICAgICBpZiAoIUZpbGUuRXhpc3RzKGltYWdlUGF0aCkpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CgogICAgICAgIHZhciBwcm9tcHQgPQogICAgICAgICAgICBjb25maWcuVmlzaW9uUHJvbXB0ID8/CiAgICAgICAgICAgICQi6K+35LuU57uG6ZiF6K+75bm26K+G5Yir5pys5Zyw5Zu+54mH5paH5Lu277yae2ltYWdlUGF0aH1cbiIgKwogICAgICAgICAgICAi5Lu75Yqh6KaB5rGC77yaXG4iICsKICAgICAgICAgICAgIjEuIOmHjeeCueaPkOWPluWFtuS4reeahOeUn+S6p+WUr+S4gOeggeOAgeW3peWNleeggeaIluiuouWNlea1geawtOWPt++8iOWmgiBXTy14eHh4eCDmoLzlvI/nvJbnoIHvvInjgIJcbiIgKwogICAgICAgICAgICAiMi4g5aaC5p6c5o+Q5Y+W5Yiw5LqGIFdPLSDnvJbnoIHvvIzor7flj6rov5Tlm57miYDmnInnvJbnoIHvvIjnqbrmoLzliIbpmpTvvInvvIzkuI3opoHovpPlh7rlhbbku5blpJrkvZnmloflrZfjgIJcbiIgKwogICAgICAgICAgICAiMy4g5aaC5p6c5rKh5pyJ5qOA5rWL5Yiw5piO56Gu55qE5Y2V5Y+377yM566A6KaB5o+P6L+w5Zu+54mH5Lit55qE5Li76KaB5paH5a2X5YaF5a6544CCIjsKCiAgICAgICAgdmFyIGFyZ3MgPSBuZXcgTGlzdDxzdHJpbmc+CiAgICAgICAgewogICAgICAgICAgICBjb25maWcuRW50cnksCiAgICAgICAgICAgICItLW1vZGVsIiwgY29uZmlnLk1vZGVsLAogICAgICAgICAgICAiLXAiLAogICAgICAgICAgICAiLXkiLAogICAgICAgICAgICAiLS1vdXRwdXQtZm9ybWF0IiwgInRleHQiLAogICAgICAgICAgICBwcm9tcHQsCiAgICAgICAgfTsKCiAgICAgICAgbG9nZ2VyLkxvZ0luZm9ybWF0aW9uKCJbb2NyXSDosIPnlKjop4bop4nmqKHlnovor4bliKvlm77niYc6IHtQYXRofSIsIGltYWdlUGF0aCk7CgogICAgICAgIHZhciByZXN1bHQgPSBhd2FpdCBwcm9jZXNzUnVubmVyLlJ1bkFzeW5jKG5ldyBQcm9jZXNzU3BlYwogICAgICAgIHsKICAgICAgICAgICAgRmlsZU5hbWUgPSBjb25maWcuTm9kZVBhdGgsCiAgICAgICAgICAgIEFyZ3VtZW50cyA9IGFyZ3MsCiAgICAgICAgICAgIFdvcmtpbmdEaXJlY3RvcnkgPSBjb25maWcuV29ya2luZ0RpcmVjdG9yeSwKICAgICAgICAgICAgRW52aXJvbm1lbnQgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyBbIlNFUlZFUl9fUE9SVCJdID0gIjAiIH0sCiAgICAgICAgICAgIFRpbWVvdXQgPSBUaW1lU3Bhbi5Gcm9tU2Vjb25kcyhjb25maWcuVGltZW91dFNlY29uZHMpLAogICAgICAgIH0sIGNhbmNlbGxhdGlvblRva2VuKTsKCiAgICAgICAgdmFyIHRleHQgPSByZXN1bHQuU3RhbmRhcmRPdXRwdXQuVHJpbSgpOwogICAgICAgIGlmIChyZXN1bHQuRXhpdENvZGUgPT0gMCAmJiAhc3RyaW5nLklzTnVsbE9yV2hpdGVTcGFjZSh0ZXh0KSkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dJbmZvcm1hdGlvbigiW29jcl0g6K+G5Zu+5oiQ5YqfOiB7UmVzdWx0fSIsIHRleHQpOwogICAgICAgICAgICByZXR1cm4gdGV4dDsKICAgICAgICB9CgogICAgICAgIGxvZ2dlci5Mb2dXYXJuaW5nKCJbb2NyXSDor4blm77pgIDlh7rnoIEge0NvZGV9OiB7T3V0fSIsIHJlc3VsdC5FeGl0Q29kZSwgdGV4dCk7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cn0K
+using IMBridge.Abstractions;
+using IMBridge.Infrastructure.WorkBuddy;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.Media;
+
+/// <summary>
+/// 基于 WorkBuddy 多模态模型（Gemini 3.8 Flash）实现的视觉识别器（钉钉专属）。
+/// 单一职责：从本地图片提取文本与工单号。统一进程执行走 IProcessRunner；
+/// 沿用既有 -y（无头模式跳过权限确认），不新增权限绕过、不扩展现有权限范围。
+/// </summary>
+internal sealed class GeminiVisualRecognizer(WorkBuddyOptions config, IProcessRunner processRunner, ILogger<GeminiVisualRecognizer> logger) : IVisualRecognizer
+{
+    public async Task<string?> RecognizeAsync(string imagePath, CancellationToken cancellationToken)
+    {
+        if (!File.Exists(imagePath))
+        {
+            return null;
+        }
+
+        var prompt =
+            config.VisionPrompt ??
+            $"请仔细阅读并识别本地图片文件：{imagePath}\n" +
+            "任务要求：\n" +
+            "1. 重点提取其中的生产唯一码、工单码或订单流水号（如 WO-xxxxx 格式编码）。\n" +
+            "2. 如果提取到了 WO- 编码，请只返回所有编码（空格分隔），不要输出其他多余文字。\n" +
+            "3. 如果没有检测到明确的单号，简要描述图片中的主要文字内容。";
+
+        var args = new List<string>
+        {
+            config.Entry,
+            "--model", config.Model,
+            "-p",
+            "-y",
+            "--output-format", "text",
+            prompt,
+        };
+
+        logger.LogInformation("[ocr] 调用视觉模型识别图片: {Path}", imagePath);
+
+        var result = await processRunner.RunAsync(new ProcessSpec
+        {
+            FileName = config.NodePath,
+            Arguments = args,
+            WorkingDirectory = config.WorkingDirectory,
+            Environment = new Dictionary<string, string> { ["SERVER__PORT"] = "0" },
+            Timeout = TimeSpan.FromSeconds(config.TimeoutSeconds),
+        }, cancellationToken);
+
+        var text = result.StandardOutput.Trim();
+        if (result.ExitCode == 0 && !string.IsNullOrWhiteSpace(text))
+        {
+            logger.LogInformation("[ocr] 识图成功: {Result}", text);
+            return text;
+        }
+
+        logger.LogWarning("[ocr] 识图退出码 {Code}: {Out}", result.ExitCode, text);
+        return null;
+    }
+}

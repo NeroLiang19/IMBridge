@@ -1,1 +1,16 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCnB1YmxpYyBzZWFsZWQgcmVjb3JkIFZpc2lvbkNvbmZpZwp7CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIFR5cGUgeyBnZXQ7IGluaXQ7IH0KICAgIHB1YmxpYyBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPiBPcHRpb25zIHsgZ2V0OyBpbml0OyB9ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKfQoKcHVibGljIHNlYWxlZCByZWNvcmQgQnJpZGdlT3B0aW9ucwp7CiAgICBwdWJsaWMgYm9vbCBEcnlSdW4geyBnZXQ7IGluaXQ7IH0gPSB0cnVlOwogICAgcHVibGljIGludCBNYXhDb25jdXJyZW50VGFza3MgeyBnZXQ7IGluaXQ7IH0gPSAzOwogICAgcHVibGljIHJlcXVpcmVkIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBDaGFubmVsQ29uZmlnPiBDaGFubmVscyB7IGdldDsgaW5pdDsgfQogICAgcHVibGljIHJlcXVpcmVkIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBBZ2VudENvbmZpZz4gQWdlbnRzIHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgcmVxdWlyZWQgSVJlYWRPbmx5RGljdGlvbmFyeTxzdHJpbmcsIFZpc2lvbkNvbmZpZz4gVmlzaW9ucyB7IGdldDsgaW5pdDsgfQp9Cg==
+namespace IMBridge.Abstractions;
+
+public sealed record VisionConfig
+{
+    public required string Type { get; init; }
+    public IReadOnlyDictionary<string, string> Options { get; init; } = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+}
+
+public sealed record BridgeOptions
+{
+    public bool DryRun { get; init; } = true;
+    public int MaxConcurrentTasks { get; init; } = 3;
+    public required IReadOnlyDictionary<string, ChannelConfig> Channels { get; init; }
+    public required IReadOnlyDictionary<string, AgentConfig> Agents { get; init; }
+    public required IReadOnlyDictionary<string, VisionConfig> Visions { get; init; }
+}

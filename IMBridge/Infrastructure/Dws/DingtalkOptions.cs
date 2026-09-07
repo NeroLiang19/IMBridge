@@ -1,1 +1,8 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkR3czsKCnB1YmxpYyBzZWFsZWQgcmVjb3JkIERpbmd0YWxrT3B0aW9ucwp7CiAgICBwdWJsaWMgc3RyaW5nIER3c1BhdGggeyBnZXQ7IGluaXQ7IH0gPSBQYXRoLkNvbWJpbmUoRW52aXJvbm1lbnQuR2V0Rm9sZGVyUGF0aChFbnZpcm9ubWVudC5TcGVjaWFsRm9sZGVyLlVzZXJQcm9maWxlKSwgIi5sb2NhbCIsICJiaW4iLCAiZHdzLmV4ZSIpOwogICAgcHVibGljIGJvb2wgRHJ5UnVuIHsgZ2V0OyBpbml0OyB9ID0gdHJ1ZTsKICAgIHB1YmxpYyBJUmVhZE9ubHlMaXN0PHN0cmluZz4gRXZlbnRLZXlzIHsgZ2V0OyBpbml0OyB9ID0gWyJ1c2VyX2ltX21lc3NhZ2VfcmVjZWl2ZV9vMm9fYWxsIiwgInVzZXJfaW1fbWVzc2FnZV9yZWNlaXZlX2F0Il07Cn0K
+namespace IMBridge.Infrastructure.Dws;
+
+public sealed record DingtalkOptions
+{
+    public string DwsPath { get; init; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), ".local", "bin", "dws.exe");
+    public bool DryRun { get; init; } = true;
+    public IReadOnlyList<string> EventKeys { get; init; } = ["user_im_message_receive_o2o_all", "user_im_message_receive_at"];
+}

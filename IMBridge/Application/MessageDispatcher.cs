@@ -1,1 +1,93 @@
-dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkNvbmN1cnJlbnQ7CnVzaW5nIElNQnJpZGdlLkFic3RyYWN0aW9uczsKdXNpbmcgSU1CcmlkZ2UuRG9tYWluOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFwcGxpY2F0aW9uOwoKLy8vIDxzdW1tYXJ5PgovLy8g5Y2V5p2h5raI5oGv55qE6LCD5bqm5qC45b+D77yI5LiO5bi46am75b6q546v6Kej6ICm77yM5L6/5LqO5rWL6K+V77yJ77yaCi8vLyDljrvph40o5ZCrQ2hhbm5lbElkKSAtPiDlr4zljJYgLT4g5oyJIEFnZW50R2F0ZXdheUlkIOi3r+eUseWIsCBBZ2VudCAtPiDku4XmiJDlip/ml7blm57mnKzpgJrpgZMgc2lua+OAggovLy8g5aSx6LSlL+aXoOWMuemFjeWdh+S/neaMgeayiem7mO+8m+Wksei0pee7neS4jeaKiumUmeivr+i+k+WHuuWPkee7meeUqOaIt+OAggovLy8gPC9zdW1tYXJ5PgpwdWJsaWMgc2VhbGVkIGNsYXNzIE1lc3NhZ2VEaXNwYXRjaGVyCnsKICAgIHByaXZhdGUgcmVhZG9ubHkgQ29uY3VycmVudERpY3Rpb25hcnk8KHN0cmluZyBDaGFubmVsSWQsIHN0cmluZyBFdmVudElkKSwgYnl0ZT4gX3NlZW4gPSBuZXcoKTsKICAgIHByaXZhdGUgcmVhZG9ubHkgQ29uY3VycmVudFF1ZXVlPChzdHJpbmcgQ2hhbm5lbElkLCBzdHJpbmcgRXZlbnRJZCk+IF9vcmRlciA9IG5ldygpOwogICAgcHJpdmF0ZSByZWFkb25seSBTZW1hcGhvcmVTbGltIF9zZW1hcGhvcmU7CiAgICBwcml2YXRlIGNvbnN0IGludCBNYXhTZWVuID0gNTAwMDsKCiAgICBwdWJsaWMgTWVzc2FnZURpc3BhdGNoZXIoaW50IG1heENvbmN1cnJlbnRUYXNrcykKICAgIHsKICAgICAgICBfc2VtYXBob3JlID0gbmV3IFNlbWFwaG9yZVNsaW0oTWF0aC5NYXgoMSwgbWF4Q29uY3VycmVudFRhc2tzKSk7CiAgICB9CgogICAgcHVibGljIGFzeW5jIFRhc2sgRGlzcGF0Y2hBc3luYygKICAgICAgICBJbmNvbWluZ01lc3NhZ2UgbWVzc2FnZSwKICAgICAgICBDaGFubmVsQmluZGluZyBiaW5kaW5nLAogICAgICAgIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PiBhZ2VudHMsCiAgICAgICAgSUxvZ2dlcj8gbG9nZ2VyLAogICAgICAgIENhbmNlbGxhdGlvblRva2VuIGNhbmNlbGxhdGlvblRva2VuKQogICAgewogICAgICAgIGlmICghU3RyaW5nQ29tcGFyZXIuT3JkaW5hbC5FcXVhbHMobWVzc2FnZS5DaGFubmVsSWQsIGJpbmRpbmcuQ2hhbm5lbElkKSkKICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oIua2iOaBr+S4jumAmumBk+e7keWumuS4jeS4gOiHtO+8jOaLkue7nei3qOmAmumBk+i3r+eUseOAgiIpOwoKICAgICAgICAvLyDnlKjkuozlhYPnu4TmtojpmaTliIbpmpTnrKbnorDmkp7vvJvkv53nlZnnjrDmnIkgYXQtbW9zdC1vbmNlIOWwneivleivreS5ie+8jOS4jeiHquWKqOmHjeaUvuacieWJr+S9nOeUqOeahCBBZ2VudOOAggogICAgICAgIHZhciBkZWR1cEtleSA9IChtZXNzYWdlLkNoYW5uZWxJZCwgbWVzc2FnZS5FdmVudElkKTsKICAgICAgICBpZiAoIVRyeU1hcmtTZWVuKGRlZHVwS2V5KSkKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlcj8uTG9nRGVidWcoIltkZWR1cF0g6Lez6L+H6YeN5aSN5LqL5Lu2IHtLZXl9IiwgZGVkdXBLZXkpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQoKICAgICAgICBhd2FpdCBfc2VtYXBob3JlLldhaXRBc3luYyhjYW5jZWxsYXRpb25Ub2tlbik7CiAgICAgICAgdHJ5CiAgICAgICAgewogICAgICAgICAgICB2YXIgZW5yaWNoZWQgPSBhd2FpdCBiaW5kaW5nLkVucmljaGVyLkVucmljaEFzeW5jKG1lc3NhZ2UsIGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICAgICAgaWYgKGVucmljaGVkLkNoYW5uZWxJZCAhPSBtZXNzYWdlLkNoYW5uZWxJZCB8fCBlbnJpY2hlZC5FdmVudElkICE9IG1lc3NhZ2UuRXZlbnRJZCB8fAogICAgICAgICAgICAgICAgZW5yaWNoZWQuTWVzc2FnZUlkICE9IG1lc3NhZ2UuTWVzc2FnZUlkIHx8IGVucmljaGVkLlJlcGx5VGFyZ2V0ICE9IG1lc3NhZ2UuUmVwbHlUYXJnZXQpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigi5a+M5YyW5Zmo5pS55Y+Y5LqG5raI5oGv6Lqr5Lu95oiW5Zue5aSN55uu5qCH77yM5ouS57ud5Y+R6YCB44CCIik7CgogICAgICAgICAgICBsb2dnZXI/LkxvZ0luZm9ybWF0aW9uKCJbbXNnXSB7Q2hhbm5lbH0gfCB7VHlwZX0gfCB7U2VuZGVyfToge0NvbnRlbnR9IiwKICAgICAgICAgICAgICAgIG1lc3NhZ2UuQ2hhbm5lbElkLCBtZXNzYWdlLkV2ZW50VHlwZSwgbWVzc2FnZS5TZW5kZXJOYW1lLAogICAgICAgICAgICAgICAgZW5yaWNoZWQuQ29udGVudFsuLk1hdGguTWluKGVucmljaGVkLkNvbnRlbnQuTGVuZ3RoLCA4MCldKTsKCiAgICAgICAgICAgIGlmICghYWdlbnRzLlRyeUdldFZhbHVlKGJpbmRpbmcuQWdlbnRHYXRld2F5SWQsIG91dCB2YXIgZ2F0ZXdheSkpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGxvZ2dlcj8uTG9nV2FybmluZygiW3JvdXRlXSDmnKrmib7liLAgQWdlbnQg572R5YWzIHtBZ2VudElkfe+8jOS4ouW8gyIsIGJpbmRpbmcuQWdlbnRHYXRld2F5SWQpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CgogICAgICAgICAgICB2YXIgcmVwbHkgPSBhd2FpdCBnYXRld2F5LkFza0FzeW5jKGVucmljaGVkLCBjYW5jZWxsYXRpb25Ub2tlbik7CgogICAgICAgICAgICAvLyDku4UgU3VjY2VzcyDmiY3lm57lpI3vvJtOb01hdGNoL0ZhaWxlZCDkv53mjIHmsonpu5jvvIjlpLHotKXkuZ/kuI3lpJblj5HplJnor6/ovpPlh7rvvInjgIIKICAgICAgICAgICAgaWYgKHJlcGx5Lk91dGNvbWUgPT0gQWdlbnRPdXRjb21lLlN1Y2Nlc3MpCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGF3YWl0IGJpbmRpbmcuU2luay5TZW5kQXN5bmMoZW5yaWNoZWQsIHJlcGx5LlRleHQsIGNhbmNlbGxhdGlvblRva2VuKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGxvZ2dlcj8uTG9nSW5mb3JtYXRpb24oIltzaWxlbnRdIHtDaGFubmVsfSDkuovku7Yge0V2ZW50SWR9IOe7k+aenD17T3V0Y29tZX3vvIzkuI3lm57lpI0iLAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UuQ2hhbm5lbElkLCBtZXNzYWdlLkV2ZW50SWQsIHJlcGx5Lk91dGNvbWUpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGZpbmFsbHkKICAgICAgICB7CiAgICAgICAgICAgIF9zZW1hcGhvcmUuUmVsZWFzZSgpOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGJvb2wgVHJ5TWFya1NlZW4oKHN0cmluZyBDaGFubmVsSWQsIHN0cmluZyBFdmVudElkKSBrZXkpCiAgICB7CiAgICAgICAgaWYgKCFfc2Vlbi5UcnlBZGQoa2V5LCAwKSkKICAgICAgICB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICAgICAgX29yZGVyLkVucXVldWUoa2V5KTsKICAgICAgICB3aGlsZSAoX29yZGVyLkNvdW50ID4gTWF4U2VlbiAmJiBfb3JkZXIuVHJ5RGVxdWV1ZShvdXQgdmFyIG9sZGVzdCkpCiAgICAgICAgewogICAgICAgICAgICBfc2Vlbi5UcnlSZW1vdmUob2xkZXN0LCBvdXQgXyk7CiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlOwogICAgfQp9Cg==
+using System.Collections.Concurrent;
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Application;
+
+/// <summary>
+/// 单条消息的调度核心（与常驻循环解耦，便于测试）：
+/// 去重(含ChannelId) -> 富化 -> 按 AgentGatewayId 路由到 Agent -> 仅成功时回本通道 sink。
+/// 失败/无匹配均保持沉默；失败绝不把错误输出发给用户。
+/// </summary>
+public sealed class MessageDispatcher
+{
+    private readonly ConcurrentDictionary<(string ChannelId, string EventId), byte> _seen = new();
+    private readonly ConcurrentQueue<(string ChannelId, string EventId)> _order = new();
+    private readonly SemaphoreSlim _semaphore;
+    private const int MaxSeen = 5000;
+
+    public MessageDispatcher(int maxConcurrentTasks)
+    {
+        _semaphore = new SemaphoreSlim(Math.Max(1, maxConcurrentTasks));
+    }
+
+    public async Task DispatchAsync(
+        IncomingMessage message,
+        ChannelBinding binding,
+        IReadOnlyDictionary<string, IAgentGateway> agents,
+        ILogger? logger,
+        CancellationToken cancellationToken)
+    {
+        if (!StringComparer.Ordinal.Equals(message.ChannelId, binding.ChannelId))
+            throw new InvalidOperationException("消息与通道绑定不一致，拒绝跨通道路由。");
+
+        // 用二元组消除分隔符碰撞；保留现有 at-most-once 尝试语义，不自动重放有副作用的 Agent。
+        var dedupKey = (message.ChannelId, message.EventId);
+        if (!TryMarkSeen(dedupKey))
+        {
+            logger?.LogDebug("[dedup] 跳过重复事件 {Key}", dedupKey);
+            return;
+        }
+
+        await _semaphore.WaitAsync(cancellationToken);
+        try
+        {
+            var enriched = await binding.Enricher.EnrichAsync(message, cancellationToken);
+            if (enriched.ChannelId != message.ChannelId || enriched.EventId != message.EventId ||
+                enriched.MessageId != message.MessageId || enriched.ReplyTarget != message.ReplyTarget)
+                throw new InvalidOperationException("富化器改变了消息身份或回复目标，拒绝发送。");
+
+            logger?.LogInformation("[msg] {Channel} | {Type} | {Sender}: {Content}",
+                message.ChannelId, message.EventType, message.SenderName,
+                enriched.Content[..Math.Min(enriched.Content.Length, 80)]);
+
+            if (!agents.TryGetValue(binding.AgentGatewayId, out var gateway))
+            {
+                logger?.LogWarning("[route] 未找到 Agent 网关 {AgentId}，丢弃", binding.AgentGatewayId);
+                return;
+            }
+
+            var reply = await gateway.AskAsync(enriched, cancellationToken);
+
+            // 仅 Success 才回复；NoMatch/Failed 保持沉默（失败也不外发错误输出）。
+            if (reply.Outcome == AgentOutcome.Success)
+            {
+                await binding.Sink.SendAsync(enriched, reply.Text, cancellationToken);
+            }
+            else
+            {
+                logger?.LogInformation("[silent] {Channel} 事件 {EventId} 结果={Outcome}，不回复",
+                    message.ChannelId, message.EventId, reply.Outcome);
+            }
+        }
+        finally
+        {
+            _semaphore.Release();
+        }
+    }
+
+    private bool TryMarkSeen((string ChannelId, string EventId) key)
+    {
+        if (!_seen.TryAdd(key, 0))
+        {
+            return false;
+        }
+        _order.Enqueue(key);
+        while (_order.Count > MaxSeen && _order.TryDequeue(out var oldest))
+        {
+            _seen.TryRemove(oldest, out _);
+        }
+        return true;
+    }
+}

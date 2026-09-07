@@ -1,1 +1,7 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCnB1YmxpYyBzZWFsZWQgcmVjb3JkIEFnZW50Q29uZmlnCnsKICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgVHlwZSB7IGdldDsgaW5pdDsgfQogICAgcHVibGljIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+IE9wdGlvbnMgeyBnZXQ7IGluaXQ7IH0gPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpOwp9Cg==
+namespace IMBridge.Abstractions;
+
+public sealed record AgentConfig
+{
+    public required string Type { get; init; }
+    public IReadOnlyDictionary<string, string> Options { get; init; } = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+}

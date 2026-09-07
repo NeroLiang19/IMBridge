@@ -1,1 +1,22 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5JbmZyYXN0cnVjdHVyZS5Qcm9jZXNzOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nOwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLldvcmtCdWRkeTsKCi8vLyA8c3VtbWFyeT5Xb3JrQnVkZHkgQWdlbnQg6YCC6YWN5bel5Y6C77yIQWdlbnQg57G75Z6LICJ3b3JrYnVkZHki77yJ44CC5oyJ6YWN572u5Yib5bu6IFdvcmtCdWRkeSDnvZHlhbPlrp7kvovjgII8L3N1bW1hcnk+CnB1YmxpYyBzZWFsZWQgY2xhc3MgV29ya0J1ZGR5QWdlbnRBZGFwdGVyRmFjdG9yeShJUHJvY2Vzc1J1bm5lciBwcm9jZXNzUnVubmVyLCBJTG9nZ2VyRmFjdG9yeSBsb2dnZXJGYWN0b3J5KSA6IElBZ2VudEFkYXB0ZXJGYWN0b3J5CnsKICAgIHB1YmxpYyBJQWdlbnRHYXRld2F5IENyZWF0ZUdhdGV3YXkoc3RyaW5nIGFnZW50SWQsIEFnZW50Q29uZmlnIGNvbmZpZykKICAgICAgICA9PiBuZXcgV29ya0J1ZGR5R2F0ZXdheShuZXcgV29ya0J1ZGR5T3B0aW9ucwogICAgICAgIHsKICAgICAgICAgICAgTm9kZVBhdGggPSBHZXQoY29uZmlnLCAiTm9kZVBhdGgiLCBAIkM6XFByb2dyYW0gRmlsZXNcbm9kZWpzXG5vZGUuZXhlIiksCiAgICAgICAgICAgIEVudHJ5ID0gR2V0KGNvbmZpZywgIkVudHJ5IiwgUGF0aC5Db21iaW5lKEVudmlyb25tZW50LkdldEZvbGRlclBhdGgoRW52aXJvbm1lbnQuU3BlY2lhbEZvbGRlci5BcHBsaWNhdGlvbkRhdGEpLCAibnBtIiwgIm5vZGVfbW9kdWxlcyIsICJAdGVuY2VudC1haSIsICJjb2RlYnVkZHktY29kZSIsICJiaW4iLCAiY29kZWJ1ZGR5IikpLAogICAgICAgICAgICBNb2RlbCA9IEdldChjb25maWcsICJNb2RlbCIsICJjdXN0b20tbG9jYWw6Z2VtaW5pLTMuOC1mbGFzaCIpLAogICAgICAgICAgICBPd25lck5hbWUgPSBHZXQoY29uZmlnLCAiT3duZXJOYW1lIiwgIiIpLAogICAgICAgICAgICBXb3JraW5nRGlyZWN0b3J5ID0gR2V0KGNvbmZpZywgIldvcmtpbmdEaXJlY3RvcnkiLCBBcHBDb250ZXh0LkJhc2VEaXJlY3RvcnkpLAogICAgICAgICAgICBUaW1lb3V0U2Vjb25kcyA9IGludC5UcnlQYXJzZShHZXQoY29uZmlnLCAiVGltZW91dFNlY29uZHMiLCAiMTgwIiksIG91dCB2YXIgdCkgPyB0IDogMTgwLAogICAgICAgIH0sIHByb2Nlc3NSdW5uZXIsIGxvZ2dlckZhY3RvcnkuQ3JlYXRlTG9nZ2VyPFdvcmtCdWRkeUdhdGV3YXk+KCkpOwoKICAgIHN0YXRpYyBzdHJpbmcgR2V0KEFnZW50Q29uZmlnIGNvbmZpZywgc3RyaW5nIGtleSwgc3RyaW5nIGZhbGxiYWNrKSA9PiBjb25maWcuT3B0aW9ucy5UcnlHZXRWYWx1ZShrZXksIG91dCB2YXIgdmFsdWUpID8gdmFsdWUgOiBmYWxsYmFjazsKfQo=
+using IMBridge.Abstractions;
+using IMBridge.Infrastructure.Process;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Infrastructure.WorkBuddy;
+
+/// <summary>WorkBuddy Agent 适配工厂（Agent 类型 "workbuddy"）。按配置创建 WorkBuddy 网关实例。</summary>
+public sealed class WorkBuddyAgentAdapterFactory(IProcessRunner processRunner, ILoggerFactory loggerFactory) : IAgentAdapterFactory
+{
+    public IAgentGateway CreateGateway(string agentId, AgentConfig config)
+        => new WorkBuddyGateway(new WorkBuddyOptions
+        {
+            NodePath = Get(config, "NodePath", @"C:\Program Files\nodejs\node.exe"),
+            Entry = Get(config, "Entry", Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "npm", "node_modules", "@tencent-ai", "codebuddy-code", "bin", "codebuddy")),
+            Model = Get(config, "Model", "custom-local:gemini-3.8-flash"),
+            OwnerName = Get(config, "OwnerName", ""),
+            WorkingDirectory = Get(config, "WorkingDirectory", AppContext.BaseDirectory),
+            TimeoutSeconds = int.TryParse(Get(config, "TimeoutSeconds", "180"), out var t) ? t : 180,
+        }, processRunner, loggerFactory.CreateLogger<WorkBuddyGateway>());
+
+    static string Get(AgentConfig config, string key, string fallback) => config.Options.TryGetValue(key, out var value) ? value : fallback;
+}

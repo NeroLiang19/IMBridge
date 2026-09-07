@@ -1,1 +1,147 @@
-IyBJTUJyaWRnZSAvIOWNs+aXtumAmuiur+ahpQoKPiDkuIDkuKrluLjpqbvov5vnqIvvvIzmiorku7vkvZXljbPml7bpgJrorq/lubPlj7DvvIjpu5jorqTvvJrpkonpkonvvInnmoTnp4HogYogLyDnvqTmtojmga/vvIzovazkuqTnu5nmnKzlnLAgQUkgQWdlbnTvvIjpu5jorqTvvJpXb3JrQnVkZHnvvInlpITnkIbvvIzlho3miorlm57lpI3pgIHlm57ljrvjgIIKPiDlkb3lkI3nqbrpl7TjgIHnqIvluo/pm4bjgIHku5PlupPlt7Lku44gYERpbmdUYWxrQnJpZGdlYCDph43lkb3lkI3kuLogYElNQnJpZGdlYO+8jCoq6ZKJ6ZKJ5Y+q5piv56ys5LiA5Liq6KKr5o6l5YWl55qEIElNIOmAmumBkyoq77yM5paw5aKe6YCa6YGT44CBQWdlbnTjgIHop4bop4nor4bliKvpg73lj6rpnIDnmbvorrDpgILphY3lt6XljoLljbPlj6/jgIIKCioq5oqA5pyv5qCIKirvvJouTkVUIDEw77yIYG5ldDEwLjBg77yJwrcgQyMgwrcg5Y6f55SfIEFPVCDlj5HluIPvvIhgUHVibGlzaEFvdGDvvIx3aW4teDY0IOS6p+eJqee6piA1LjcgTULvvInCtyBXaW5kb3dzCgohW0lNQnJpZGdlIOa1geeoi+Wbvl0oZG9jcy9mbG93LnBuZykKCiMjIOWug+WBmuS7gOS5iAoKfCDmraXpqqQgfCDor7TmmI4gfAp8IC0tLS0gfCAtLS0tIHwKfCAxLiDmnInkurrmib7kvaAgfCDpkonpkonnp4HogYrvvIzmiJblnKjnvqTph4wgYEBgIOS9oCB8CnwgMi4g5qGl5Zyo5LiA55u05ZCsIHwg5YWo5bm05peg5LyR56uW552A6ICz5py177yM5o6J57q/5LqG6Ieq5bex6YeN6L+eIHwKfCAzLiDmiKrlm77lhYjlj5jlrZcgfCDmlLbliLDlm77niYflsLHlhYgi55yL5Zu+6K+06K+dIu+8jOeci+WujOWIoOaOiSB8CnwgNC4g5Lii57uZIEFJIOWkp+iEkSB8IOi9rOe7mSBXb3JrQnVkZHkg57+75oqA6IO9566x77yMMyDliIbpkp/kuLrpmZAgfAp8IDUuIOWbnuivneaIlumXreWYtCB8IOW5suWujOa0u+aJjeWbnuS4gOWPpe+8jOayoeacrOS6i+W5suWwseS4gOWjsOS4jeWQrSB8Cgo+IOS4gOadoea2iOaBr+WPquWkhOeQhuS4gOasoe+8jOacgOWkmuWQjOaXtuW5siAzIOS7tua0u++8jOWHuumUmeS5n+e7neS4jeS8muaKiuaKpemUmeeUqee7meS9oOOAggoKIyMg5p625p6E5YiG5bGCCgpgYGAK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgQWJzdHJhY3Rpb25zICAgICAgICDihpAg57qv5o6l5Y+j44CB5aWR57qm5qih5Z6LICAgICDilIIK4pSCICAgSU1lc3NhZ2VTb3VyY2UgLyBJTWVzc2FnZVNpbmsgICAgICAgICDilIIK4pSCICAgSU1lc3NhZ2VFbnJpY2hlciAvIElDaGFubmVsQWRhcHRlckZhY3Rvcnkg4pSCCuKUgiAgIElBZ2VudEdhdGV3YXkgICAgLyBJQWdlbnRBZGFwdGVyRmFjdG9yeSAgICDilIIK4pSCICAgSVZpc3VhbFJlY29nbml6ZXJGYWN0b3J5ICAgICAgICAgICAgICAgIOKUggrilIIgICBJUHJvY2Vzc1J1bm5lciAvIElTdHJlYW1pbmdQcm9jZXNzUnVubmVyICDilIIK4pSc4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSkCuKUgiAgRG9tYWluICAgICAgICAgICAgIOKGkCDlhaXnq5kv5Ye656uZ5raI5oGv44CB6ZmE5Lu2ICAgIOKUggrilIIgIEFwcGxpY2F0aW9uICAgICAgICDihpAgTWVzc2FnZURpc3BhdGNoZXLjgIEgICDilIIK4pSCICAgICAgICAgICAgICAgICAgICAgICBCcmlkZ2VXb3JrZXLjgIEgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgQnJpZGdlUmVnaXN0cnkgICAgICAgIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCICBJbmZyYXN0cnVjdHVyZSAgICAgIOKGkCDlhbfkvZPlubPlj7DkuI7ov5vnqIvlrp7njrAgICAg4pSCCuKUgiAgIER3c++8iERpbmdUYWxrIFdvcmtzcGFjZSBDTEnvvIkgICAgICAgICDilIIK4pSCICAgV29ya0J1ZGR577yI5peg5aS0IENMSSDpgILphY3lmajvvIkgICAgICAgICAgICDilIIK4pSCICAgTWVkaWHvvIjlqpLkvZPkuIvovb0gKyDop4bop4nor4bliKvvvIkgICAgICAgICAgICAg4pSCCuKUgiAgIFByb2Nlc3PvvIjluKblj5bmtojnmoTmtYHlvI/lrZDov5vnqIvvvIkgICAgICAgICAgICAg4pSCCuKUgiAgIENvbmZpZ3VyYXRpb27vvIjmiYvlt6Xor7vlj5YgKyDml6fniYjlhbzlrrnvvIkgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKYGBgCgrnuqbmnZ/vvIjnlLHmnrbmnoTmtYvor5XlrojmiqTvvInvvJoKCi0gKipEb21haW4gLyBBcHBsaWNhdGlvbiAvIEFic3RyYWN0aW9ucyoqIOS4jeW8leeUqCBgSW5mcmFzdHJ1Y3R1cmVgIOaIliBgTWljcm9zb2Z0LkV4dGVuc2lvbnMuQ29uZmlndXJhdGlvbmDvvJsKLSAqKkR3cyDpgILphY3lmagqKuS4jeaehOmAoOOAgeS5n+S4jeS+nei1liBXb3JrQnVkZHkg5oiWIEdlbWluaSDlrp7njrDvvJsKLSAqKklNIOW3peWOguaOpeWPoyoq5Y+q5o6l5pS26YCa6YGT6Ieq6Lqr55qEIGBDaGFubmVsQ29uZmlnYO+8jOS4jeaOpeaUtiBgQWdlbnRDb25maWdg77ybCi0gKirphY3nva7kuK3lh7rnjrDmnKrnmbvorrDnmoQgYFR5cGVgKiog5ZCv5Yqo5Y2z5oqb6ZSZ77yM5LiN6Z2Z6buY6ZmN57qn77ybCi0gKirpgJrpgZPmmL7lvI/pgInpobkqKuaAu+aYr+S8mOWFiOS6juaguee6p+m7mOiupOWAvO+8jOaguee6p+S7heWcqOmAmumBk+acqumFjee9ruaXtuS9nOWFnOW6leOAggoKIyMg5b+r6YCf5byA5aeLCgpgYGBiYXNoCiMgMS4g57yW6K+RICsg6LeR5Zue5b2S5rWL6K+V77yI5LiN6ZyA6KaB5Lu75L2V5aSW6YOo5pyN5Yqh77yJCmRvdG5ldCBydW4gLS1wcm9qZWN0IElNQnJpZGdlLlRlc3RzIC0tY29uZmlndXJhdGlvbiBSZWxlYXNlCgojIDIuIOS7pSBEcnlSdW4g5qih5byP5ZCv5Yqo77yI5LiN5Lya55yf5Y+R5raI5oGv77yM5L6/5LqO5ryU57uD77yJCmRvdG5ldCBydW4gLS1wcm9qZWN0IElNQnJpZGdlIC0tY29uZmlndXJhdGlvbiBSZWxlYXNlCgojIDMuIOWOn+eUnyBBT1Qg5Y+R5biD77yId2luLXg2NO+8iQpkb3RuZXQgcHVibGlzaCBJTUJyaWRnZS9JTUJyaWRnZS5jc3Byb2ogLWMgUmVsZWFzZSAtciB3aW4teDY0IC1vIElNQnJpZGdlL3B1Ymxpc2gKCiMgNC4g55yf5q2j6L+Q6KGM77ya57yW6L6RIGFwcHNldHRpbmdzLmpzb27vvIzmioogQnJpZGdlLkRyeVJ1biDmlLnkuLogZmFsc2UKYGBgCgo+IOmcgOimgSAuTkVUIDEwIFNES++8iGBuZXQxMC4wYO+8ieOAgkFPVCDlj5HluIPlnKggV2luZG93cyDkuIrov5jpnIDopoEgTVNWQyDnlJ/miJDlt6Xlhbfpk77vvIhWaXN1YWwgU3R1ZGlvIOeahCAiRGVza3RvcCBkZXZlbG9wbWVudCB3aXRoIEMrKyIg5bel5L2c6LSf6L2977yJ44CCCgo+IOm7mOiupCBgYXBwc2V0dGluZ3MuanNvbmAg5bey5pivIGBEcnlSdW49dHJ1ZWAg55qE5a6J5YWo56S65L6L77yM5LiN5bim5Lu75L2V55yf5a6e5Yet5o2u5oiW5pys5py66Lev5b6E44CCYE93bmVyTmFtZWAg5Li656m644CB6LaF5pe2IDE4MCDnp5LjgIHlubblj5HkuIrpmZAgM+OAggoKIyMg6YWN572uCgrmoLnoioLngrkgYEJyaWRnZWDvvJoKCnwg5a2X5q61IHwg5ZCr5LmJIHwg6buY6K6kIHwKfCAtLS0tIHwgLS0tLSB8IC0tLS0gfAp8IGBEcnlSdW5gIHwg5YWo5bGA5ryU57uD5byA5YWz77yb5Li6IGB0cnVlYCDml7blj5HpgIHliqjkvZzkuI3kvJrnnJ/mraPlj5Hlh7ogfCBgdHJ1ZWAgfAp8IGBNYXhDb25jdXJyZW50VGFza3NgIHwg5ZCM5pe25aSE55CG5raI5oGv55qE5LiK6ZmQIHwgYDNgIHwKCmBDaGFubmVscy48bmFtZT5g77yISU0g6YCa6YGT5a6e5L6L77yJ77yaCgp8IOWtl+autSB8IOWQq+S5iSB8CnwgLS0tLSB8IC0tLS0gfAp8IGBUeXBlYCB8IOmAmumBk+mAgumFjeWZqOexu+Wei++8iGBkaW5ndGFsa2Ag5Li65YaF572u77yb5paw5aKe6YCa6YGT5Zyo5q2k55m76K6w5paw5YC877yJIHwKfCBgQWdlbnRgIHwg6K+l6YCa6YGT57uR5a6a55qEIEFnZW50IElE77yI5b+F6aG75a2Y5Zyo5LqOIGBBZ2VudHNg77yJIHwKfCBgVmlzaW9uYCB8IOWPr+mAie+8m+W8leeUqOeahOinhuinieivhuWIq+WZqCBJRCB8CnwgYEV2ZW50S2V5czowLi5OYCB8IOmSiemSieS6i+S7tuexu+Wei+aVsOe7hO+8iOWmgiBgdXNlcl9pbV9tZXNzYWdlX3JlY2VpdmVfbzJvX2FsbGDvvIkgfAp8IGBEd3NQYXRoYCAvIGBEcnlSdW5gIHwg6YCa6YGT5YaF6KaG55uW5qC557qn5ZCM5ZCN6ZSuIHwKCmBBZ2VudHMuPGlkPmDvvIjkuIvmuLggQWdlbnQg5a6e5L6L77yJ77yaCgp8IOWtl+autSB8IOWQq+S5iSB8CnwgLS0tLSB8IC0tLS0gfAp8IGBUeXBlYCB8IEFnZW50IOexu+Wei++8iOWGhee9riBgd29ya2J1ZGR5YO+8iSB8Cnwg5YW25L2Z6ZSu5YC8IHwg6YCP5Lyg57uZ5a+55bqU6YCC6YWN5bel5Y6C77yI6Ieq5a6a5LmJIEFnZW50IOWPr+e6puWumuaWsOmUru+8iSB8Cgo+IOaXp+eJiOaJgeW5syBgQnJpZGdlLldvcmtCdWRkeWAgLyBgQnJpZGdlLkR3c1BhdGhgIC8gYEJyaWRnZS5FdmVudEtleXNgIOS8muiiq+iHquWKqOi/geenu+WIsCBgQ2hhbm5lbHMuZGluZ3RhbGtgIOS4jiBgQWdlbnRzLndvcmtidWRkeWDvvIzkvYYqKuS7hei/geenu+i/meS4ieenjeeZveWQjeWNlemUrioq77yM6YG/5YWN5peg5YWz6YWN572u5rOE5ryP44CCCgojIyDmianlsZXngrkKCnwg5oOz5YGa55qE5LqLIHwg5pS55ZOq6YeMIHwKfCAtLS0tIHwgLS0tLSB8Cnwg5o6l5YWl5LiA5Liq5paw55qEIElN77yI6aOe5LmmIC8gU2xhY2sgLyBUZWxlZ3Jhbe+8iSB8IOWunueOsCBgSUNoYW5uZWxBZGFwdGVyRmFjdG9yeWDvvIzlnKggYFByb2dyYW0uY3NgIOeahCBgQ2hhbm5lbHNgIOWtl+WFuOmHjOeZu+iusCB8Cnwg5o6l5YWl5LiA5Liq5paw55qEIEFnZW50IHwg5a6e546wIGBJQWdlbnRBZGFwdGVyRmFjdG9yeWDvvIzlnKggYEFnZW50c2Ag5a2X5YW46YeM55m76K6wIHwKfCDmjqXlhaXmlrDnmoTop4bop4nmqKHlnosgfCDlrp7njrAgYElWaXN1YWxSZWNvZ25pemVyRmFjdG9yeWDvvIzlnKggYFZpc3VhbHNgIOWtl+WFuOmHjOeZu+iusCB8Cnwg5pS5IEFnZW50IOihjOS4uiAvIOaooeWeiyB8IOWcqCBgYXBwc2V0dGluZ3MuanNvbmAg6YeM57uZ5a+55bqUIEFnZW50IOWKoOaWsOmUru+8jOW3peWOguiHquihjOivu+WPliB8Cgo+IOW6lOeUqOWxguOAgeiwg+W6puaguOW/g+OAgea2iOaBr+Wlkee6puS4gOihjOmDveS4jeeUqOaUueKAlOKAlOi/meWwseaYr+aetuaehOa1i+ivleWFnOW6leeahOebrueahOOAggoKIyMg6L+b56iL5a6J5YWoCgotIOWtkOi/m+eoi+m7mOiupOS4jee7p+aJv+Wuv+S4u+WujOaVtOeOr+Wig++8jOWPquS/neeVmei/kOihjOaJgOmcgOacgOWwjyBXaW5kb3dzIOeOr+Wig++8iGBQQVRIYCAvIGBTeXN0ZW1Sb290YCDnrYnvvInvvJvosIPnlKjmlrnlj6/mmL7lvI/ov73liqDlj5jph4/jgIIKLSDmtYHlvI/kvJror53nmoQgYHN0ZGVycmAg5ZCO5Y+w5o6S56m65Lu75Yqh5Lya6KKr6KeC5a+f77yMKirkuI3kvJrooqvpgZflv5gqKuWvvOiHtOi/m+eoi+aCrOaMguOAggotIOWPlua2iCAvIGBEaXNwb3NlYCDkvJrlvLrmnYDmiYDlsZ7ov5vnqIvmoJHlubbnrYnlvoXpgIDlh7rvvIzlpJrmrKEgYERpc3Bvc2VgIOW5guetieOAggotIOecn+Wunui/m+eoiyBVbmljb2Rl44CB5Y+W5raI5LiO5Zue5pS244CB5byC5bi46YeN6L+e5Zue5b2S5rWL6K+V5YWo6YOo5L2/55SoIGBkb3RuZXQgaGVscGAgLyBgcG93ZXJzaGVsbC5leGVgIOetieacrOWcsOaXoOWus+WRveS7pO+8jENJIOS4jeS+nei1luS7u+S9leWklumDqOacjeWKoeOAggoKIyMg5rWL6K+VCgpgYGBiYXNoCmRvdG5ldCBydW4gLS1wcm9qZWN0IElNQnJpZGdlLlRlc3RzIC0tY29uZmlndXJhdGlvbiBSZWxlYXNlCmBgYAoK6KaG55uW77yaCgotIOa2iOaBr+i3r+eUseS4jumalOemu++8iOS4pOmAmumBk+OAgeS4pCBBZ2VudOOAgW5vLW1hdGNoIC8gZmFpbGVkIOayiem7mOOAgeWQjOmAmumBk+WOu+mHjeOAgVVuaWNvZGUg6YCP5Lyg77yJCi0g6Lev55Sx5aWR57qm77yI5LqM5YWD57uE5Y676YeN6ZSu5peg5YiG6ZqU56ym56Kw5pKe44CB5a+M5YyW5Zmo5LiN5b6X5pS55Y+Y5Zue5aSN55uu5qCH44CB57uR5a6a5LiA6Ie05oCn5ouS57ud77yJCi0g6L+b56iL5aWR57qm77yI55yf5a6e6L+b56iLIFVuaWNvZGXjgIHmnIDlsI/njq/looPnu6fmib/jgIHlj5bmtoggLyBEaXNwb3NlIOWbnuaUtuOAgUR3cyDlvILluLjph43ov57vvIkKLSBXb3JrZXIg5aWR57qm77yIYWdlbnQgLyBzaW5rIC8gZW5yaWNoZXIg5byC5bi45ZCO6YCa6YGT57un57ut77yb5a6/5Li75Y+W5raI5q2j5bi457uT5p2f77yJCi0g5p625p6E5aWR57qm77yI5YiG5bGC5L6d6LWW44CB6YCa55So6YWN572u5a2X5q6155m95ZCN5Y2V44CBSU0g5bel5Y6C5LiN5o6lIEFnZW50IOmFjee9ruOAgemSiemSiemAgumFjeWZqOS4jeaehOmAoCBXb3JrQnVkZHkg6KeG6KeJ77yJCi0g6YWN572u57un5om/77yI5pi+5byP6YCJ6aG55LyY5YWI44CB5qC557qn6buY6K6k5YWc5bqV44CB5pen5qC85byP6L+B56e755m95ZCN5Y2V44CB56m66YWN572u5a6J5YWo6buY6K6k77yJCgo+IOa1i+ivleW3peeoiyBgUHJvZ3JhbS5jc2Ag5LuN6YGX55WZIDQg5aSEIGBDUzg2MjVgIOepuuWAvOitpuWRiu+8iOS4juacrOasoemHjeWRveWQjeaXoOWFs++8ie+8jOS4jeW9seWTjeWKn+iDveS4juWPkeW4g+OAggoKIyMg6aG555uuIC8g5LuT5bqTCgotIOWRveWQjeepuumXtO+8mmBJTUJyaWRnZS4qYAotIOeoi+W6j+mbhu+8mmBJTUJyaWRnZWDjgIFgSU1CcmlkZ2UuVGVzdHNgCi0gR2l0SHVi77yaPGh0dHBzOi8vZ2l0aHViLmNvbS9OZXJvTGlhbmcxOS9JTUJyaWRnZT4KLSBMaWNlbnNl77ya5LuF5Lul5LuT5bqTIGBMSUNFTlNFYCDkuLrlh4bvvIjpppbmrKHlhazlvIDmnKrpmYTvvJvlpoLpnIAgTUlUL0FwYWNoZS0yLjAg562J5qyi6L+O5ZGK55+l77yJCgojIyDph43lkb3lkI3ljoblj7IKCi0gMjAyNi0wOe+8mumhueebruS7jiBgRGluZ1RhbGtCcmlkZ2VgIOmHjeWRveWQjeS4uiBgSU1CcmlkZ2Vg77yM5Lul5L2T546wIuWkmumAmumBkyBJTSDmoaUi55qE5a6a5L2N44CCCi0g5ZCM5qyh5o+Q5Lqk77ya5oqK5YaF572u6ZKJ6ZKJ55u45YWz57G777yIYERpbmd0YWxrQ2hhbm5lbEFkYXB0ZXJGYWN0b3J5YOOAgWBEaW5ndGFsa09wdGlvbnNgIOetie+8ieS/neeVmeS4uumSiemSieS4k+WxnuWRveWQje+8jOmBv+WFjeS4gOS4quaKveixoeamguW/teiiq+mSiemSieivjeaxh+WNoOaNruOAgg==
+# IMBridge / 即时通讯桥
+
+> 一个常驻进程，把任何即时通讯平台（默认：钉钉）的私聊 / 群消息，转交给本地 AI Agent（默认：WorkBuddy）处理，再把回复送回去。
+> 命名空间、程序集、仓库已从 `DingTalkBridge` 重命名为 `IMBridge`，**钉钉只是第一个被接入的 IM 通道**，新增通道、Agent、视觉识别都只需登记适配工厂即可。
+
+**技术栈**：.NET 10（`net10.0`）· C# · 原生 AOT 发布（`PublishAot`，win-x64 产物约 5.7 MB）· Windows
+
+![IMBridge 流程图](docs/flow.png)
+
+## 它做什么
+
+| 步骤 | 说明 |
+| ---- | ---- |
+| 1. 有人找你 | 钉钉私聊，或在群里 `@` 你 |
+| 2. 桥在一直听 | 全年无休竖着耳朵，掉线了自己重连 |
+| 3. 截图先变字 | 收到图片就先"看图说话"，看完删掉 |
+| 4. 丢给 AI 大脑 | 转给 WorkBuddy 翻技能箱，3 分钟为限 |
+| 5. 回话或闭嘴 | 干完活才回一句，没本事干就一声不吭 |
+
+> 一条消息只处理一次，最多同时干 3 件活，出错也绝不会把报错甩给你。
+
+## 架构分层
+
+```
+┌────────────────────────────────────────┐
+│  Abstractions        ← 纯接口、契约模型     │
+│   IMessageSource / IMessageSink         │
+│   IMessageEnricher / IChannelAdapterFactory │
+│   IAgentGateway    / IAgentAdapterFactory    │
+│   IVisualRecognizerFactory                │
+│   IProcessRunner / IStreamingProcessRunner  │
+├────────────────────────────────────────┤
+│  Domain             ← 入站/出站消息、附件    │
+│  Application        ← MessageDispatcher、   │
+│                       BridgeWorker、       │
+│                       BridgeRegistry        │
+├────────────────────────────────────────┤
+│  Infrastructure      ← 具体平台与进程实现    │
+│   Dws（DingTalk Workspace CLI）         │
+│   WorkBuddy（无头 CLI 适配器）            │
+│   Media（媒体下载 + 视觉识别）             │
+│   Process（带取消的流式子进程）             │
+│   Configuration（手工读取 + 旧版兼容）     │
+└────────────────────────────────────────┘
+```
+
+约束（由架构测试守护）：
+
+- **Domain / Application / Abstractions** 不引用 `Infrastructure` 或 `Microsoft.Extensions.Configuration`；
+- **Dws 适配器**不构造、也不依赖 WorkBuddy 或 Gemini 实现；
+- **IM 工厂接口**只接收通道自身的 `ChannelConfig`，不接收 `AgentConfig`；
+- **配置中出现未登记的 `Type`** 启动即抛错，不静默降级；
+- **通道显式选项**总是优先于根级默认值，根级仅在通道未配置时作兜底。
+
+## 快速开始
+
+```bash
+# 1. 编译 + 跑回归测试（不需要任何外部服务）
+dotnet run --project IMBridge.Tests --configuration Release
+
+# 2. 以 DryRun 模式启动（不会真发消息，便于演练）
+dotnet run --project IMBridge --configuration Release
+
+# 3. 原生 AOT 发布（win-x64）
+dotnet publish IMBridge/IMBridge.csproj -c Release -r win-x64 -o IMBridge/publish
+
+# 4. 真正运行：编辑 appsettings.json，把 Bridge.DryRun 改为 false
+```
+
+> 需要 .NET 10 SDK（`net10.0`）。AOT 发布在 Windows 上还需要 MSVC 生成工具链（Visual Studio 的 "Desktop development with C++" 工作负载）。
+
+> 默认 `appsettings.json` 已是 `DryRun=true` 的安全示例，不带任何真实凭据或本机路径。`OwnerName` 为空、超时 180 秒、并发上限 3。
+
+## 配置
+
+根节点 `Bridge`：
+
+| 字段 | 含义 | 默认 |
+| ---- | ---- | ---- |
+| `DryRun` | 全局演练开关；为 `true` 时发送动作不会真正发出 | `true` |
+| `MaxConcurrentTasks` | 同时处理消息的上限 | `3` |
+
+`Channels.<name>`（IM 通道实例）：
+
+| 字段 | 含义 |
+| ---- | ---- |
+| `Type` | 通道适配器类型（`dingtalk` 为内置；新增通道在此登记新值） |
+| `Agent` | 该通道绑定的 Agent ID（必须存在于 `Agents`） |
+| `Vision` | 可选；引用的视觉识别器 ID |
+| `EventKeys:0..N` | 钉钉事件类型数组（如 `user_im_message_receive_o2o_all`） |
+| `DwsPath` / `DryRun` | 通道内覆盖根级同名键 |
+
+`Agents.<id>`（下游 Agent 实例）：
+
+| 字段 | 含义 |
+| ---- | ---- |
+| `Type` | Agent 类型（内置 `workbuddy`） |
+| 其余键值 | 透传给对应适配工厂（自定义 Agent 可约定新键） |
+
+> 旧版扁平 `Bridge.WorkBuddy` / `Bridge.DwsPath` / `Bridge.EventKeys` 会被自动迁移到 `Channels.dingtalk` 与 `Agents.workbuddy`，但**仅迁移这三种白名单键**，避免无关配置泄漏。
+
+## 扩展点
+
+| 想做的事 | 改哪里 |
+| ---- | ---- |
+| 接入一个新的 IM（飞书 / Slack / Telegram） | 实现 `IChannelAdapterFactory`，在 `Program.cs` 的 `Channels` 字典里登记 |
+| 接入一个新的 Agent | 实现 `IAgentAdapterFactory`，在 `Agents` 字典里登记 |
+| 接入新的视觉模型 | 实现 `IVisualRecognizerFactory`，在 `Visuals` 字典里登记 |
+| 改 Agent 行为 / 模型 | 在 `appsettings.json` 里给对应 Agent 加新键，工厂自行读取 |
+
+> 应用层、调度核心、消息契约一行都不用改——这就是架构测试兜底的目的。
+
+## 进程安全
+
+- 子进程默认不继承宿主完整环境，只保留运行所需最小 Windows 环境（`PATH` / `SystemRoot` 等）；调用方可显式追加变量。
+- 流式会话的 `stderr` 后台排空任务会被观察，**不会被遗忘**导致进程悬挂。
+- 取消 / `Dispose` 会强杀所属进程树并等待退出，多次 `Dispose` 幂等。
+- 真实进程 Unicode、取消与回收、异常重连回归测试全部使用 `dotnet help` / `powershell.exe` 等本地无害命令，CI 不依赖任何外部服务。
+
+## 测试
+
+```bash
+dotnet run --project IMBridge.Tests --configuration Release
+```
+
+覆盖：
+
+- 消息路由与隔离（两通道、两 Agent、no-match / failed 沉默、同通道去重、Unicode 透传）
+- 路由契约（二元组去重键无分隔符碰撞、富化器不得改变回复目标、绑定一致性拒绝）
+- 进程契约（真实进程 Unicode、最小环境继承、取消 / Dispose 回收、Dws 异常重连）
+- Worker 契约（agent / sink / enricher 异常后通道继续；宿主取消正常结束）
+- 架构契约（分层依赖、通用配置字段白名单、IM 工厂不接 Agent 配置、钉钉适配器不构造 WorkBuddy 视觉）
+- 配置继承（显式选项优先、根级默认兜底、旧格式迁移白名单、空配置安全默认）
+
+> 测试工程 `Program.cs` 仍遗留 4 处 `CS8625` 空值警告（与本次重命名无关），不影响功能与发布。
+
+## 项目 / 仓库
+
+- 命名空间：`IMBridge.*`
+- 程序集：`IMBridge`、`IMBridge.Tests`
+- GitHub：<https://github.com/NeroLiang19/IMBridge>
+- License：仅以仓库 `LICENSE` 为准（首次公开未附；如需 MIT/Apache-2.0 等欢迎告知）
+
+## 重命名历史
+
+- 2026-09：项目从 `DingTalkBridge` 重命名为 `IMBridge`，以体现"多通道 IM 桥"的定位。
+- 同次提交：把内置钉钉相关类（`DingtalkChannelAdapterFactory`、`DingtalkOptions` 等）保留为钉钉专属命名，避免一个抽象概念被钉钉词汇占据。

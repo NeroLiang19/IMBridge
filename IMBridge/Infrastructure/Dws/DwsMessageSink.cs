@@ -1,1 +1,70 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5Eb21haW47CnVzaW5nIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLlByb2Nlc3M7CnVzaW5nIE1pY3Jvc29mdC5FeHRlbnNpb25zLkxvZ2dpbmc7CnVzaW5nIFN5c3RlbS5UZXh0OwoKbmFtZXNwYWNlIElNQnJpZGdlLkluZnJhc3RydWN0dXJlLkR3czsKCi8vLyA8c3VtbWFyeT4KLy8vIOWfuuS6jiBkd3MgY2hhdCArbWVzc2FnZXMtc2VuZCDnmoTmtojmga/lh7rlj6PvvIjpkonpkonkuJPlsZ7pgILphY3lsYLvvInvvIzku6XmnKzkurrouqvku73lj5HpgIHjgIIKLy8vIOmAmueUqCBSZXBseVRhcmdldCDlnKjov5nph4znv7vor5HmiJDpkonpkonlj4LmlbDvvJpHcm91cCAtPiAtLWdyb3Vw77yMRGlyZWN0IC0+IC0tb3Blbi1kaW5ndGFsay1pZOOAggovLy8gPC9zdW1tYXJ5PgppbnRlcm5hbCBzZWFsZWQgY2xhc3MgRHdzTWVzc2FnZVNpbmsoRGluZ3RhbGtPcHRpb25zIG9wdGlvbnMsIElQcm9jZXNzUnVubmVyIHByb2Nlc3NSdW5uZXIsIElMb2dnZXI8RHdzTWVzc2FnZVNpbms+IGxvZ2dlcikgOiBJTWVzc2FnZVNpbmsKewogICAgcHVibGljIGFzeW5jIFRhc2sgU2VuZEFzeW5jKEluY29taW5nTWVzc2FnZSBvcmlnaW4sIHN0cmluZyB0ZXh0LCBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbikKICAgIHsKICAgICAgICB2YXIgYXJncyA9IG5ldyBMaXN0PHN0cmluZz4KICAgICAgICB7CiAgICAgICAgICAgICJjaGF0IiwgIittZXNzYWdlcy1zZW5kIiwgIi0tYXMiLCAidXNlciIsICItLXllcyIsCiAgICAgICAgICAgICItLXRleHQiLCB0ZXh0LAogICAgICAgICAgICAiLS11dWlkIiwgQnVpbGRVdWlkKG9yaWdpbi5DaGFubmVsSWQsIG9yaWdpbi5FdmVudElkKSwgLy8g5bmC562J6ZSu6Ziy6YeN5Y+RCiAgICAgICAgfTsKICAgICAgICBpZiAob3JpZ2luLlJlcGx5VGFyZ2V0LlR5cGUgPT0gQ29udmVyc2F0aW9uVHlwZS5Hcm91cCkKICAgICAgICB7CiAgICAgICAgICAgIGFyZ3MuQWRkUmFuZ2UoWyItLWdyb3VwIiwgb3JpZ2luLlJlcGx5VGFyZ2V0LlRhcmdldElkXSk7CiAgICAgICAgfQogICAgICAgIGVsc2UKICAgICAgICB7CiAgICAgICAgICAgIGFyZ3MuQWRkUmFuZ2UoWyItLW9wZW4tZGluZ3RhbGstaWQiLCBvcmlnaW4uUmVwbHlUYXJnZXQuVGFyZ2V0SWRdKTsKICAgICAgICB9CgogICAgICAgIGlmIChvcHRpb25zLkRyeVJ1bikKICAgICAgICB7CiAgICAgICAgICAgIGxvZ2dlci5Mb2dJbmZvcm1hdGlvbigiW2RyeS1ydW5dIOW6lOWbnuWkjSB7VGFyZ2V0fToge1RleHR9IiwKICAgICAgICAgICAgICAgIG9yaWdpbi5SZXBseVRhcmdldC5UeXBlID09IENvbnZlcnNhdGlvblR5cGUuR3JvdXAgPyAkIue+pCB7b3JpZ2luLlJlcGx5VGFyZ2V0LlRhcmdldElkfSIgOiBvcmlnaW4uU2VuZGVyTmFtZSwgdGV4dCk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CgogICAgICAgIHZhciByZXN1bHQgPSBhd2FpdCBwcm9jZXNzUnVubmVyLlJ1bkFzeW5jKG5ldyBQcm9jZXNzU3BlYwogICAgICAgIHsKICAgICAgICAgICAgRmlsZU5hbWUgPSBvcHRpb25zLkR3c1BhdGgsCiAgICAgICAgICAgIEFyZ3VtZW50cyA9IGFyZ3MsCiAgICAgICAgICAgIFRpbWVvdXQgPSBUaW1lU3Bhbi5Gcm9tU2Vjb25kcyg2MCksCiAgICAgICAgfSwgY2FuY2VsbGF0aW9uVG9rZW4pOwoKICAgICAgICBpZiAocmVzdWx0LkV4aXRDb2RlICE9IDApCiAgICAgICAgewogICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigkImR3cyDlj5HpgIHlpLHotKUgZXhpdD17cmVzdWx0LkV4aXRDb2RlfSwgY29ycmVsYXRpb249e0J1aWxkQ29ycmVsYXRpb24ob3JpZ2luLkNoYW5uZWxJZCwgb3JpZ2luLkV2ZW50SWQpfSIpOwogICAgICAgIH0KICAgICAgICBsb2dnZXIuTG9nSW5mb3JtYXRpb24oIuW3suWbnuWkjSB7VGFyZ2V0fSIsIG9yaWdpbi5TZW5kZXJOYW1lKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBzdHJpbmcgQnVpbGRVdWlkKHN0cmluZyBjaGFubmVsSWQsIHN0cmluZyBldmVudElkKQogICAgewogICAgICAgIHZhciBjaGFubmVsID0gTm9ybWFsaXplKGNoYW5uZWxJZCk7CiAgICAgICAgdmFyIGV2ZW50S2V5ID0gTm9ybWFsaXplKGV2ZW50SWQpOwogICAgICAgIHZhciBwYXlsb2FkID0gJCJ7Y2hhbm5lbElkLkxlbmd0aH06e2NoYW5uZWxJZH18e2V2ZW50SWQuTGVuZ3RofTp7ZXZlbnRJZH0iOwogICAgICAgIHZhciBoYXNoID0gQ29udmVydC5Ub0hleFN0cmluZyhTeXN0ZW0uU2VjdXJpdHkuQ3J5cHRvZ3JhcGh5LlNIQTI1Ni5IYXNoRGF0YShFbmNvZGluZy5VVEY4LkdldEJ5dGVzKHBheWxvYWQpKSlbLi4xNl0uVG9Mb3dlckludmFyaWFudCgpOwogICAgICAgIHJldHVybiAkIndiLXtjaGFubmVsfS17ZXZlbnRLZXl9LXtoYXNofSI7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgc3RyaW5nIEJ1aWxkQ29ycmVsYXRpb24oc3RyaW5nIGNoYW5uZWxJZCwgc3RyaW5nIGV2ZW50SWQpCiAgICAgICAgPT4gJCJ7Tm9ybWFsaXplKGNoYW5uZWxJZCl9LXtOb3JtYWxpemUoZXZlbnRJZCl9IjsKCiAgICBwcml2YXRlIHN0YXRpYyBzdHJpbmcgTm9ybWFsaXplKHN0cmluZyB2YWx1ZSkKICAgIHsKICAgICAgICB2YXIgY2hhcnMgPSB2YWx1ZS5XaGVyZShjaGFyLklzTGV0dGVyT3JEaWdpdCkuVGFrZSg4MCkuVG9BcnJheSgpOwogICAgICAgIHJldHVybiBjaGFycy5MZW5ndGggPT0gMCA/ICJ1bmtub3duIiA6IG5ldyBzdHJpbmcoY2hhcnMpOwogICAgfQp9Cg==
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+using IMBridge.Infrastructure.Process;
+using Microsoft.Extensions.Logging;
+using System.Text;
+
+namespace IMBridge.Infrastructure.Dws;
+
+/// <summary>
+/// 基于 dws chat +messages-send 的消息出口（钉钉专属适配层），以本人身份发送。
+/// 通用 ReplyTarget 在这里翻译成钉钉参数：Group -> --group，Direct -> --open-dingtalk-id。
+/// </summary>
+internal sealed class DwsMessageSink(DingtalkOptions options, IProcessRunner processRunner, ILogger<DwsMessageSink> logger) : IMessageSink
+{
+    public async Task SendAsync(IncomingMessage origin, string text, CancellationToken cancellationToken)
+    {
+        var args = new List<string>
+        {
+            "chat", "+messages-send", "--as", "user", "--yes",
+            "--text", text,
+            "--uuid", BuildUuid(origin.ChannelId, origin.EventId), // 幂等键防重发
+        };
+        if (origin.ReplyTarget.Type == ConversationType.Group)
+        {
+            args.AddRange(["--group", origin.ReplyTarget.TargetId]);
+        }
+        else
+        {
+            args.AddRange(["--open-dingtalk-id", origin.ReplyTarget.TargetId]);
+        }
+
+        if (options.DryRun)
+        {
+            logger.LogInformation("[dry-run] 应回复 {Target}: {Text}",
+                origin.ReplyTarget.Type == ConversationType.Group ? $"群 {origin.ReplyTarget.TargetId}" : origin.SenderName, text);
+            return;
+        }
+
+        var result = await processRunner.RunAsync(new ProcessSpec
+        {
+            FileName = options.DwsPath,
+            Arguments = args,
+            Timeout = TimeSpan.FromSeconds(60),
+        }, cancellationToken);
+
+        if (result.ExitCode != 0)
+        {
+            throw new InvalidOperationException($"dws 发送失败 exit={result.ExitCode}, correlation={BuildCorrelation(origin.ChannelId, origin.EventId)}");
+        }
+        logger.LogInformation("已回复 {Target}", origin.SenderName);
+    }
+
+    private static string BuildUuid(string channelId, string eventId)
+    {
+        var channel = Normalize(channelId);
+        var eventKey = Normalize(eventId);
+        var payload = $"{channelId.Length}:{channelId}|{eventId.Length}:{eventId}";
+        var hash = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(Encoding.UTF8.GetBytes(payload)))[..16].ToLowerInvariant();
+        return $"wb-{channel}-{eventKey}-{hash}";
+    }
+
+    private static string BuildCorrelation(string channelId, string eventId)
+        => $"{Normalize(channelId)}-{Normalize(eventId)}";
+
+    private static string Normalize(string value)
+    {
+        var chars = value.Where(char.IsLetterOrDigit).Take(80).ToArray();
+        return chars.Length == 0 ? "unknown" : new string(chars);
+    }
+}

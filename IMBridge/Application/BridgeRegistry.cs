@@ -1,1 +1,75 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBNaWNyb3NvZnQuRXh0ZW5zaW9ucy5Mb2dnaW5nOwoKbmFtZXNwYWNlIElNQnJpZGdlLkFwcGxpY2F0aW9uOwoKLy8vIDxzdW1tYXJ5PgovLy8g5rOo5YaM5bGC77ya5oyJ6YWN572u55qE5pi+5byPIFR5cGXvvIznlKjlr7nlupTnmoTpgILphY3lt6XljoLliJvlu7rlkITpgJrpgZMv5ZCEIEFnZW50IOWunuS+i+OAggovLy8g5pyq55+l6YCa6YGT57G75Z6L5oiW5pyq55+lIEFnZW50IOexu+WeiyAtPiDlkK/liqjljbPmipvplJnvvIjkuI3pnZnpu5jpmY3nuqfvvInjgIIKLy8vIOavj+S4qumAmumBk+WIm+W7uuWQhOiHqueLrOeri+eahCBzb3VyY2XvvIjkvb/nlKjlhbYgQ2hhbm5lbElkL0V2ZW50S2V5c++8ie+8jGVucmljaGVyIOinhuinieS9v+eUqOaJgOe7kSBBZ2VudCDphY3nva7jgIIKLy8vIDwvc3VtbWFyeT4KcHVibGljIHNlYWxlZCBjbGFzcyBCcmlkZ2VSZWdpc3RyeQp7CiAgICBwdWJsaWMgSVJlYWRPbmx5TGlzdDxDaGFubmVsQmluZGluZz4gQ2hhbm5lbHMgeyBnZXQ7IH0KICAgIHB1YmxpYyBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50R2F0ZXdheT4gQWdlbnRzIHsgZ2V0OyB9CgogICAgcHVibGljIEJyaWRnZVJlZ2lzdHJ5KAogICAgICAgIEJyaWRnZU9wdGlvbnMgb3B0aW9ucywKICAgICAgICBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgSUNoYW5uZWxBZGFwdGVyRmFjdG9yeT4gY2hhbm5lbEZhY3RvcmllcywKICAgICAgICBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50QWRhcHRlckZhY3Rvcnk+IGFnZW50RmFjdG9yaWVzLAogICAgICAgIElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBJVmlzdWFsUmVjb2duaXplckZhY3Rvcnk+IHZpc3VhbEZhY3RvcmllcywKICAgICAgICBJTG9nZ2VyPEJyaWRnZVJlZ2lzdHJ5Pj8gbG9nZ2VyID0gbnVsbCkKICAgIHsKICAgICAgICAvLyAxKSDlhYjlu7ogQWdlbnQg572R5YWz77yI5ZCr6YWN572u5b+r54Wn77yM5L6b6YCa6YGTIGVucmljaGVyIOWPluaJgOe7kSBBZ2VudCDphY3nva7vvIkKICAgICAgICB2YXIgYWdlbnRzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSk7CiAgICAgICAgdmFyIGFnZW50Q29uZmlncyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgQWdlbnRDb25maWc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICBmb3JlYWNoICh2YXIgKGlkLCBjZmcpIGluIG9wdGlvbnMuQWdlbnRzKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKCFhZ2VudEZhY3Rvcmllcy5UcnlHZXRWYWx1ZShjZmcuVHlwZSwgb3V0IHZhciBhZ2VudEZhY3RvcnkpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigkIuacquefpSBBZ2VudCDnsbvlnosgJ3tjZmcuVHlwZX0n77yIYWdlbnQgJ3tpZH0n77yJ77yM5peg5a+55bqU6YCC6YWN5bel5Y6C77yM5ZCv5Yqo5Lit5q2i44CCIik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYWdlbnRzW2lkXSA9IGFnZW50RmFjdG9yeS5DcmVhdGVHYXRld2F5KGlkLCBjZmcpOwogICAgICAgICAgICBhZ2VudENvbmZpZ3NbaWRdID0gY2ZnOwogICAgICAgICAgICBsb2dnZXI/LkxvZ0luZm9ybWF0aW9uKCLms6jlhowgQWdlbnQg572R5YWzOiB7SWR9IHR5cGU9e1R5cGV9IiwgaWQsIGNmZy5UeXBlKTsKICAgICAgICB9CgogICAgICAgIHZhciB2aXN1YWxSZWNvZ25pemVycyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSVZpc3VhbFJlY29nbml6ZXI+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKICAgICAgICBmb3JlYWNoICh2YXIgKGlkLCBjZmcpIGluIG9wdGlvbnMuVmlzaW9ucykKICAgICAgICB7CiAgICAgICAgICAgIGlmICghdmlzdWFsRmFjdG9yaWVzLlRyeUdldFZhbHVlKGNmZy5UeXBlLCBvdXQgdmFyIGZhY3RvcnkpKSB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigkIuacquefpeinhuinieexu+WeiyAne2NmZy5UeXBlfSfvvIh2aXNpb24gJ3tpZH0n77yJ44CCIik7CiAgICAgICAgICAgIHZpc3VhbFJlY29nbml6ZXJzW2lkXSA9IGZhY3RvcnkuQ3JlYXRlKGlkLCBjZmcpOwogICAgICAgIH0KCiAgICAgICAgdmFyIGNoYW5uZWxzID0gbmV3IExpc3Q8Q2hhbm5lbEJpbmRpbmc+KCk7CiAgICAgICAgZm9yZWFjaCAodmFyIChpZCwgY2ZnKSBpbiBvcHRpb25zLkNoYW5uZWxzKQogICAgICAgIHsKICAgICAgICAgICAgaWYgKCFjaGFubmVsRmFjdG9yaWVzLlRyeUdldFZhbHVlKGNmZy5UeXBlLCBvdXQgdmFyIGNoYW5uZWxGYWN0b3J5KSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oJCLmnKrnn6XpgJrpgZPnsbvlnosgJ3tjZmcuVHlwZX0n77yIY2hhbm5lbCAne2lkfSfvvInvvIzml6Dlr7nlupTpgILphY3lt6XljoLvvIzlkK/liqjkuK3mraLjgIIiKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoIWFnZW50cy5UcnlHZXRWYWx1ZShjZmcuQWdlbnQsIG91dCBfKSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEludmFsaWRPcGVyYXRpb25FeGNlcHRpb24oJCLpgJrpgZMgJ3tpZH0nIOe7keWumueahCBBZ2VudCAne2NmZy5BZ2VudH0nIOacquazqOWGjO+8jOWQr+WKqOS4reatouOAgiIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhciBzb3VyY2UgPSBjaGFubmVsRmFjdG9yeS5DcmVhdGVTb3VyY2UoaWQsIGNmZyk7CiAgICAgICAgICAgIHZhciBzaW5rID0gY2hhbm5lbEZhY3RvcnkuQ3JlYXRlU2luayhjZmcpOwogICAgICAgICAgICBJVmlzdWFsUmVjb2duaXplcj8gdmlzdWFsID0gbnVsbDsKICAgICAgICAgICAgaWYgKGNmZy5WaXNpb24gaXMgbm90IG51bGwgJiYgIXZpc3VhbFJlY29nbml6ZXJzLlRyeUdldFZhbHVlKGNmZy5WaXNpb24sIG91dCB2aXN1YWwpKSB0aHJvdyBuZXcgSW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlvbigkIumAmumBkyAne2lkfScg5byV55So5pyq55+l6KeG6KeJICd7Y2ZnLlZpc2lvbn0n44CCIik7CiAgICAgICAgICAgIHZhciBlbnJpY2hlciA9IGNoYW5uZWxGYWN0b3J5LkNyZWF0ZUVucmljaGVyKGNmZywgdmlzdWFsKTsKCiAgICAgICAgICAgIGNoYW5uZWxzLkFkZChuZXcgQ2hhbm5lbEJpbmRpbmcKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgQ2hhbm5lbElkID0gaWQsCiAgICAgICAgICAgICAgICBTb3VyY2UgPSBzb3VyY2UsCiAgICAgICAgICAgICAgICBTaW5rID0gc2luaywKICAgICAgICAgICAgICAgIEVucmljaGVyID0gZW5yaWNoZXIsCiAgICAgICAgICAgICAgICBBZ2VudEdhdGV3YXlJZCA9IGNmZy5BZ2VudCwKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGxvZ2dlcj8uTG9nSW5mb3JtYXRpb24oIuazqOWGjOmAmumBkzoge0lkfSB0eXBlPXtUeXBlfSBhZ2VudD17QWdlbnR9IiwgaWQsIGNmZy5UeXBlLCBjZmcuQWdlbnQpOwogICAgICAgIH0KCiAgICAgICAgQ2hhbm5lbHMgPSBjaGFubmVsczsKICAgICAgICBBZ2VudHMgPSBhZ2VudHM7CiAgICB9Cn0K
+using IMBridge.Abstractions;
+using Microsoft.Extensions.Logging;
+
+namespace IMBridge.Application;
+
+/// <summary>
+/// 注册层：按配置的显式 Type，用对应的适配工厂创建各通道/各 Agent 实例。
+/// 未知通道类型或未知 Agent 类型 -> 启动即抛错（不静默降级）。
+/// 每个通道创建各自独立的 source（使用其 ChannelId/EventKeys），enricher 视觉使用所绑 Agent 配置。
+/// </summary>
+public sealed class BridgeRegistry
+{
+    public IReadOnlyList<ChannelBinding> Channels { get; }
+    public IReadOnlyDictionary<string, IAgentGateway> Agents { get; }
+
+    public BridgeRegistry(
+        BridgeOptions options,
+        IReadOnlyDictionary<string, IChannelAdapterFactory> channelFactories,
+        IReadOnlyDictionary<string, IAgentAdapterFactory> agentFactories,
+        IReadOnlyDictionary<string, IVisualRecognizerFactory> visualFactories,
+        ILogger<BridgeRegistry>? logger = null)
+    {
+        // 1) 先建 Agent 网关（含配置快照，供通道 enricher 取所绑 Agent 配置）
+        var agents = new Dictionary<string, IAgentGateway>(StringComparer.OrdinalIgnoreCase);
+        var agentConfigs = new Dictionary<string, AgentConfig>(StringComparer.OrdinalIgnoreCase);
+        foreach (var (id, cfg) in options.Agents)
+        {
+            if (!agentFactories.TryGetValue(cfg.Type, out var agentFactory))
+            {
+                throw new InvalidOperationException($"未知 Agent 类型 '{cfg.Type}'（agent '{id}'），无对应适配工厂，启动中止。");
+            }
+            agents[id] = agentFactory.CreateGateway(id, cfg);
+            agentConfigs[id] = cfg;
+            logger?.LogInformation("注册 Agent 网关: {Id} type={Type}", id, cfg.Type);
+        }
+
+        var visualRecognizers = new Dictionary<string, IVisualRecognizer>(StringComparer.OrdinalIgnoreCase);
+        foreach (var (id, cfg) in options.Visions)
+        {
+            if (!visualFactories.TryGetValue(cfg.Type, out var factory)) throw new InvalidOperationException($"未知视觉类型 '{cfg.Type}'（vision '{id}'）。");
+            visualRecognizers[id] = factory.Create(id, cfg);
+        }
+
+        var channels = new List<ChannelBinding>();
+        foreach (var (id, cfg) in options.Channels)
+        {
+            if (!channelFactories.TryGetValue(cfg.Type, out var channelFactory))
+            {
+                throw new InvalidOperationException($"未知通道类型 '{cfg.Type}'（channel '{id}'），无对应适配工厂，启动中止。");
+            }
+            if (!agents.TryGetValue(cfg.Agent, out _))
+            {
+                throw new InvalidOperationException($"通道 '{id}' 绑定的 Agent '{cfg.Agent}' 未注册，启动中止。");
+            }
+            var source = channelFactory.CreateSource(id, cfg);
+            var sink = channelFactory.CreateSink(cfg);
+            IVisualRecognizer? visual = null;
+            if (cfg.Vision is not null && !visualRecognizers.TryGetValue(cfg.Vision, out visual)) throw new InvalidOperationException($"通道 '{id}' 引用未知视觉 '{cfg.Vision}'。");
+            var enricher = channelFactory.CreateEnricher(cfg, visual);
+
+            channels.Add(new ChannelBinding
+            {
+                ChannelId = id,
+                Source = source,
+                Sink = sink,
+                Enricher = enricher,
+                AgentGatewayId = cfg.Agent,
+            });
+            logger?.LogInformation("注册通道: {Id} type={Type} agent={Agent}", id, cfg.Type, cfg.Agent);
+        }
+
+        Channels = channels;
+        Agents = agents;
+    }
+}

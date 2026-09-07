@@ -1,1 +1,16 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT7luLjpqbvmtYHlvI/ov5vnqIvmiafooYzmjqXlj6PjgII8L3N1bW1hcnk+CnB1YmxpYyBpbnRlcmZhY2UgSVN0cmVhbWluZ1Byb2Nlc3NSdW5uZXIKewogICAgSVN0cmVhbWluZ1Byb2Nlc3NTZXNzaW9uIFN0YXJ0U3RyZWFtaW5nKFByb2Nlc3NTcGVjIHNwZWMpOwp9CgovLy8gPHN1bW1hcnk+6ZqQ6JeP5bqV5bGC6L+b56iL5a+56LGh55qE5rWB5byP5Lya6K+d44CCPC9zdW1tYXJ5PgpwdWJsaWMgaW50ZXJmYWNlIElTdHJlYW1pbmdQcm9jZXNzU2Vzc2lvbiA6IElBc3luY0Rpc3Bvc2FibGUKewogICAgVGV4dFJlYWRlciBTdGFuZGFyZE91dHB1dCB7IGdldDsgfQogICAgVGV4dFJlYWRlciBTdGFuZGFyZEVycm9yIHsgZ2V0OyB9CiAgICBpbnQgRXhpdENvZGUgeyBnZXQ7IH0KICAgIFRhc2sgV2FpdEZvckV4aXRBc3luYyhDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbiA9IGRlZmF1bHQpOwp9Cg==
+namespace IMBridge.Abstractions;
+
+/// <summary>常驻流式进程执行接口。</summary>
+public interface IStreamingProcessRunner
+{
+    IStreamingProcessSession StartStreaming(ProcessSpec spec);
+}
+
+/// <summary>隐藏底层进程对象的流式会话。</summary>
+public interface IStreamingProcessSession : IAsyncDisposable
+{
+    TextReader StandardOutput { get; }
+    TextReader StandardError { get; }
+    int ExitCode { get; }
+    Task WaitForExitAsync(CancellationToken cancellationToken = default);
+}

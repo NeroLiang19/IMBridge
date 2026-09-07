@@ -1,1 +1,9 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCnB1YmxpYyBzZWFsZWQgcmVjb3JkIENoYW5uZWxDb25maWcKewogICAgcHVibGljIHJlcXVpcmVkIHN0cmluZyBUeXBlIHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIEFnZW50IHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgc3RyaW5nPyBWaXNpb24geyBnZXQ7IGluaXQ7IH0KICAgIHB1YmxpYyBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPiBPcHRpb25zIHsgZ2V0OyBpbml0OyB9ID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKTsKfQo=
+namespace IMBridge.Abstractions;
+
+public sealed record ChannelConfig
+{
+    public required string Type { get; init; }
+    public required string Agent { get; init; }
+    public string? Vision { get; init; }
+    public IReadOnlyDictionary<string, string> Options { get; init; } = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+}

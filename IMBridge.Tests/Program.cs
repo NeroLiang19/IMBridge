@@ -1,1 +1,418 @@
-dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkltbXV0YWJsZTsKdXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5BcHBsaWNhdGlvbjsKdXNpbmcgSU1CcmlkZ2UuRG9tYWluOwoKbmFtZXNwYWNlIElNQnJpZGdlLlRlc3RzOwoKLy8vIDxzdW1tYXJ5PgovLy8g5peg5aSW6YOo5pyN5Yqh55qE5Zue5b2S5rWL6K+V77ya6aqM6K+B5aSa6YCa6YGT6ZqU56a744CB5aSaIEFnZW50IOi3r+eUseOAgW5vLW1hdGNoL2ZhaWxlZCDmsonpu5jjgIHljrvph43jgIHlj4LmlbAgVW5pY29kZeOAggovLy8g55u05o6l55So5qGl5o6l5qC45b+D77yITWVzc2FnZURpc3BhdGNoZXIgKyDlgYcgc291cmNlL3NpbmsvZW5yaWNoZXIvZ2F0ZXdhee+8ie+8jOS4jeWQr+WKqOS7u+S9leecn+WuniBDTEnjgIHkuI3ov57lpJbpg6jmnI3liqHjgIIKLy8vIOi/kOihjO+8mmRvdG5ldCBydW4gLS1wcm9qZWN0IElNQnJpZGdlLlRlc3RzCi8vLyA8L3N1bW1hcnk+CmludGVybmFsIHN0YXRpYyBjbGFzcyBQcm9ncmFtCnsKICAgIHByaXZhdGUgc3RhdGljIGludCBNYWluKCkKICAgIHsKICAgICAgICB2YXIgc2NlbmFyaW9zID0gbmV3IExpc3Q8RnVuYzxTY2VuYXJpb1Jlc3VsdD4+CiAgICAgICAgewogICAgICAgICAgICBUd29DaGFubmVsSXNvbGF0aW9uLAogICAgICAgICAgICBUd29BZ2VudFJvdXRpbmcsCiAgICAgICAgICAgIE5vTWF0Y2hTaWxlbnQsCiAgICAgICAgICAgIEZhaWxlZFNpbGVudCwKICAgICAgICAgICAgRGVkdXBTYW1lQ2hhbm5lbEV2ZW50LAogICAgICAgICAgICBQYXJhbVVuaWNvZGUsCiAgICAgICAgICAgIFJlZ2lzdHJ5VHdvQ2hhbm5lbHNJbmRlcGVuZGVudFNvdXJjZXMsCiAgICAgICAgICAgIFJlZ2lzdHJ5VW5rbm93bkNoYW5uZWxUeXBlUmVqZWN0ZWQsCiAgICAgICAgICAgIFJlZ2lzdHJ5VW5rbm93bkFnZW50VHlwZVJlamVjdGVkLAogICAgICAgICAgICBSZWdpc3RyeUVucmljaGVyRG9lc05vdFJlY2VpdmVBZ2VudENvbmZpZywKICAgICAgICAgICAgUmVnaXN0cnlTdXBwb3J0c01pbmltYWxBZGFwdGVySW1wbGVtZW50YXRpb25zLAogICAgICAgIH07CgogICAgICAgIHZhciBmYWlsZWQgPSAwOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCI9PT0gSU1CcmlkZ2Ug5Zue5b2S5rWL6K+VID09PSIpOwogICAgICAgIGZvcmVhY2ggKHZhciBzY2VuYXJpbyBpbiBzY2VuYXJpb3MpCiAgICAgICAgewogICAgICAgICAgICB2YXIgciA9IHNjZW5hcmlvKCk7CiAgICAgICAgICAgIHZhciB0YWcgPSByLlBhc3MgPyAiUEFTUyIgOiAiRkFJTCI7CiAgICAgICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKCQiW3t0YWd9XSB7ci5OYW1lfSIpOwogICAgICAgICAgICBpZiAoIXIuUGFzcykKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZmFpbGVkKys7CiAgICAgICAgICAgICAgICBmb3JlYWNoICh2YXIgZGV0YWlsIGluIHIuRGV0YWlscykgQ29uc29sZS5Xcml0ZUxpbmUoJCIgICAgICAgIC0ge2RldGFpbH0iKTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgUm91dGluZ0NvbnRyYWN0VGVzdHMuUnVuQXN5bmMoKS5HZXRBd2FpdGVyKCkuR2V0UmVzdWx0KCk7CiAgICAgICAgQXJjaGl0ZWN0dXJlQ29udHJhY3RUZXN0cy5SdW4oKTsKICAgICAgICBQcm9jZXNzQ29udHJhY3RUZXN0cy5SdW5Bc3luYygpLkdldEF3YWl0ZXIoKS5HZXRSZXN1bHQoKTsKICAgICAgICBXb3JrZXJDb250cmFjdFRlc3RzLlJ1bigpOwogICAgICAgIENvbnNvbGUuV3JpdGVMaW5lKGZhaWxlZCA9PSAwID8gIkFMTCBQQVNTIiA6ICQie2ZhaWxlZH0gRkFJTEVEIik7CiAgICAgICAgcmV0dXJuIGZhaWxlZCA9PSAwID8gMCA6IDE7CiAgICB9CgogICAgLy8gLS0tLSDovoXliqkgLS0tLQogICAgcHJpdmF0ZSBzdGF0aWMgSW5jb21pbmdNZXNzYWdlIE1ha2VNZXNzYWdlKHN0cmluZyBjaGFubmVsLCBzdHJpbmcgZXZlbnRJZCwgc3RyaW5nIGNvbnRlbnQsIENvbnZlcnNhdGlvblR5cGUgdHlwZSA9IENvbnZlcnNhdGlvblR5cGUuRGlyZWN0KQogICAgICAgID0+IG5ldygpCiAgICAgICAgewogICAgICAgICAgICBDaGFubmVsSWQgPSBjaGFubmVsLAogICAgICAgICAgICBFdmVudElkID0gZXZlbnRJZCwKICAgICAgICAgICAgTWVzc2FnZUlkID0gIm0tIiArIGV2ZW50SWQsCiAgICAgICAgICAgIEV2ZW50VHlwZSA9IHR5cGUgPT0gQ29udmVyc2F0aW9uVHlwZS5Hcm91cCA/ICJ1c2VyX2ltX21lc3NhZ2VfcmVjZWl2ZV9hdCIgOiAidXNlcl9pbV9tZXNzYWdlX3JlY2VpdmVfbzJvX2FsbCIsCiAgICAgICAgICAgIFNlbmRlck5hbWUgPSAi5ZCM5LqLIiwKICAgICAgICAgICAgQ29udGVudCA9IGNvbnRlbnQsCiAgICAgICAgICAgIFJlcGx5VGFyZ2V0ID0gbmV3IFJlcGx5VGFyZ2V0IHsgVHlwZSA9IHR5cGUsIFRhcmdldElkID0gdHlwZSA9PSBDb252ZXJzYXRpb25UeXBlLkdyb3VwID8gImNvbnYtIiArIGNoYW5uZWwgOiAic2VuZGVyLSIgKyBjaGFubmVsIH0sCiAgICAgICAgICAgIENoYW5uZWxDb250ZXh0ID0gbnVsbCwKICAgICAgICAgICAgQXR0YWNobWVudHMgPSBJbW11dGFibGVBcnJheTxBdHRhY2htZW50Pi5FbXB0eSwKICAgICAgICB9OwoKICAgIHByaXZhdGUgc3RhdGljIENoYW5uZWxCaW5kaW5nIEJpbmQoc3RyaW5nIGNoYW5uZWwsIElNZXNzYWdlU2luayBzaW5rLCBJTWVzc2FnZVNvdXJjZT8gc291cmNlID0gbnVsbCwgSU1lc3NhZ2VFbnJpY2hlcj8gZW5yaWNoZXIgPSBudWxsLCBzdHJpbmcgYWdlbnQgPSAiZWNobyIpCiAgICAgICAgPT4gbmV3KCkKICAgICAgICB7CiAgICAgICAgICAgIENoYW5uZWxJZCA9IGNoYW5uZWwsCiAgICAgICAgICAgIFNvdXJjZSA9IHNvdXJjZSA/PyBuZXcgRmFrZVNvdXJjZSgpLAogICAgICAgICAgICBTaW5rID0gc2luaywKICAgICAgICAgICAgRW5yaWNoZXIgPSBlbnJpY2hlciA/PyBuZXcgRmFrZUVucmljaGVyKCksCiAgICAgICAgICAgIEFnZW50R2F0ZXdheUlkID0gYWdlbnQsCiAgICAgICAgfTsKCiAgICAvLyAtLS0tIOWcuuaZryAx77ya5Lik6YCa6YGT6ZqU56a777yI5ZCr5Y676YeN6ZSu5ZCrIENoYW5uZWxJZO+8jOS4jei3qOmAmumBk+WOu+mHje+8iSAtLS0tCiAgICBwcml2YXRlIHN0YXRpYyBTY2VuYXJpb1Jlc3VsdCBUd29DaGFubmVsSXNvbGF0aW9uKCkKICAgIHsKICAgICAgICB2YXIgc2lua0QgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgc2lua0YgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgZ2F0ZXdheSA9IG5ldyBGYWtlR2F0ZXdheShtID0+IEFnZW50UmVwbHkuU3VjY2VzcygkInttLkNoYW5uZWxJZH06e20uQ29udGVudH0iKSk7CiAgICAgICAgdmFyIGFnZW50cyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50R2F0ZXdheT4geyBbImVjaG8iXSA9IGdhdGV3YXkgfTsKICAgICAgICB2YXIgZGlzcGF0Y2hlciA9IG5ldyBNZXNzYWdlRGlzcGF0Y2hlcig0KTsKCiAgICAgICAgdmFyIGQgPSBNYWtlTWVzc2FnZSgiZGluZ3RhbGsiLCAiZTEiLCAiaGVsbG9EIik7CiAgICAgICAgdmFyIGYgPSBNYWtlTWVzc2FnZSgiZmVpc2h1IiwgImUxIiwgImhlbGxvRiIpOyAvLyDlkIwgRXZlbnRJZO+8jOS4jeWQjOmAmumBkwogICAgICAgIGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhkLCBCaW5kKCJkaW5ndGFsayIsIHNpbmtELCBhZ2VudDogImVjaG8iKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KS5XYWl0KCk7CiAgICAgICAgZGlzcGF0Y2hlci5EaXNwYXRjaEFzeW5jKGYsIEJpbmQoImZlaXNodSIsIHNpbmtGLCBhZ2VudDogImVjaG8iKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KS5XYWl0KCk7CgogICAgICAgIHZhciBkZXRhaWxzID0gbmV3IExpc3Q8c3RyaW5nPigpOwogICAgICAgIHZhciBwYXNzID0gdHJ1ZTsKICAgICAgICBpZiAoc2lua0QuU2VudC5Db3VudCAhPSAxIHx8IHNpbmtELlNlbnRbMF0uVGV4dCAhPSAiZGluZ3RhbGs6aGVsbG9EIikKICAgICAgICB7CiAgICAgICAgICAgIHBhc3MgPSBmYWxzZTsgZGV0YWlscy5BZGQoJCJkaW5ndGFsayBzaW5rIOW6lOS4uiAxIOadoeS4lOWGheWuuSBkaW5ndGFsazpoZWxsb0TvvIzlrp7pmYUge3NpbmtELlNlbnQuQ291bnR9IOadoSIpOwogICAgICAgIH0KICAgICAgICBpZiAoc2lua0YuU2VudC5Db3VudCAhPSAxIHx8IHNpbmtGLlNlbnRbMF0uVGV4dCAhPSAiZmVpc2h1OmhlbGxvRiIpCiAgICAgICAgewogICAgICAgICAgICBwYXNzID0gZmFsc2U7IGRldGFpbHMuQWRkKCQiZmVpc2h1IHNpbmsg5bqU5Li6IDEg5p2h5LiU5YaF5a65IGZlaXNodTpoZWxsb0bvvIzlrp7pmYUge3NpbmtGLlNlbnQuQ291bnR9IOadoSIpOwogICAgICAgIH0KICAgICAgICBpZiAoc2lua0QuU2VudC5BbnkocyA9PiBzLlRleHQuQ29udGFpbnMoImZlaXNodSIpKSB8fCBzaW5rRi5TZW50LkFueShzID0+IHMuVGV4dC5Db250YWlucygiZGluZ3RhbGsiKSkpCiAgICAgICAgewogICAgICAgICAgICBwYXNzID0gZmFsc2U7IGRldGFpbHMuQWRkKCLlh7rnjrDot6jpgJrpgZPlm57lpI0iKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5Lik6YCa6YGT6ZqU56a7ICsg5Y676YeN6ZSu5ZCrQ2hhbm5lbElkIiwgcGFzcywgZGV0YWlscyk7CiAgICB9CgogICAgLy8gLS0tLSDlnLrmma8gMu+8muS4pCBBZ2VudCDot6/nlLHvvIhjaGFubmVsIEEgLT4gd2IxIOaIkOWKn++8jGNoYW5uZWwgQiAtPiB3YjIg5peg5Yy56YWN77yJIC0tLS0KICAgIHByaXZhdGUgc3RhdGljIFNjZW5hcmlvUmVzdWx0IFR3b0FnZW50Um91dGluZygpCiAgICB7CiAgICAgICAgdmFyIHNpbmtBID0gbmV3IEZha2VTaW5rKCk7CiAgICAgICAgdmFyIHNpbmtCID0gbmV3IEZha2VTaW5rKCk7CiAgICAgICAgdmFyIGdhdGV3YXkxID0gbmV3IEZha2VHYXRld2F5KF8gPT4gQWdlbnRSZXBseS5TdWNjZXNzKCJBLXJlcGx5IikpOwogICAgICAgIHZhciBnYXRld2F5MiA9IG5ldyBGYWtlR2F0ZXdheShfID0+IEFnZW50UmVwbHkuTm9NYXRjaCk7CiAgICAgICAgdmFyIGFnZW50cyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50R2F0ZXdheT4geyBbIndiMSJdID0gZ2F0ZXdheTEsIFsid2IyIl0gPSBnYXRld2F5MiB9OwogICAgICAgIHZhciBkaXNwYXRjaGVyID0gbmV3IE1lc3NhZ2VEaXNwYXRjaGVyKDQpOwoKICAgICAgICBkaXNwYXRjaGVyLkRpc3BhdGNoQXN5bmMoTWFrZU1lc3NhZ2UoImNoQSIsICJlMSIsICJ4IiksIEJpbmQoImNoQSIsIHNpbmtBLCBhZ2VudDogIndiMSIpLCBhZ2VudHMsIG51bGwsIGRlZmF1bHQpLldhaXQoKTsKICAgICAgICBkaXNwYXRjaGVyLkRpc3BhdGNoQXN5bmMoTWFrZU1lc3NhZ2UoImNoQiIsICJlMSIsICJ4IiksIEJpbmQoImNoQiIsIHNpbmtCLCBhZ2VudDogIndiMiIpLCBhZ2VudHMsIG51bGwsIGRlZmF1bHQpLldhaXQoKTsKCiAgICAgICAgdmFyIGRldGFpbHMgPSBuZXcgTGlzdDxzdHJpbmc+KCk7CiAgICAgICAgdmFyIHBhc3MgPSB0cnVlOwogICAgICAgIGlmIChzaW5rQS5TZW50LkNvdW50ICE9IDEgfHwgc2lua0EuU2VudFswXS5UZXh0ICE9ICJBLXJlcGx5IikgeyBwYXNzID0gZmFsc2U7IGRldGFpbHMuQWRkKCJjaEEg5bqU5pS25YiwIEEtcmVwbHkiKTsgfQogICAgICAgIGlmIChzaW5rQi5TZW50LkNvdW50ICE9IDApIHsgcGFzcyA9IGZhbHNlOyBkZXRhaWxzLkFkZCgkImNoQiDlupTmsonpu5jvvIzlrp7pmYXlj5HpgIEge3NpbmtCLlNlbnQuQ291bnR9IOadoSIpOyB9CiAgICAgICAgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5LikIEFnZW50IOi3r+eUsSIsIHBhc3MsIGRldGFpbHMpOwogICAgfQoKICAgIC8vIC0tLS0g5Zy65pmvIDPvvJrml6DljLnphY3msonpu5ggLS0tLQogICAgcHJpdmF0ZSBzdGF0aWMgU2NlbmFyaW9SZXN1bHQgTm9NYXRjaFNpbGVudCgpCiAgICB7CiAgICAgICAgdmFyIHNpbmsgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgZ2F0ZXdheSA9IG5ldyBGYWtlR2F0ZXdheShfID0+IEFnZW50UmVwbHkuTm9NYXRjaCk7CiAgICAgICAgdmFyIGFnZW50cyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50R2F0ZXdheT4geyBbImciXSA9IGdhdGV3YXkgfTsKICAgICAgICB2YXIgZGlzcGF0Y2hlciA9IG5ldyBNZXNzYWdlRGlzcGF0Y2hlcig0KTsKICAgICAgICBkaXNwYXRjaGVyLkRpc3BhdGNoQXN5bmMoTWFrZU1lc3NhZ2UoImMiLCAiZTEiLCAieCIpLCBCaW5kKCJjIiwgc2luaywgYWdlbnQ6ICJnIiksIGFnZW50cywgbnVsbCwgZGVmYXVsdCkuV2FpdCgpOwogICAgICAgIHZhciBwYXNzID0gc2luay5TZW50LkNvdW50ID09IDA7CiAgICAgICAgdmFyIGRldGFpbHMgPSBwYXNzID8gbmV3IExpc3Q8c3RyaW5nPigpIDogbmV3IExpc3Q8c3RyaW5nPiB7ICQi5peg5Yy56YWN5LiN5bqU5Zue5aSN77yM5a6e6ZmFIHtzaW5rLlNlbnQuQ291bnR9IOadoSIgfTsKICAgICAgICByZXR1cm4gbmV3IFNjZW5hcmlvUmVzdWx0KCJuby1tYXRjaCDmsonpu5giLCBwYXNzLCBkZXRhaWxzKTsKICAgIH0KCiAgICAvLyAtLS0tIOWcuuaZryA077ya5aSx6LSl5rKJ6buY77yI5LiU5LiN5aSW5Y+R6ZSZ6K+v6L6T5Ye677yJIC0tLS0KICAgIHByaXZhdGUgc3RhdGljIFNjZW5hcmlvUmVzdWx0IEZhaWxlZFNpbGVudCgpCiAgICB7CiAgICAgICAgdmFyIHNpbmsgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgZ2F0ZXdheSA9IG5ldyBGYWtlR2F0ZXdheShfID0+IEFnZW50UmVwbHkuRmFpbGVkKTsKICAgICAgICB2YXIgYWdlbnRzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBJQWdlbnRHYXRld2F5PiB7IFsiZyJdID0gZ2F0ZXdheSB9OwogICAgICAgIHZhciBkaXNwYXRjaGVyID0gbmV3IE1lc3NhZ2VEaXNwYXRjaGVyKDQpOwogICAgICAgIGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhNYWtlTWVzc2FnZSgiYyIsICJlMSIsICJ4IiksIEJpbmQoImMiLCBzaW5rLCBhZ2VudDogImciKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KS5XYWl0KCk7CiAgICAgICAgdmFyIHBhc3MgPSBzaW5rLlNlbnQuQ291bnQgPT0gMDsKICAgICAgICB2YXIgZGV0YWlscyA9IHBhc3MgPyBuZXcgTGlzdDxzdHJpbmc+KCkgOiBuZXcgTGlzdDxzdHJpbmc+IHsgJCLlpLHotKXkuI3lupTlm57lpI3vvIzlrp7pmYUge3NpbmsuU2VudC5Db3VudH0g5p2hIiB9OwogICAgICAgIHJldHVybiBuZXcgU2NlbmFyaW9SZXN1bHQoImZhaWxlZCDmsonpu5giLCBwYXNzLCBkZXRhaWxzKTsKICAgIH0KCiAgICAvLyAtLS0tIOWcuuaZryA177ya5Y676YeN77yI5ZCM6YCa6YGT5ZCMIEV2ZW50SWQg5LuF5aSE55CG5LiA5qyh77yJIC0tLS0KICAgIHByaXZhdGUgc3RhdGljIFNjZW5hcmlvUmVzdWx0IERlZHVwU2FtZUNoYW5uZWxFdmVudCgpCiAgICB7CiAgICAgICAgdmFyIHNpbmsgPSBuZXcgRmFrZVNpbmsoKTsKICAgICAgICB2YXIgZ2F0ZXdheSA9IG5ldyBGYWtlR2F0ZXdheShtID0+IEFnZW50UmVwbHkuU3VjY2VzcygkIm9rOnttLkNvbnRlbnR9IikpOwogICAgICAgIHZhciBhZ2VudHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIElBZ2VudEdhdGV3YXk+IHsgWyJnIl0gPSBnYXRld2F5IH07CiAgICAgICAgdmFyIGRpc3BhdGNoZXIgPSBuZXcgTWVzc2FnZURpc3BhdGNoZXIoNCk7CiAgICAgICAgdmFyIG1zZyA9IE1ha2VNZXNzYWdlKCJjIiwgImR1cCIsICJoaSIpOwogICAgICAgIGRpc3BhdGNoZXIuRGlzcGF0Y2hBc3luYyhtc2csIEJpbmQoImMiLCBzaW5rLCBhZ2VudDogImciKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KS5XYWl0KCk7CiAgICAgICAgZGlzcGF0Y2hlci5EaXNwYXRjaEFzeW5jKG1zZywgQmluZCgiYyIsIHNpbmssIGFnZW50OiAiZyIpLCBhZ2VudHMsIG51bGwsIGRlZmF1bHQpLldhaXQoKTsKICAgICAgICB2YXIgcGFzcyA9IHNpbmsuU2VudC5Db3VudCA9PSAxOwogICAgICAgIHZhciBkZXRhaWxzID0gcGFzcyA/IG5ldyBMaXN0PHN0cmluZz4oKSA6IG5ldyBMaXN0PHN0cmluZz4geyAkIuWQjOS6i+S7tuW6lOWPquWbnuWkjSAxIOasoe+8jOWunumZhSB7c2luay5TZW50LkNvdW50fSDmrKEiIH07CiAgICAgICAgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5ZCM6YCa6YGT5Y676YeNIiwgcGFzcywgZGV0YWlscyk7CiAgICB9CgogICAgLy8gLS0tLSDlnLrmma8gNu+8muWPguaVsCBVbmljb2Rl77yI5Lit5paHL2Vtb2ppIOmAj+S8oO+8iSAtLS0tCiAgICBwcml2YXRlIHN0YXRpYyBTY2VuYXJpb1Jlc3VsdCBQYXJhbVVuaWNvZGUoKQogICAgewogICAgICAgIHZhciBzaW5rID0gbmV3IEZha2VTaW5rKCk7CiAgICAgICAgY29uc3Qgc3RyaW5nIHVuaWNvZGUgPSAi5L2g5aW98J+Mn+eUn+S6p+WUr+S4gOeggVdPLTEyMzQ1Lea1i+ivlSI7CiAgICAgICAgdmFyIGdhdGV3YXkgPSBuZXcgRmFrZUdhdGV3YXkobSA9PiBBZ2VudFJlcGx5LlN1Y2Nlc3MobS5Db250ZW50KSk7IC8vIOWOn+agt+WbnuaYvuWGheWuuQogICAgICAgIHZhciBhZ2VudHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIElBZ2VudEdhdGV3YXk+IHsgWyJnIl0gPSBnYXRld2F5IH07CiAgICAgICAgdmFyIGRpc3BhdGNoZXIgPSBuZXcgTWVzc2FnZURpc3BhdGNoZXIoNCk7CiAgICAgICAgZGlzcGF0Y2hlci5EaXNwYXRjaEFzeW5jKE1ha2VNZXNzYWdlKCJjIiwgImUxIiwgdW5pY29kZSksIEJpbmQoImMiLCBzaW5rLCBhZ2VudDogImciKSwgYWdlbnRzLCBudWxsLCBkZWZhdWx0KS5XYWl0KCk7CiAgICAgICAgdmFyIHBhc3MgPSBzaW5rLlNlbnQuQ291bnQgPT0gMSAmJiBzaW5rLlNlbnRbMF0uVGV4dCA9PSB1bmljb2RlOwogICAgICAgIHZhciBkZXRhaWxzID0gcGFzcyA/IG5ldyBMaXN0PHN0cmluZz4oKSA6IG5ldyBMaXN0PHN0cmluZz4geyAkIlVuaWNvZGUg5YaF5a655bqU5a6M5pW06YCP5Lyg77yM5a6e6ZmFIFt7c2luay5TZW50LkNvdW50fV0ge3N0cmluZy5Kb2luKCJ8Iiwgc2luay5TZW50LlNlbGVjdChzID0+IHMuVGV4dCkpfSIgfTsKICAgICAgICByZXR1cm4gbmV3IFNjZW5hcmlvUmVzdWx0KCLlj4LmlbAgVW5pY29kZSDpgI/kvKAiLCBwYXNzLCBkZXRhaWxzKTsKICAgIH0KCiAgICAvLyAtLS0tIOazqOWGjOWxgu+8muS4pOS4quS4jeWQjOmAmumBkyBJRO+8jOWQhOiHqueLrOeriyBzb3VyY2Ug5LiU5L2/55So6Ieq6LqrIENoYW5uZWxJZC9FdmVudEtleXMgLS0tLQogICAgcHJpdmF0ZSBzdGF0aWMgU2NlbmFyaW9SZXN1bHQgUmVnaXN0cnlUd29DaGFubmVsc0luZGVwZW5kZW50U291cmNlcygpCiAgICB7CiAgICAgICAgdmFyIGFnZW50cyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgQWdlbnRDb25maWc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKQogICAgICAgIHsKICAgICAgICAgICAgWyJ3YiJdID0gTWFrZUFnZW50KCJ3b3JrYnVkZHkiLCAiY3VzdG9tLWxvY2FsOmdlbWluaS0zLjgtZmxhc2giKSwKICAgICAgICB9OwogICAgICAgIHZhciBjaGFubmVscyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgQ2hhbm5lbENvbmZpZz4oU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpCiAgICAgICAgewogICAgICAgICAgICBbImRpbmd0YWxrLWEiXSA9IG5ldyBDaGFubmVsQ29uZmlnIHsgVHlwZSA9ICJkaW5ndGFsayIsIEFnZW50ID0gIndiIiwgT3B0aW9ucyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPiB7IFsiRXZlbnRLZXlzOjAiXSA9ICJrLWExIiwgWyJFdmVudEtleXM6MSJdID0gImstYTIiIH0gfSwKICAgICAgICAgICAgWyJkaW5ndGFsay1iIl0gPSBuZXcgQ2hhbm5lbENvbmZpZyB7IFR5cGUgPSAiZGluZ3RhbGsiLCBBZ2VudCA9ICJ3YiIsIE9wdGlvbnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyBbIkV2ZW50S2V5czowIl0gPSAiay1iMSIgfSB9LAogICAgICAgIH07CiAgICAgICAgdmFyIG9wdHMgPSBNYWtlT3B0aW9ucyhjaGFubmVscywgYWdlbnRzKTsKICAgICAgICB2YXIgY2hGYWN0b3J5ID0gbmV3IEZha2VDaGFubmVsRmFjdG9yeSgpOwogICAgICAgIHZhciBhZ0ZhY3RvcnkgPSBuZXcgRmFrZUFnZW50RmFjdG9yeSgpOwoKICAgICAgICBCcmlkZ2VSZWdpc3RyeSByZWc7CiAgICAgICAgdHJ5IHsgcmVnID0gbmV3IEJyaWRnZVJlZ2lzdHJ5KG9wdHMsIENoRGljdChjaEZhY3RvcnkpLCBBZ0RpY3QoYWdGYWN0b3J5KSwgbnVsbCk7IH0KICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IHJldHVybiBuZXcgU2NlbmFyaW9SZXN1bHQoIuazqOWGjOWxgi3kuKTpgJrpgZPni6znq4tzb3VyY2UiLCBmYWxzZSwgbmV3KCkgeyAkIuWQr+WKqOaKm+mUmToge2V4Lk1lc3NhZ2V9IiB9KTsgfQoKICAgICAgICB2YXIgZGV0YWlscyA9IG5ldyBMaXN0PHN0cmluZz4oKTsKICAgICAgICB2YXIgcGFzcyA9IHRydWU7CiAgICAgICAgaWYgKGNoRmFjdG9yeS5Tb3VyY2VDYWxscy5Db3VudCAhPSAyKSB7IHBhc3MgPSBmYWxzZTsgZGV0YWlscy5BZGQoJCLlupTlu7ogMiDkuKrni6znq4sgc291cmNl77yM5a6e6ZmFIHtjaEZhY3RvcnkuU291cmNlQ2FsbHMuQ291bnR9Iik7IH0KICAgICAgICBpZiAoY2hGYWN0b3J5LlNvdXJjZUNhbGxzLkNvdW50ID09IDIpCiAgICAgICAgewogICAgICAgICAgICB2YXIgYSA9IGNoRmFjdG9yeS5Tb3VyY2VDYWxscy5GaXJzdCh4ID0+IHguQ2hhbm5lbElkID09ICJkaW5ndGFsay1hIik7CiAgICAgICAgICAgIHZhciBiID0gY2hGYWN0b3J5LlNvdXJjZUNhbGxzLkZpcnN0KHggPT4geC5DaGFubmVsSWQgPT0gImRpbmd0YWxrLWIiKTsKICAgICAgICAgICAgaWYgKCFhLkV2ZW50S2V5cy5TZXF1ZW5jZUVxdWFsKG5ld1tdIHsgImstYTEiLCAiay1hMiIgfSkpIHsgcGFzcyA9IGZhbHNlOyBkZXRhaWxzLkFkZCgiZGluZ3RhbGstYSDnmoQgRXZlbnRLZXlzIOS4jeespiIpOyB9CiAgICAgICAgICAgIGlmICghYi5FdmVudEtleXMuU2VxdWVuY2VFcXVhbChuZXdbXSB7ICJrLWIxIiB9KSkgeyBwYXNzID0gZmFsc2U7IGRldGFpbHMuQWRkKCJkaW5ndGFsay1iIOeahCBFdmVudEtleXMg5LiN56ymIik7IH0KICAgICAgICB9CiAgICAgICAgaWYgKHJlZy5DaGFubmVscy5Db3VudCAhPSAyKSB7IHBhc3MgPSBmYWxzZTsgZGV0YWlscy5BZGQoJCLlupTms6jlhowgMiDkuKrpgJrpgZPvvIzlrp7pmYUge3JlZy5DaGFubmVscy5Db3VudH0iKTsgfQogICAgICAgIGVsc2UgaWYgKHJlZy5DaGFubmVsc1swXS5DaGFubmVsSWQgPT0gcmVnLkNoYW5uZWxzWzFdLkNoYW5uZWxJZCkgeyBwYXNzID0gZmFsc2U7IGRldGFpbHMuQWRkKCLkuKTkuKrpgJrpgZMgQ2hhbm5lbElkIOS4jeW6lOebuOWQjCIpOyB9CiAgICAgICAgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5rOo5YaM5bGCLeS4pOmAmumBk+eLrOeri3NvdXJjZSIsIHBhc3MsIGRldGFpbHMpOwogICAgfQoKICAgIC8vIC0tLS0g5rOo5YaM5bGC77ya5pyq55+l6YCa6YGTIFR5cGUg5ZCv5Yqo5Y2z5oql6ZSZIC0tLS0KICAgIHByaXZhdGUgc3RhdGljIFNjZW5hcmlvUmVzdWx0IFJlZ2lzdHJ5VW5rbm93bkNoYW5uZWxUeXBlUmVqZWN0ZWQoKQogICAgewogICAgICAgIHZhciBhZ2VudHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSkgeyBbIndiIl0gPSBNYWtlQWdlbnQoIndvcmtidWRkeSIsICJtIikgfTsKICAgICAgICB2YXIgY2hhbm5lbHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIENoYW5uZWxDb25maWc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKQogICAgICAgIHsKICAgICAgICAgICAgWyJ4Il0gPSBuZXcgQ2hhbm5lbENvbmZpZyB7IFR5cGUgPSAidGVsZWdyYW0iLCBBZ2VudCA9ICJ3YiIsIE9wdGlvbnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyBbIkV2ZW50S2V5czowIl0gPSAiayIgfSB9LAogICAgICAgIH07CiAgICAgICAgdmFyIG9wdHMgPSBNYWtlT3B0aW9ucyhjaGFubmVscywgYWdlbnRzKTsKICAgICAgICB2YXIgY2hGYWN0b3J5ID0gbmV3IEZha2VDaGFubmVsRmFjdG9yeSgpOwogICAgICAgIHZhciBhZ0ZhY3RvcnkgPSBuZXcgRmFrZUFnZW50RmFjdG9yeSgpOwogICAgICAgIHZhciB0aHJldyA9IGZhbHNlOwogICAgICAgIHRyeSB7IF8gPSBuZXcgQnJpZGdlUmVnaXN0cnkob3B0cywgQ2hEaWN0KGNoRmFjdG9yeSksIEFnRGljdChhZ0ZhY3RvcnkpLCBudWxsKTsgfQogICAgICAgIGNhdGNoIChJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKSB7IHRocmV3ID0gdHJ1ZTsgfQogICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpIHsgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5rOo5YaM5bGCLeacquefpemAmumBk1R5cGXmi5Lnu50iLCBmYWxzZSwgbmV3KCkgeyAkIuW6lOaKmyBJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9u77yM5a6e6ZmFIHtleC5HZXRUeXBlKCkuTmFtZX0iIH0pOyB9CiAgICAgICAgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5rOo5YaM5bGCLeacquefpemAmumBk1R5cGXmi5Lnu50iLCB0aHJldywgdGhyZXcgPyBuZXcoKSA6IG5ldygpIHsgIuacquefpemAmumBk+exu+Wei+acquaKpemUmSIgfSk7CiAgICB9CgogICAgLy8gLS0tLSDms6jlhozlsYLvvJrmnKrnn6UgQWdlbnQgVHlwZSDlkK/liqjljbPmiqXplJkgLS0tLQogICAgcHJpdmF0ZSBzdGF0aWMgU2NlbmFyaW9SZXN1bHQgUmVnaXN0cnlVbmtub3duQWdlbnRUeXBlUmVqZWN0ZWQoKQogICAgewogICAgICAgIHZhciBhZ2VudHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPihTdHJpbmdDb21wYXJlci5PcmRpbmFsSWdub3JlQ2FzZSkgeyBbIndiIl0gPSBNYWtlQWdlbnQoImNsYXVkZSIsICJtIikgfTsKICAgICAgICB2YXIgY2hhbm5lbHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIENoYW5uZWxDb25maWc+KFN0cmluZ0NvbXBhcmVyLk9yZGluYWxJZ25vcmVDYXNlKQogICAgICAgIHsKICAgICAgICAgICAgWyJ4Il0gPSBuZXcgQ2hhbm5lbENvbmZpZyB7IFR5cGUgPSAiZGluZ3RhbGsiLCBBZ2VudCA9ICJ3YiIsIE9wdGlvbnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyBbIkV2ZW50S2V5czowIl0gPSAiayIgfSB9LAogICAgICAgIH07CiAgICAgICAgdmFyIG9wdHMgPSBNYWtlT3B0aW9ucyhjaGFubmVscywgYWdlbnRzKTsKICAgICAgICB2YXIgY2hGYWN0b3J5ID0gbmV3IEZha2VDaGFubmVsRmFjdG9yeSgpOwogICAgICAgIHZhciBhZ0ZhY3RvcnkgPSBuZXcgRmFrZUFnZW50RmFjdG9yeSgpOwogICAgICAgIHZhciB0aHJldyA9IGZhbHNlOwogICAgICAgIHRyeSB7IF8gPSBuZXcgQnJpZGdlUmVnaXN0cnkob3B0cywgQ2hEaWN0KGNoRmFjdG9yeSksIEFnRGljdChhZ0ZhY3RvcnkpLCBudWxsKTsgfQogICAgICAgIGNhdGNoIChJbnZhbGlkT3BlcmF0aW9uRXhjZXB0aW9uKSB7IHRocmV3ID0gdHJ1ZTsgfQogICAgICAgIGNhdGNoIChFeGNlcHRpb24gZXgpIHsgcmV0dXJuIG5ldyBTY2VuYXJpb1Jlc3VsdCgi5rOo5YaM5bGCLeacquefpUFnZW50VHlwZeaLkue7nSIsIGZhbHNlLCBuZXcoKSB7ICQi5bqU5oqbIEludmFsaWRPcGVyYXRpb25FeGNlcHRpb27vvIzlrp7pmYUge2V4LkdldFR5cGUoKS5OYW1lfSIgfSk7IH0KICAgICAgICByZXR1cm4gbmV3IFNjZW5hcmlvUmVzdWx0KCLms6jlhozlsYIt5pyq55+lQWdlbnRUeXBl5ouS57udIiwgdGhyZXcsIHRocmV3ID8gbmV3KCkgOiBuZXcoKSB7ICLmnKrnn6UgQWdlbnQg57G75Z6L5pyq5oql6ZSZIiB9KTsKICAgIH0KCiAgICAvLyAtLS0tIOazqOWGjOWxgu+8mklNIOWvjOWMluWZqOS4jeaOpeinpiBBZ2VudCDphY3nva7vvIzml6DmmL7lvI/op4bop4nphY3nva7ml7bkuI3nu5Hlrprop4bop4nog73lipsgLS0tLQogICAgcHJpdmF0ZSBzdGF0aWMgU2NlbmFyaW9SZXN1bHQgUmVnaXN0cnlFbnJpY2hlckRvZXNOb3RSZWNlaXZlQWdlbnRDb25maWcoKQogICAgewogICAgICAgIHZhciBhZ2VudHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPgogICAgICAgIHsKICAgICAgICAgICAgWyJ3YjEiXSA9IE1ha2VBZ2VudCgid29ya2J1ZGR5IiwgIm1vZGVsLW9uZSIpLAogICAgICAgICAgICBbIndiMiJdID0gTWFrZUFnZW50KCJ3b3JrYnVkZHkiLCAibW9kZWwtdHdvIiksCiAgICAgICAgfTsKICAgICAgICB2YXIgY2hhbm5lbHMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIENoYW5uZWxDb25maWc+CiAgICAgICAgewogICAgICAgICAgICBbImEiXSA9IG5ldygpIHsgVHlwZSA9ICJkaW5ndGFsayIsIEFnZW50ID0gIndiMSIgfSwKICAgICAgICAgICAgWyJiIl0gPSBuZXcoKSB7IFR5cGUgPSAiZGluZ3RhbGsiLCBBZ2VudCA9ICJ3YjIiIH0sCiAgICAgICAgfTsKICAgICAgICB2YXIgZmFjdG9yeSA9IG5ldyBGYWtlQ2hhbm5lbEZhY3RvcnkoKTsKICAgICAgICBfID0gbmV3IEJyaWRnZVJlZ2lzdHJ5KE1ha2VPcHRpb25zKGNoYW5uZWxzLCBhZ2VudHMpLCBDaERpY3QoZmFjdG9yeSksIEFnRGljdChuZXcgRmFrZUFnZW50RmFjdG9yeSgpKSwgbnVsbCk7CiAgICAgICAgdmFyIHBhc3MgPSBmYWN0b3J5LlJlY29nbml6ZXJzLkNvdW50ID09IDIgJiYgZmFjdG9yeS5SZWNvZ25pemVycy5BbGwoeCA9PiB4IGlzIG51bGwpOwogICAgICAgIHJldHVybiBuZXcgU2NlbmFyaW9SZXN1bHQoIuazqOWGjOWxgi1JTeWvjOWMluWZqOS4jeS+nei1lkFnZW506YWN572uIiwgcGFzcywgcGFzcyA/IG5ldygpIDogbmV3KCkgeyAi5peg5pi+5byP6KeG6KeJ6YWN572u5Y2057uR5a6a5LqG6K+G5Yir5ZmoIiB9KTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBTY2VuYXJpb1Jlc3VsdCBSZWdpc3RyeVN1cHBvcnRzTWluaW1hbEFkYXB0ZXJJbXBsZW1lbnRhdGlvbnMoKQogICAgewogICAgICAgIHZhciBvcHRpb25zID0gTWFrZU9wdGlvbnMoCiAgICAgICAgICAgIG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgQ2hhbm5lbENvbmZpZz4geyBbImMiXSA9IG5ldygpIHsgVHlwZSA9ICJtaW5pbWFsIiwgQWdlbnQgPSAiYSIgfSB9LAogICAgICAgICAgICBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPiB7IFsiYSJdID0gbmV3KCkgeyBUeXBlID0gIm1pbmltYWwiIH0gfSk7CiAgICAgICAgdmFyIGNoYW5uZWwgPSBuZXcgTWluaW1hbENoYW5uZWxGYWN0b3J5KCk7CiAgICAgICAgdmFyIGFnZW50ID0gbmV3IE1pbmltYWxBZ2VudEZhY3RvcnkoKTsKICAgICAgICB2YXIgdmlzaW9uID0gbmV3IE1pbmltYWxWaXNpb25GYWN0b3J5KCk7CiAgICAgICAgdHJ5CiAgICAgICAgewogICAgICAgICAgICB2YXIgcmVnaXN0cnkgPSBuZXcgQnJpZGdlUmVnaXN0cnkob3B0aW9ucywKICAgICAgICAgICAgICAgIG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUNoYW5uZWxBZGFwdGVyRmFjdG9yeT4geyBbIm1pbmltYWwiXSA9IGNoYW5uZWwgfSwKICAgICAgICAgICAgICAgIG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgSUFnZW50QWRhcHRlckZhY3Rvcnk+IHsgWyJtaW5pbWFsIl0gPSBhZ2VudCB9LAogICAgICAgICAgICAgICAgbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBJVmlzdWFsUmVjb2duaXplckZhY3Rvcnk+IHsgWyJtaW5pbWFsIl0gPSB2aXNpb24gfSk7CiAgICAgICAgdmFyIHBhc3MgPSByZWdpc3RyeS5DaGFubmVscy5Db3VudCA9PSAxICYmIHJlZ2lzdHJ5LkFnZW50cy5Db3VudCA9PSAxICYmIGNoYW5uZWwuRW5yaWNoZXJDcmVhdGVkICYmIGFnZW50LkNyZWF0ZWQ7CiAgICAgICAgICAgIHJldHVybiBuZXcgU2NlbmFyaW9SZXN1bHQoIuazqOWGjOWxgi3mnIDlsI/pgILphY3lmajlrp7njrDljbPlj6/mjqXlhaUiLCBwYXNzLCBwYXNzID8gbmV3KCkgOiBuZXcoKSB7ICLmnIDlsI/mir3osaHlrp7njrDmnKrlrozmiJDms6jlhowiIH0pOwogICAgICAgIH0KICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7IHJldHVybiBuZXcgU2NlbmFyaW9SZXN1bHQoIuazqOWGjOWxgi3mnIDlsI/pgILphY3lmajlrp7njrDljbPlj6/mjqXlhaUiLCBmYWxzZSwgbmV3KCkgeyBleC5NZXNzYWdlIH0pOyB9CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgQWdlbnRDb25maWcgTWFrZUFnZW50KHN0cmluZyB0eXBlLCBzdHJpbmcgbW9kZWwpID0+IG5ldygpCiAgICB7CiAgICAgICAgVHlwZSA9IHR5cGUsCiAgICAgICAgT3B0aW9ucyA9IG5ldyBEaWN0aW9uYXJ5PHN0cmluZywgc3RyaW5nPgogICAgICAgIHsKICAgICAgICAgICAgWyJOb2RlUGF0aCJdID0gIm5vZGUuZXhlIiwgWyJFbnRyeSJdID0gImVudHJ5IiwgWyJNb2RlbCJdID0gbW9kZWwsCiAgICAgICAgICAgIFsiT3duZXJOYW1lIl0gPSAidGVzdGVyIiwgWyJXb3JraW5nRGlyZWN0b3J5Il0gPSBBcHBDb250ZXh0LkJhc2VEaXJlY3RvcnksIFsiVGltZW91dFNlY29uZHMiXSA9ICI2MCIsCiAgICAgICAgfSwKICAgIH07CgogICAgcHJpdmF0ZSBzdGF0aWMgQnJpZGdlT3B0aW9ucyBNYWtlT3B0aW9ucygKICAgICAgICBJUmVhZE9ubHlEaWN0aW9uYXJ5PHN0cmluZywgQ2hhbm5lbENvbmZpZz4gY2hhbm5lbHMsCiAgICAgICAgSVJlYWRPbmx5RGljdGlvbmFyeTxzdHJpbmcsIEFnZW50Q29uZmlnPiBhZ2VudHMpID0+IG5ldygpCiAgICB7CiAgICAgICAgRHJ5UnVuID0gdHJ1ZSwKICAgICAgICBNYXhDb25jdXJyZW50VGFza3MgPSAzLAogICAgICAgIENoYW5uZWxzID0gY2hhbm5lbHMsCiAgICAgICAgQWdlbnRzID0gYWdlbnRzLAogICAgICAgIFZpc2lvbnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIFZpc2lvbkNvbmZpZz4oKSwKICAgIH07CgogICAgLy8g5rWL6K+V55So77ya5Y2V5YWD57SgIHR5cGUtPmZhY3Rvcnkg5a2X5YW477yI5oyJ5pi+5byP5o6l5Y+j57G75Z6L5p6E6YCg77yM5ruh6Laz5rOo5YaM5bGC5Y+C5pWw77yJCiAgICBwcml2YXRlIHN0YXRpYyBEaWN0aW9uYXJ5PHN0cmluZywgSUNoYW5uZWxBZGFwdGVyRmFjdG9yeT4gQ2hEaWN0KElDaGFubmVsQWRhcHRlckZhY3RvcnkgZmFjdG9yeSkKICAgICAgICA9PiBuZXcoU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpIHsgWyJkaW5ndGFsayJdID0gZmFjdG9yeSB9OwogICAgcHJpdmF0ZSBzdGF0aWMgRGljdGlvbmFyeTxzdHJpbmcsIElBZ2VudEFkYXB0ZXJGYWN0b3J5PiBBZ0RpY3QoSUFnZW50QWRhcHRlckZhY3RvcnkgZmFjdG9yeSkKICAgICAgICA9PiBuZXcoU3RyaW5nQ29tcGFyZXIuT3JkaW5hbElnbm9yZUNhc2UpIHsgWyJ3b3JrYnVkZHkiXSA9IGZhY3RvcnkgfTsKfQoKaW50ZXJuYWwgc2VhbGVkIHJlY29yZCBTY2VuYXJpb1Jlc3VsdChzdHJpbmcgTmFtZSwgYm9vbCBQYXNzLCBMaXN0PHN0cmluZz4gRGV0YWlscyk7CgovLyAtLS0tIOWBh+WunueOsO+8iOS4jeinpuWPkeS7u+S9leecn+WuniBDTEkgLyDlpJbpg6jmnI3liqHvvIkgLS0tLQppbnRlcm5hbCBzZWFsZWQgY2xhc3MgRmFrZVNvdXJjZSA6IElNZXNzYWdlU291cmNlCnsKICAgIHByaXZhdGUgcmVhZG9ubHkgSW5jb21pbmdNZXNzYWdlW10gX21zZ3M7CiAgICBwdWJsaWMgRmFrZVNvdXJjZShwYXJhbXMgSW5jb21pbmdNZXNzYWdlW10gbXNncykgPT4gX21zZ3MgPSBtc2dzOwogICAgcHVibGljIGFzeW5jIElBc3luY0VudW1lcmFibGU8SW5jb21pbmdNZXNzYWdlPiBSZWFkTWVzc2FnZXNBc3luYyhbU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcy5FbnVtZXJhdG9yQ2FuY2VsbGF0aW9uXSBTeXN0ZW0uVGhyZWFkaW5nLkNhbmNlbGxhdGlvblRva2VuIGN0KQogICAgewogICAgICAgIGZvcmVhY2ggKHZhciBtIGluIF9tc2dzKSB7IGlmIChjdC5Jc0NhbmNlbGxhdGlvblJlcXVlc3RlZCkgeWllbGQgYnJlYWs7IHlpZWxkIHJldHVybiBtOyB9CiAgICAgICAgYXdhaXQgU3lzdGVtLlRocmVhZGluZy5UYXNrcy5UYXNrLkNvbXBsZXRlZFRhc2s7CiAgICB9Cn0KCmludGVybmFsIHNlYWxlZCBjbGFzcyBGYWtlU2luayA6IElNZXNzYWdlU2luawp7CiAgICBwdWJsaWMgcmVhZG9ubHkgTGlzdDwoc3RyaW5nIENoYW5uZWwsIHN0cmluZyBUYXJnZXQsIHN0cmluZyBUZXh0KT4gU2VudCA9IG5ldygpOwogICAgcHVibGljIFN5c3RlbS5UaHJlYWRpbmcuVGFza3MuVGFzayBTZW5kQXN5bmMoSW5jb21pbmdNZXNzYWdlIG9yaWdpbiwgc3RyaW5nIHRleHQsIFN5c3RlbS5UaHJlYWRpbmcuQ2FuY2VsbGF0aW9uVG9rZW4gY3QpCiAgICB7CiAgICAgICAgU2VudC5BZGQoKG9yaWdpbi5DaGFubmVsSWQsIG9yaWdpbi5SZXBseVRhcmdldC5UYXJnZXRJZCwgdGV4dCkpOwogICAgICAgIHJldHVybiBTeXN0ZW0uVGhyZWFkaW5nLlRhc2tzLlRhc2suQ29tcGxldGVkVGFzazsKICAgIH0KfQoKaW50ZXJuYWwgc2VhbGVkIGNsYXNzIEZha2VFbnJpY2hlciA6IElNZXNzYWdlRW5yaWNoZXIKewogICAgcHVibGljIFN5c3RlbS5UaHJlYWRpbmcuVGFza3MuVGFzazxJbmNvbWluZ01lc3NhZ2U+IEVucmljaEFzeW5jKEluY29taW5nTWVzc2FnZSBtZXNzYWdlLCBTeXN0ZW0uVGhyZWFkaW5nLkNhbmNlbGxhdGlvblRva2VuIGN0KQogICAgICAgID0+IFN5c3RlbS5UaHJlYWRpbmcuVGFza3MuVGFzay5Gcm9tUmVzdWx0KG1lc3NhZ2UpOwp9CgppbnRlcm5hbCBzZWFsZWQgY2xhc3MgRmFrZUdhdGV3YXkgOiBJQWdlbnRHYXRld2F5CnsKICAgIHByaXZhdGUgcmVhZG9ubHkgRnVuYzxJbmNvbWluZ01lc3NhZ2UsIEFnZW50UmVwbHk+IF9mbjsKICAgIHB1YmxpYyBGYWtlR2F0ZXdheShGdW5jPEluY29taW5nTWVzc2FnZSwgQWdlbnRSZXBseT4gZm4pID0+IF9mbiA9IGZuOwogICAgcHVibGljIFN5c3RlbS5UaHJlYWRpbmcuVGFza3MuVGFzazxBZ2VudFJlcGx5PiBBc2tBc3luYyhJbmNvbWluZ01lc3NhZ2UgbWVzc2FnZSwgU3lzdGVtLlRocmVhZGluZy5DYW5jZWxsYXRpb25Ub2tlbiBjdCkKICAgICAgICA9PiBTeXN0ZW0uVGhyZWFkaW5nLlRhc2tzLlRhc2suRnJvbVJlc3VsdChfZm4obWVzc2FnZSkpOwp9CgovLyDms6jlhozlsYLmtYvor5XnlKjnmoTlgYflt6XljoLvvJrorrDlvZXpgJrpgZPpgInpobnkuI7nqoTop4bop4nog73lipvvvIzkuI3mjqXop6YgQWdlbnQg6YWN572uCmludGVybmFsIHNlYWxlZCBjbGFzcyBGYWtlQ2hhbm5lbEZhY3RvcnkgOiBJQ2hhbm5lbEFkYXB0ZXJGYWN0b3J5CnsKICAgIHB1YmxpYyByZWFkb25seSBMaXN0PChzdHJpbmcgQ2hhbm5lbElkLCBzdHJpbmdbXSBFdmVudEtleXMpPiBTb3VyY2VDYWxscyA9IG5ldygpOwogICAgcHVibGljIHJlYWRvbmx5IExpc3Q8SVZpc3VhbFJlY29nbml6ZXI/PiBSZWNvZ25pemVycyA9IG5ldygpOwogICAgcHVibGljIGludCBTaW5rQ2FsbHM7CgogICAgcHVibGljIElNZXNzYWdlU291cmNlIENyZWF0ZVNvdXJjZShzdHJpbmcgY2hhbm5lbElkLCBDaGFubmVsQ29uZmlnIGNvbmZpZykKICAgIHsKICAgICAgICBTb3VyY2VDYWxscy5BZGQoKGNoYW5uZWxJZCwgY29uZmlnLk9wdGlvbnMuV2hlcmUoeCA9PiB4LktleS5TdGFydHNXaXRoKCJFdmVudEtleXM6IiwgU3RyaW5nQ29tcGFyaXNvbi5PcmRpbmFsKSkuT3JkZXJCeSh4ID0+IHguS2V5KS5TZWxlY3QoeCA9PiB4LlZhbHVlKS5Ub0FycmF5KCkpKTsKICAgICAgICByZXR1cm4gbmV3IEZha2VTb3VyY2UoKTsKICAgIH0KICAgIHB1YmxpYyBJTWVzc2FnZVNpbmsgQ3JlYXRlU2luayhDaGFubmVsQ29uZmlnIGNvbmZpZykKICAgIHsKICAgICAgICBTaW5rQ2FsbHMrKzsKICAgICAgICByZXR1cm4gbmV3IEZha2VTaW5rKCk7CiAgICB9CiAgICBwdWJsaWMgSU1lc3NhZ2VFbnJpY2hlciBDcmVhdGVFbnJpY2hlcihDaGFubmVsQ29uZmlnIGNvbmZpZywgSVZpc3VhbFJlY29nbml6ZXI/IHZpc3VhbFJlY29nbml6ZXIpCiAgICB7CiAgICAgICAgUmVjb2duaXplcnMuQWRkKHZpc3VhbFJlY29nbml6ZXIpOwogICAgICAgIHJldHVybiBuZXcgRmFrZUVucmljaGVyKCk7CiAgICB9Cn0KCmludGVybmFsIHNlYWxlZCBjbGFzcyBGYWtlQWdlbnRGYWN0b3J5IDogSUFnZW50QWRhcHRlckZhY3RvcnkKewogICAgcHVibGljIGludCBDYWxsczsKICAgIHB1YmxpYyBJQWdlbnRHYXRld2F5IENyZWF0ZUdhdGV3YXkoc3RyaW5nIGFnZW50SWQsIEFnZW50Q29uZmlnIGNvbmZpZykKICAgIHsKICAgICAgICBDYWxscysrOwogICAgICAgIHJldHVybiBuZXcgRmFrZUdhdGV3YXkoXyA9PiBBZ2VudFJlcGx5LlN1Y2Nlc3MoIngiKSk7CiAgICB9Cn0KCmludGVybmFsIHNlYWxlZCBjbGFzcyBNaW5pbWFsQ2hhbm5lbEZhY3RvcnkgOiBJQ2hhbm5lbEFkYXB0ZXJGYWN0b3J5CnsKICAgIHB1YmxpYyBib29sIEVucmljaGVyQ3JlYXRlZCB7IGdldDsgcHJpdmF0ZSBzZXQ7IH0KICAgIHB1YmxpYyBJTWVzc2FnZVNvdXJjZSBDcmVhdGVTb3VyY2Uoc3RyaW5nIGNoYW5uZWxJZCwgQ2hhbm5lbENvbmZpZyBjb25maWcpID0+IG5ldyBGYWtlU291cmNlKCk7CiAgICBwdWJsaWMgSU1lc3NhZ2VTaW5rIENyZWF0ZVNpbmsoQ2hhbm5lbENvbmZpZyBjb25maWcpID0+IG5ldyBGYWtlU2luaygpOwogICAgcHVibGljIElNZXNzYWdlRW5yaWNoZXIgQ3JlYXRlRW5yaWNoZXIoQ2hhbm5lbENvbmZpZyBjb25maWcsIElWaXN1YWxSZWNvZ25pemVyPyB2aXN1YWxSZWNvZ25pemVyKSB7IEVucmljaGVyQ3JlYXRlZCA9IHRydWU7IHJldHVybiBuZXcgRmFrZUVucmljaGVyKCk7IH0KfQoKaW50ZXJuYWwgc2VhbGVkIGNsYXNzIE1pbmltYWxBZ2VudEZhY3RvcnkgOiBJQWdlbnRBZGFwdGVyRmFjdG9yeQp7CiAgICBwdWJsaWMgYm9vbCBDcmVhdGVkIHsgZ2V0OyBwcml2YXRlIHNldDsgfQogICAgcHVibGljIElBZ2VudEdhdGV3YXkgQ3JlYXRlR2F0ZXdheShzdHJpbmcgYWdlbnRJZCwgQWdlbnRDb25maWcgY29uZmlnKSB7IENyZWF0ZWQgPSB0cnVlOyByZXR1cm4gbmV3IEZha2VHYXRld2F5KF8gPT4gQWdlbnRSZXBseS5Ob01hdGNoKTsgfQp9CgppbnRlcm5hbCBzZWFsZWQgY2xhc3MgTWluaW1hbFZpc2lvbkZhY3RvcnkgOiBJVmlzdWFsUmVjb2duaXplckZhY3RvcnkKewogICAgcHVibGljIElWaXN1YWxSZWNvZ25pemVyIENyZWF0ZShzdHJpbmcgdmlzaW9uSWQsIFZpc2lvbkNvbmZpZyBjb25maWcpID0+IG5ldyBNaW5pbWFsVmlzaW9uKCk7Cn0KCmludGVybmFsIHNlYWxlZCBjbGFzcyBNaW5pbWFsVmlzaW9uIDogSVZpc3VhbFJlY29nbml6ZXIKewogICAgcHVibGljIFRhc2s8c3RyaW5nPz4gUmVjb2duaXplQXN5bmMoc3RyaW5nIGZpbGVQYXRoLCBDYW5jZWxsYXRpb25Ub2tlbiBjYW5jZWxsYXRpb25Ub2tlbikgPT4gVGFzay5Gcm9tUmVzdWx0PHN0cmluZz8+KHN0cmluZy5FbXB0eSk7Cn0KCg==
+using System.Collections.Immutable;
+using IMBridge.Abstractions;
+using IMBridge.Application;
+using IMBridge.Domain;
+
+namespace IMBridge.Tests;
+
+/// <summary>
+/// 无外部服务的回归测试：验证多通道隔离、多 Agent 路由、no-match/failed 沉默、去重、参数 Unicode。
+/// 直接用桥接核心（MessageDispatcher + 假 source/sink/enricher/gateway），不启动任何真实 CLI、不连外部服务。
+/// 运行：dotnet run --project IMBridge.Tests
+/// </summary>
+internal static class Program
+{
+    private static int Main()
+    {
+        var scenarios = new List<Func<ScenarioResult>>
+        {
+            TwoChannelIsolation,
+            TwoAgentRouting,
+            NoMatchSilent,
+            FailedSilent,
+            DedupSameChannelEvent,
+            ParamUnicode,
+            RegistryTwoChannelsIndependentSources,
+            RegistryUnknownChannelTypeRejected,
+            RegistryUnknownAgentTypeRejected,
+            RegistryEnricherDoesNotReceiveAgentConfig,
+            RegistrySupportsMinimalAdapterImplementations,
+        };
+
+        var failed = 0;
+        Console.WriteLine("=== IMBridge 回归测试 ===");
+        foreach (var scenario in scenarios)
+        {
+            var r = scenario();
+            var tag = r.Pass ? "PASS" : "FAIL";
+            Console.WriteLine($"[{tag}] {r.Name}");
+            if (!r.Pass)
+            {
+                failed++;
+                foreach (var detail in r.Details) Console.WriteLine($"        - {detail}");
+            }
+        }
+
+        RoutingContractTests.RunAsync().GetAwaiter().GetResult();
+        ArchitectureContractTests.Run();
+        ProcessContractTests.RunAsync().GetAwaiter().GetResult();
+        WorkerContractTests.Run();
+        Console.WriteLine(failed == 0 ? "ALL PASS" : $"{failed} FAILED");
+        return failed == 0 ? 0 : 1;
+    }
+
+    // ---- 辅助 ----
+    private static IncomingMessage MakeMessage(string channel, string eventId, string content, ConversationType type = ConversationType.Direct)
+        => new()
+        {
+            ChannelId = channel,
+            EventId = eventId,
+            MessageId = "m-" + eventId,
+            EventType = type == ConversationType.Group ? "user_im_message_receive_at" : "user_im_message_receive_o2o_all",
+            SenderName = "同事",
+            Content = content,
+            ReplyTarget = new ReplyTarget { Type = type, TargetId = type == ConversationType.Group ? "conv-" + channel : "sender-" + channel },
+            ChannelContext = null,
+            Attachments = ImmutableArray<Attachment>.Empty,
+        };
+
+    private static ChannelBinding Bind(string channel, IMessageSink sink, IMessageSource? source = null, IMessageEnricher? enricher = null, string agent = "echo")
+        => new()
+        {
+            ChannelId = channel,
+            Source = source ?? new FakeSource(),
+            Sink = sink,
+            Enricher = enricher ?? new FakeEnricher(),
+            AgentGatewayId = agent,
+        };
+
+    // ---- 场景 1：两通道隔离（含去重键含 ChannelId，不跨通道去重） ----
+    private static ScenarioResult TwoChannelIsolation()
+    {
+        var sinkD = new FakeSink();
+        var sinkF = new FakeSink();
+        var gateway = new FakeGateway(m => AgentReply.Success($"{m.ChannelId}:{m.Content}"));
+        var agents = new Dictionary<string, IAgentGateway> { ["echo"] = gateway };
+        var dispatcher = new MessageDispatcher(4);
+
+        var d = MakeMessage("dingtalk", "e1", "helloD");
+        var f = MakeMessage("feishu", "e1", "helloF"); // 同 EventId，不同通道
+        dispatcher.DispatchAsync(d, Bind("dingtalk", sinkD, agent: "echo"), agents, null, default).Wait();
+        dispatcher.DispatchAsync(f, Bind("feishu", sinkF, agent: "echo"), agents, null, default).Wait();
+
+        var details = new List<string>();
+        var pass = true;
+        if (sinkD.Sent.Count != 1 || sinkD.Sent[0].Text != "dingtalk:helloD")
+        {
+            pass = false; details.Add($"dingtalk sink 应为 1 条且内容 dingtalk:helloD，实际 {sinkD.Sent.Count} 条");
+        }
+        if (sinkF.Sent.Count != 1 || sinkF.Sent[0].Text != "feishu:helloF")
+        {
+            pass = false; details.Add($"feishu sink 应为 1 条且内容 feishu:helloF，实际 {sinkF.Sent.Count} 条");
+        }
+        if (sinkD.Sent.Any(s => s.Text.Contains("feishu")) || sinkF.Sent.Any(s => s.Text.Contains("dingtalk")))
+        {
+            pass = false; details.Add("出现跨通道回复");
+        }
+        return new ScenarioResult("两通道隔离 + 去重键含ChannelId", pass, details);
+    }
+
+    // ---- 场景 2：两 Agent 路由（channel A -> wb1 成功，channel B -> wb2 无匹配） ----
+    private static ScenarioResult TwoAgentRouting()
+    {
+        var sinkA = new FakeSink();
+        var sinkB = new FakeSink();
+        var gateway1 = new FakeGateway(_ => AgentReply.Success("A-reply"));
+        var gateway2 = new FakeGateway(_ => AgentReply.NoMatch);
+        var agents = new Dictionary<string, IAgentGateway> { ["wb1"] = gateway1, ["wb2"] = gateway2 };
+        var dispatcher = new MessageDispatcher(4);
+
+        dispatcher.DispatchAsync(MakeMessage("chA", "e1", "x"), Bind("chA", sinkA, agent: "wb1"), agents, null, default).Wait();
+        dispatcher.DispatchAsync(MakeMessage("chB", "e1", "x"), Bind("chB", sinkB, agent: "wb2"), agents, null, default).Wait();
+
+        var details = new List<string>();
+        var pass = true;
+        if (sinkA.Sent.Count != 1 || sinkA.Sent[0].Text != "A-reply") { pass = false; details.Add("chA 应收到 A-reply"); }
+        if (sinkB.Sent.Count != 0) { pass = false; details.Add($"chB 应沉默，实际发送 {sinkB.Sent.Count} 条"); }
+        return new ScenarioResult("两 Agent 路由", pass, details);
+    }
+
+    // ---- 场景 3：无匹配沉默 ----
+    private static ScenarioResult NoMatchSilent()
+    {
+        var sink = new FakeSink();
+        var gateway = new FakeGateway(_ => AgentReply.NoMatch);
+        var agents = new Dictionary<string, IAgentGateway> { ["g"] = gateway };
+        var dispatcher = new MessageDispatcher(4);
+        dispatcher.DispatchAsync(MakeMessage("c", "e1", "x"), Bind("c", sink, agent: "g"), agents, null, default).Wait();
+        var pass = sink.Sent.Count == 0;
+        var details = pass ? new List<string>() : new List<string> { $"无匹配不应回复，实际 {sink.Sent.Count} 条" };
+        return new ScenarioResult("no-match 沉默", pass, details);
+    }
+
+    // ---- 场景 4：失败沉默（且不外发错误输出） ----
+    private static ScenarioResult FailedSilent()
+    {
+        var sink = new FakeSink();
+        var gateway = new FakeGateway(_ => AgentReply.Failed);
+        var agents = new Dictionary<string, IAgentGateway> { ["g"] = gateway };
+        var dispatcher = new MessageDispatcher(4);
+        dispatcher.DispatchAsync(MakeMessage("c", "e1", "x"), Bind("c", sink, agent: "g"), agents, null, default).Wait();
+        var pass = sink.Sent.Count == 0;
+        var details = pass ? new List<string>() : new List<string> { $"失败不应回复，实际 {sink.Sent.Count} 条" };
+        return new ScenarioResult("failed 沉默", pass, details);
+    }
+
+    // ---- 场景 5：去重（同通道同 EventId 仅处理一次） ----
+    private static ScenarioResult DedupSameChannelEvent()
+    {
+        var sink = new FakeSink();
+        var gateway = new FakeGateway(m => AgentReply.Success($"ok:{m.Content}"));
+        var agents = new Dictionary<string, IAgentGateway> { ["g"] = gateway };
+        var dispatcher = new MessageDispatcher(4);
+        var msg = MakeMessage("c", "dup", "hi");
+        dispatcher.DispatchAsync(msg, Bind("c", sink, agent: "g"), agents, null, default).Wait();
+        dispatcher.DispatchAsync(msg, Bind("c", sink, agent: "g"), agents, null, default).Wait();
+        var pass = sink.Sent.Count == 1;
+        var details = pass ? new List<string>() : new List<string> { $"同事件应只回复 1 次，实际 {sink.Sent.Count} 次" };
+        return new ScenarioResult("同通道去重", pass, details);
+    }
+
+    // ---- 场景 6：参数 Unicode（中文/emoji 透传） ----
+    private static ScenarioResult ParamUnicode()
+    {
+        var sink = new FakeSink();
+        const string unicode = "你好🌟生产唯一码WO-12345-测试";
+        var gateway = new FakeGateway(m => AgentReply.Success(m.Content)); // 原样回显内容
+        var agents = new Dictionary<string, IAgentGateway> { ["g"] = gateway };
+        var dispatcher = new MessageDispatcher(4);
+        dispatcher.DispatchAsync(MakeMessage("c", "e1", unicode), Bind("c", sink, agent: "g"), agents, null, default).Wait();
+        var pass = sink.Sent.Count == 1 && sink.Sent[0].Text == unicode;
+        var details = pass ? new List<string>() : new List<string> { $"Unicode 内容应完整透传，实际 [{sink.Sent.Count}] {string.Join("|", sink.Sent.Select(s => s.Text))}" };
+        return new ScenarioResult("参数 Unicode 透传", pass, details);
+    }
+
+    // ---- 注册层：两个不同通道 ID，各自独立 source 且使用自身 ChannelId/EventKeys ----
+    private static ScenarioResult RegistryTwoChannelsIndependentSources()
+    {
+        var agents = new Dictionary<string, AgentConfig>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["wb"] = MakeAgent("workbuddy", "custom-local:gemini-3.8-flash"),
+        };
+        var channels = new Dictionary<string, ChannelConfig>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["dingtalk-a"] = new ChannelConfig { Type = "dingtalk", Agent = "wb", Options = new Dictionary<string, string> { ["EventKeys:0"] = "k-a1", ["EventKeys:1"] = "k-a2" } },
+            ["dingtalk-b"] = new ChannelConfig { Type = "dingtalk", Agent = "wb", Options = new Dictionary<string, string> { ["EventKeys:0"] = "k-b1" } },
+        };
+        var opts = MakeOptions(channels, agents);
+        var chFactory = new FakeChannelFactory();
+        var agFactory = new FakeAgentFactory();
+
+        BridgeRegistry reg;
+        try { reg = new BridgeRegistry(opts, ChDict(chFactory), AgDict(agFactory), null); }
+        catch (Exception ex) { return new ScenarioResult("注册层-两通道独立source", false, new() { $"启动抛错: {ex.Message}" }); }
+
+        var details = new List<string>();
+        var pass = true;
+        if (chFactory.SourceCalls.Count != 2) { pass = false; details.Add($"应建 2 个独立 source，实际 {chFactory.SourceCalls.Count}"); }
+        if (chFactory.SourceCalls.Count == 2)
+        {
+            var a = chFactory.SourceCalls.First(x => x.ChannelId == "dingtalk-a");
+            var b = chFactory.SourceCalls.First(x => x.ChannelId == "dingtalk-b");
+            if (!a.EventKeys.SequenceEqual(new[] { "k-a1", "k-a2" })) { pass = false; details.Add("dingtalk-a 的 EventKeys 不符"); }
+            if (!b.EventKeys.SequenceEqual(new[] { "k-b1" })) { pass = false; details.Add("dingtalk-b 的 EventKeys 不符"); }
+        }
+        if (reg.Channels.Count != 2) { pass = false; details.Add($"应注册 2 个通道，实际 {reg.Channels.Count}"); }
+        else if (reg.Channels[0].ChannelId == reg.Channels[1].ChannelId) { pass = false; details.Add("两个通道 ChannelId 不应相同"); }
+        return new ScenarioResult("注册层-两通道独立source", pass, details);
+    }
+
+    // ---- 注册层：未知通道 Type 启动即报错 ----
+    private static ScenarioResult RegistryUnknownChannelTypeRejected()
+    {
+        var agents = new Dictionary<string, AgentConfig>(StringComparer.OrdinalIgnoreCase) { ["wb"] = MakeAgent("workbuddy", "m") };
+        var channels = new Dictionary<string, ChannelConfig>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["x"] = new ChannelConfig { Type = "telegram", Agent = "wb", Options = new Dictionary<string, string> { ["EventKeys:0"] = "k" } },
+        };
+        var opts = MakeOptions(channels, agents);
+        var chFactory = new FakeChannelFactory();
+        var agFactory = new FakeAgentFactory();
+        var threw = false;
+        try { _ = new BridgeRegistry(opts, ChDict(chFactory), AgDict(agFactory), null); }
+        catch (InvalidOperationException) { threw = true; }
+        catch (Exception ex) { return new ScenarioResult("注册层-未知通道Type拒绝", false, new() { $"应抛 InvalidOperationException，实际 {ex.GetType().Name}" }); }
+        return new ScenarioResult("注册层-未知通道Type拒绝", threw, threw ? new() : new() { "未知通道类型未报错" });
+    }
+
+    // ---- 注册层：未知 Agent Type 启动即报错 ----
+    private static ScenarioResult RegistryUnknownAgentTypeRejected()
+    {
+        var agents = new Dictionary<string, AgentConfig>(StringComparer.OrdinalIgnoreCase) { ["wb"] = MakeAgent("claude", "m") };
+        var channels = new Dictionary<string, ChannelConfig>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["x"] = new ChannelConfig { Type = "dingtalk", Agent = "wb", Options = new Dictionary<string, string> { ["EventKeys:0"] = "k" } },
+        };
+        var opts = MakeOptions(channels, agents);
+        var chFactory = new FakeChannelFactory();
+        var agFactory = new FakeAgentFactory();
+        var threw = false;
+        try { _ = new BridgeRegistry(opts, ChDict(chFactory), AgDict(agFactory), null); }
+        catch (InvalidOperationException) { threw = true; }
+        catch (Exception ex) { return new ScenarioResult("注册层-未知AgentType拒绝", false, new() { $"应抛 InvalidOperationException，实际 {ex.GetType().Name}" }); }
+        return new ScenarioResult("注册层-未知AgentType拒绝", threw, threw ? new() : new() { "未知 Agent 类型未报错" });
+    }
+
+    // ---- 注册层：IM 富化器不接触 Agent 配置，无显式视觉配置时不绑定视觉能力 ----
+    private static ScenarioResult RegistryEnricherDoesNotReceiveAgentConfig()
+    {
+        var agents = new Dictionary<string, AgentConfig>
+        {
+            ["wb1"] = MakeAgent("workbuddy", "model-one"),
+            ["wb2"] = MakeAgent("workbuddy", "model-two"),
+        };
+        var channels = new Dictionary<string, ChannelConfig>
+        {
+            ["a"] = new() { Type = "dingtalk", Agent = "wb1" },
+            ["b"] = new() { Type = "dingtalk", Agent = "wb2" },
+        };
+        var factory = new FakeChannelFactory();
+        _ = new BridgeRegistry(MakeOptions(channels, agents), ChDict(factory), AgDict(new FakeAgentFactory()), null);
+        var pass = factory.Recognizers.Count == 2 && factory.Recognizers.All(x => x is null);
+        return new ScenarioResult("注册层-IM富化器不依赖Agent配置", pass, pass ? new() : new() { "无显式视觉配置却绑定了识别器" });
+    }
+
+    private static ScenarioResult RegistrySupportsMinimalAdapterImplementations()
+    {
+        var options = MakeOptions(
+            new Dictionary<string, ChannelConfig> { ["c"] = new() { Type = "minimal", Agent = "a" } },
+            new Dictionary<string, AgentConfig> { ["a"] = new() { Type = "minimal" } });
+        var channel = new MinimalChannelFactory();
+        var agent = new MinimalAgentFactory();
+        var vision = new MinimalVisionFactory();
+        try
+        {
+            var registry = new BridgeRegistry(options,
+                new Dictionary<string, IChannelAdapterFactory> { ["minimal"] = channel },
+                new Dictionary<string, IAgentAdapterFactory> { ["minimal"] = agent },
+                new Dictionary<string, IVisualRecognizerFactory> { ["minimal"] = vision });
+        var pass = registry.Channels.Count == 1 && registry.Agents.Count == 1 && channel.EnricherCreated && agent.Created;
+            return new ScenarioResult("注册层-最小适配器实现即可接入", pass, pass ? new() : new() { "最小抽象实现未完成注册" });
+        }
+        catch (Exception ex) { return new ScenarioResult("注册层-最小适配器实现即可接入", false, new() { ex.Message }); }
+    }
+
+    private static AgentConfig MakeAgent(string type, string model) => new()
+    {
+        Type = type,
+        Options = new Dictionary<string, string>
+        {
+            ["NodePath"] = "node.exe", ["Entry"] = "entry", ["Model"] = model,
+            ["OwnerName"] = "tester", ["WorkingDirectory"] = AppContext.BaseDirectory, ["TimeoutSeconds"] = "60",
+        },
+    };
+
+    private static BridgeOptions MakeOptions(
+        IReadOnlyDictionary<string, ChannelConfig> channels,
+        IReadOnlyDictionary<string, AgentConfig> agents) => new()
+    {
+        DryRun = true,
+        MaxConcurrentTasks = 3,
+        Channels = channels,
+        Agents = agents,
+        Visions = new Dictionary<string, VisionConfig>(),
+    };
+
+    // 测试用：单元素 type->factory 字典（按显式接口类型构造，满足注册层参数）
+    private static Dictionary<string, IChannelAdapterFactory> ChDict(IChannelAdapterFactory factory)
+        => new(StringComparer.OrdinalIgnoreCase) { ["dingtalk"] = factory };
+    private static Dictionary<string, IAgentAdapterFactory> AgDict(IAgentAdapterFactory factory)
+        => new(StringComparer.OrdinalIgnoreCase) { ["workbuddy"] = factory };
+}
+
+internal sealed record ScenarioResult(string Name, bool Pass, List<string> Details);
+
+// ---- 假实现（不触发任何真实 CLI / 外部服务） ----
+internal sealed class FakeSource : IMessageSource
+{
+    private readonly IncomingMessage[] _msgs;
+    public FakeSource(params IncomingMessage[] msgs) => _msgs = msgs;
+    public async IAsyncEnumerable<IncomingMessage> ReadMessagesAsync([System.Runtime.CompilerServices.EnumeratorCancellation] System.Threading.CancellationToken ct)
+    {
+        foreach (var m in _msgs) { if (ct.IsCancellationRequested) yield break; yield return m; }
+        await System.Threading.Tasks.Task.CompletedTask;
+    }
+}
+
+internal sealed class FakeSink : IMessageSink
+{
+    public readonly List<(string Channel, string Target, string Text)> Sent = new();
+    public System.Threading.Tasks.Task SendAsync(IncomingMessage origin, string text, System.Threading.CancellationToken ct)
+    {
+        Sent.Add((origin.ChannelId, origin.ReplyTarget.TargetId, text));
+        return System.Threading.Tasks.Task.CompletedTask;
+    }
+}
+
+internal sealed class FakeEnricher : IMessageEnricher
+{
+    public System.Threading.Tasks.Task<IncomingMessage> EnrichAsync(IncomingMessage message, System.Threading.CancellationToken ct)
+        => System.Threading.Tasks.Task.FromResult(message);
+}
+
+internal sealed class FakeGateway : IAgentGateway
+{
+    private readonly Func<IncomingMessage, AgentReply> _fn;
+    public FakeGateway(Func<IncomingMessage, AgentReply> fn) => _fn = fn;
+    public System.Threading.Tasks.Task<AgentReply> AskAsync(IncomingMessage message, System.Threading.CancellationToken ct)
+        => System.Threading.Tasks.Task.FromResult(_fn(message));
+}
+
+// 注册层测试用的假工厂：记录通道选项与窄视觉能力，不接触 Agent 配置
+internal sealed class FakeChannelFactory : IChannelAdapterFactory
+{
+    public readonly List<(string ChannelId, string[] EventKeys)> SourceCalls = new();
+    public readonly List<IVisualRecognizer?> Recognizers = new();
+    public int SinkCalls;
+
+    public IMessageSource CreateSource(string channelId, ChannelConfig config)
+    {
+        SourceCalls.Add((channelId, config.Options.Where(x => x.Key.StartsWith("EventKeys:", StringComparison.Ordinal)).OrderBy(x => x.Key).Select(x => x.Value).ToArray()));
+        return new FakeSource();
+    }
+    public IMessageSink CreateSink(ChannelConfig config)
+    {
+        SinkCalls++;
+        return new FakeSink();
+    }
+    public IMessageEnricher CreateEnricher(ChannelConfig config, IVisualRecognizer? visualRecognizer)
+    {
+        Recognizers.Add(visualRecognizer);
+        return new FakeEnricher();
+    }
+}
+
+internal sealed class FakeAgentFactory : IAgentAdapterFactory
+{
+    public int Calls;
+    public IAgentGateway CreateGateway(string agentId, AgentConfig config)
+    {
+        Calls++;
+        return new FakeGateway(_ => AgentReply.Success("x"));
+    }
+}
+
+internal sealed class MinimalChannelFactory : IChannelAdapterFactory
+{
+    public bool EnricherCreated { get; private set; }
+    public IMessageSource CreateSource(string channelId, ChannelConfig config) => new FakeSource();
+    public IMessageSink CreateSink(ChannelConfig config) => new FakeSink();
+    public IMessageEnricher CreateEnricher(ChannelConfig config, IVisualRecognizer? visualRecognizer) { EnricherCreated = true; return new FakeEnricher(); }
+}
+
+internal sealed class MinimalAgentFactory : IAgentAdapterFactory
+{
+    public bool Created { get; private set; }
+    public IAgentGateway CreateGateway(string agentId, AgentConfig config) { Created = true; return new FakeGateway(_ => AgentReply.NoMatch); }
+}
+
+internal sealed class MinimalVisionFactory : IVisualRecognizerFactory
+{
+    public IVisualRecognizer Create(string visionId, VisionConfig config) => new MinimalVision();
+}
+
+internal sealed class MinimalVision : IVisualRecognizer
+{
+    public Task<string?> RecognizeAsync(string filePath, CancellationToken cancellationToken) => Task.FromResult<string?>(string.Empty);
+}
+

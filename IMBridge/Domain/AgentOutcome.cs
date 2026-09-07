@@ -1,1 +1,17 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkRvbWFpbjsKCi8vLyA8c3VtbWFyeT4KLy8vIEFnZW50IOWkhOeQhue7k+aenOWIhuexu+OAguWNj+iuruW/hemhu+aYjuehruWMuuWIhuS4ieenjeeKtuaAge+8jAovLy8g5Lul5L6/5qGl5o6l5bGC5Yaz5a6a77ya5oiQ5Yqf5omN5Zue5aSN77yb5peg5Yy56YWN5LiO5aSx6LSl6YO95L+d5oyB5rKJ6buY77yI5aSx6LSl57ud5LiN5oqK6ZSZ6K+v6L6T5Ye65Y+R57uZ55So5oi377yJ44CCCi8vLyA8L3N1bW1hcnk+CnB1YmxpYyBlbnVtIEFnZW50T3V0Y29tZQp7CiAgICAvLy8gPHN1bW1hcnk+5oqA6IO95oiQ5Yqf5aSE55CG77yMVGV4dCDkuLropoHlj5Hnu5nnlKjmiLfnmoTmnIDnu4jmlofmoYjjgII8L3N1bW1hcnk+CiAgICBTdWNjZXNzLAoKICAgIC8vLyA8c3VtbWFyeT7msqHmnInku7vkvZXmioDog73ljLnphY3vvIzkv53mjIHmsonpu5jvvIzkuI3lm57lpI3jgII8L3N1bW1hcnk+CiAgICBOb01hdGNoLAoKICAgIC8vLyA8c3VtbWFyeT5BZ2VudCDmiafooYzlpLHotKXvvIjpnZ7pm7bpgIDlh7ogLyDotoXml7YgLyDlvILluLjvvInvvIzkv53mjIHmsonpu5jvvIznu53kuI3lj5HpgIHplJnor6/ovpPlh7rjgII8L3N1bW1hcnk+CiAgICBGYWlsZWQsCn0K
+namespace IMBridge.Domain;
+
+/// <summary>
+/// Agent 处理结果分类。协议必须明确区分三种状态，
+/// 以便桥接层决定：成功才回复；无匹配与失败都保持沉默（失败绝不把错误输出发给用户）。
+/// </summary>
+public enum AgentOutcome
+{
+    /// <summary>技能成功处理，Text 为要发给用户的最终文案。</summary>
+    Success,
+
+    /// <summary>没有任何技能匹配，保持沉默，不回复。</summary>
+    NoMatch,
+
+    /// <summary>Agent 执行失败（非零退出 / 超时 / 异常），保持沉默，绝不发送错误输出。</summary>
+    Failed,
+}

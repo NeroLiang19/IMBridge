@@ -1,1 +1,10 @@
-bmFtZXNwYWNlIElNQnJpZGdlLkFic3RyYWN0aW9uczsKCi8vLyA8c3VtbWFyeT4KLy8vIEFnZW50IOmAgumFjeW3peWOgu+8muaMiSBBZ2VudCDphY3nva7nmoTmmL7lvI8gVHlwZSDliJvlu7rlr7nlupTnmoQgQWdlbnQg572R5YWz77yI5aaCIFdvcmtCdWRkeUFnZW50QWRhcHRlckZhY3RvcnnvvInjgIIKLy8vIOacquefpSBUeXBlIOeUseazqOWGjOWxguWcqOWQr+WKqOaXtuaLkue7neOAggovLy8gPC9zdW1tYXJ5PgpwdWJsaWMgaW50ZXJmYWNlIElBZ2VudEFkYXB0ZXJGYWN0b3J5CnsKICAgIElBZ2VudEdhdGV3YXkgQ3JlYXRlR2F0ZXdheShzdHJpbmcgYWdlbnRJZCwgQWdlbnRDb25maWcgY29uZmlnKTsKfQo=
+namespace IMBridge.Abstractions;
+
+/// <summary>
+/// Agent 适配工厂：按 Agent 配置的显式 Type 创建对应的 Agent 网关（如 WorkBuddyAgentAdapterFactory）。
+/// 未知 Type 由注册层在启动时拒绝。
+/// </summary>
+public interface IAgentAdapterFactory
+{
+    IAgentGateway CreateGateway(string agentId, AgentConfig config);
+}

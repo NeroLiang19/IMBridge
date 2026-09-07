@@ -1,1 +1,19 @@
-PFByb2plY3QgU2RrPSJNaWNyb3NvZnQuTkVULlNkayI+CgogIDxQcm9wZXJ0eUdyb3VwPgogICAgPE91dHB1dFR5cGU+RXhlPC9PdXRwdXRUeXBlPgogICAgPFRhcmdldEZyYW1ld29yaz5uZXQxMC4wPC9UYXJnZXRGcmFtZXdvcms+CiAgICA8TnVsbGFibGU+ZW5hYmxlPC9OdWxsYWJsZT4KICAgIDxJbXBsaWNpdFVzaW5ncz5lbmFibGU8L0ltcGxpY2l0VXNpbmdzPgogICAgPFJvb3ROYW1lc3BhY2U+SU1CcmlkZ2UuVGVzdHM8L1Jvb3ROYW1lc3BhY2U+CiAgICA8QXNzZW1ibHlOYW1lPklNQnJpZGdlLlRlc3RzPC9Bc3NlbWJseU5hbWU+CiAgICA8IS0tIOa1i+ivleW3peeoi+S4jeWPkeW4gyBBT1TvvIzku4Xpqozor4HmoaXmjqXmoLjlv4PpgLvovpEgLS0+CiAgICA8UHVibGlzaEFvdD5mYWxzZTwvUHVibGlzaEFvdD4KICAgIDxJbnZhcmlhbnRHbG9iYWxpemF0aW9uPnRydWU8L0ludmFyaWFudEdsb2JhbGl6YXRpb24+CiAgPC9Qcm9wZXJ0eUdyb3VwPgoKICA8SXRlbUdyb3VwPgogICAgPFByb2plY3RSZWZlcmVuY2UgSW5jbHVkZT0iLi5cSU1CcmlkZ2VcSU1CcmlkZ2UuY3Nwcm9qIiAvPgogIDwvSXRlbUdyb3VwPgoKPC9Qcm9qZWN0Pgo=
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>IMBridge.Tests</RootNamespace>
+    <AssemblyName>IMBridge.Tests</AssemblyName>
+    <!-- 测试工程不发布 AOT，仅验证桥接核心逻辑 -->
+    <PublishAot>false</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMBridge\IMBridge.csproj" />
+  </ItemGroup>
+
+</Project>

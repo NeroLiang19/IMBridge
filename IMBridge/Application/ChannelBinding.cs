@@ -1,1 +1,19 @@
-dXNpbmcgSU1CcmlkZ2UuQWJzdHJhY3Rpb25zOwp1c2luZyBJTUJyaWRnZS5Eb21haW47CgpuYW1lc3BhY2UgSU1CcmlkZ2UuQXBwbGljYXRpb247CgovLy8gPHN1bW1hcnk+Ci8vLyDkuIDkuKrpgJrpgZPnmoTnu5HlrprvvJrmioogc291cmNlIC8gc2luayAvIGVucmljaGVyIOS4ieS7tuWll+S4jiLmjIflrprnlKjlk6rkuKogQWdlbnQg572R5YWzIue7keWcqOS4gOi1t+OAggovLy8g5bqU55So5bGC5oyJ5rOo5YaM55qE6YCa6YGT5YiX6KGo5aSE55CG5aSa5LiqIElN77yb5Y676YeN6ZSu5ZCrIENoYW5uZWxJZO+8jOWbnuWkjeWPqui1sOacrOmAmumBk+eahCBzaW5r77yI5LiN6IO96Leo6YCa6YGT5Zue5aSN77yJ44CCCi8vLyA8L3N1bW1hcnk+CnB1YmxpYyBzZWFsZWQgcmVjb3JkIENoYW5uZWxCaW5kaW5nCnsKICAgIHB1YmxpYyByZXF1aXJlZCBzdHJpbmcgQ2hhbm5lbElkIHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgcmVxdWlyZWQgSU1lc3NhZ2VTb3VyY2UgU291cmNlIHsgZ2V0OyBpbml0OyB9CiAgICBwdWJsaWMgcmVxdWlyZWQgSU1lc3NhZ2VTaW5rIFNpbmsgeyBnZXQ7IGluaXQ7IH0KICAgIHB1YmxpYyByZXF1aXJlZCBJTWVzc2FnZUVucmljaGVyIEVucmljaGVyIHsgZ2V0OyBpbml0OyB9CgogICAgLy8vIDxzdW1tYXJ5PuivpemAmumBk+a2iOaBr+S6pOeUseWTquS4quWRveWQjSBBZ2VudCDnvZHlhbPlpITnkIbvvIjlr7nlupQgQWdlbnRzIOmFjee9rumHjOeahCBLZXnvvInjgII8L3N1bW1hcnk+CiAgICBwdWJsaWMgcmVxdWlyZWQgc3RyaW5nIEFnZW50R2F0ZXdheUlkIHsgZ2V0OyBpbml0OyB9Cn0K
+using IMBridge.Abstractions;
+using IMBridge.Domain;
+
+namespace IMBridge.Application;
+
+/// <summary>
+/// 一个通道的绑定：把 source / sink / enricher 三件套与"指定用哪个 Agent 网关"绑在一起。
+/// 应用层按注册的通道列表处理多个 IM；去重键含 ChannelId，回复只走本通道的 sink（不能跨通道回复）。
+/// </summary>
+public sealed record ChannelBinding
+{
+    public required string ChannelId { get; init; }
+    public required IMessageSource Source { get; init; }
+    public required IMessageSink Sink { get; init; }
+    public required IMessageEnricher Enricher { get; init; }
+
+    /// <summary>该通道消息交由哪个命名 Agent 网关处理（对应 Agents 配置里的 Key）。</summary>
+    public required string AgentGatewayId { get; init; }
+}
