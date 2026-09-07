@@ -1,0 +1,27 @@
+# Build and publish output
+**/bin/
+**/obj/
+**/publish/
+outputs/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Local tools, credentials and editor state
+.workbuddy/
+.codebuddy/
+.dws/
+.vs/
+.idea/
+.env
+.env.*
+!.env.example
+**/appsettings.*.json
+!**/appsettings.example.json
+*.user
+*.suo
+*.pem
+*.key
+auth.json
+mcp.json
